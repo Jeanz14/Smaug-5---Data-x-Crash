@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.unity.2d.animation": "15.0.1",
+    "com.unity.2d.animation": "15.0.3",
     "com.unity.2d.aseprite": "5.0.0",
     "com.unity.2d.psdimporter": "14.0.0",
     "com.unity.2d.sprite": "1.0.0",
