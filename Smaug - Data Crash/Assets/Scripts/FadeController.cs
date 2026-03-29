@@ -15,7 +15,7 @@ public class FadeController : MonoBehaviour
 
     public IEnumerator FadeParaCena(string nomeDaCena, float duracao = 1f)
     {
-        // Fade in (tela escurece)
+        
         float tempo = 0f;
         canvasGroup.blocksRaycasts = true;
         while (tempo < duracao)

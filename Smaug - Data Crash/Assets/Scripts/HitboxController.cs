@@ -7,12 +7,12 @@ public class HitboxController : MonoBehaviour
 
     public void AplicarDano(float especialPorGolpe)
     {
-        // Cria uma cópia da lista para iterar com segurança
+        
         List<Collider2D> copia = new List<Collider2D>(inimigosNaArea);
 
         foreach (Collider2D col in copia)
         {
-            // Remove entradas nulas (inimigos destruídos)
+            
             if (col == null)
             {
                 inimigosNaArea.Remove(col);
@@ -35,7 +35,7 @@ public class HitboxController : MonoBehaviour
             }
         }
 
-        // Limpa entradas nulas da lista original após o loop
+        
         inimigosNaArea.RemoveAll(col => col == null);
     }
 

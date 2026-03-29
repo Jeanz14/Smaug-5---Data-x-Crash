@@ -54,27 +54,27 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.W)) v = 1f;
         if (Input.GetKey(KeyCode.S)) v = -1f;
 
-        // Atualiza direção só quando há input horizontal
+        
         if (h > 0) direcaoAtual = 1f;
         if (h < 0) direcaoAtual = -1f;
 
-        // Flip do sprite
+        
         if (sr != null)
         {
             sr.flipX = direcaoAtual < 0;
         }
 
-        // Hitbox sempre segue a direção, mesmo parado
+        
         if (hitboxTransform != null)
         {
             hitboxTransform.localPosition = new Vector3(0.6f * direcaoAtual, 0f, 0f);
         }
 
-        // Movimento horizontal
+        
         float novoX = transform.position.x + h * velocidade * Time.deltaTime;
         transform.position = new Vector3(novoX, transform.position.y, transform.position.z);
 
-        // Movimento W/S
+        
         if (!pulando && v != 0)
         {
             float novoY = groundY + v * velocidade * 0.4f * Time.deltaTime;
@@ -105,6 +105,6 @@ public class PlayerController : MonoBehaviour
         pulando = false;
     }
 
-    // Expõe a direção para outros scripts (PlayerCombat etc)
+    
     public float GetDirecao() => direcaoAtual;
 }

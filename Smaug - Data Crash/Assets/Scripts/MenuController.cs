@@ -16,25 +16,25 @@ public class MenuController : MonoBehaviour
         painelOpcoes.SetActive(false);
         painelCreditos.SetActive(false);
 
-        // Remove qualquer listener existente antes de adicionar os novos
+        
         sliderMusica.onValueChanged.RemoveAllListeners();
         sliderSons.onValueChanged.RemoveAllListeners();
 
         sliderMusica.onValueChanged.AddListener(AudioManager.Instance.AlterarVolumeMusica);
         sliderSons.onValueChanged.AddListener(AudioManager.Instance.AlterarVolumeSons);
 
-        // Define os valores DEPOIS de conectar os listeners
+        
         sliderMusica.value = 1f;
         sliderSons.value = 1f;
     }
 
-    // Botão JOGAR
+    
     public void BotaoJogar()
     {
         StartCoroutine(FadeController.Instance.FadeParaCena("Fase01"));
     }
 
-    // Botão OPÇÕES
+    
     public void AbrirOpcoes()
     {
         painelOpcoes.SetActive(true);
@@ -45,7 +45,7 @@ public class MenuController : MonoBehaviour
         painelOpcoes.SetActive(false);
     }
 
-    // Botão CRÉDITOS
+    
     public void AbrirCreditos()
     {
         painelCreditos.SetActive(true);
@@ -56,7 +56,7 @@ public class MenuController : MonoBehaviour
         painelCreditos.SetActive(false);
     }
 
-    // Botão SAIR
+    
     public void BotaoSair()
     {
 #if UNITY_EDITOR
