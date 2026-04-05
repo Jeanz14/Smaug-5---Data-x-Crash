@@ -5,7 +5,7 @@ public class HitboxController : MonoBehaviour
 {
     private List<Collider2D> inimigosNaArea = new List<Collider2D>();
 
-    public void AplicarDano(float especialPorGolpe)
+    public void AplicarDano(float especialPorGolpe, int dano, float tempoHitStun)
     {
         
         List<Collider2D> copia = new List<Collider2D>(inimigosNaArea);
@@ -30,7 +30,7 @@ public class HitboxController : MonoBehaviour
             EnemyNormal normal = col.GetComponent<EnemyNormal>();
             if (normal != null)
             {
-                normal.ReceberGolpe();
+                normal.ReceberGolpe(dano, tempoHitStun);
                 GameManager.Instance.AdicionarEspecial(especialPorGolpe);
             }
         }
@@ -41,8 +41,11 @@ public class HitboxController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Inimigo") && !inimigosNaArea.Contains(other))
+        if (other.CompareTag("Inimigo")||other.CompareTag("quebravel") && !inimigosNaArea.Contains(other))
+        {
             inimigosNaArea.Add(other);
+        }
+            
     }
 
     void OnTriggerExit2D(Collider2D other)

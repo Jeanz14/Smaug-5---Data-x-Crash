@@ -5,25 +5,39 @@ public class PlayerCombat : MonoBehaviour
     [Header("Hitbox")]
     [SerializeField] private HitboxController hitbox;
 
-    [Header("Especial por golpe")]
+    [Header("Especializacao do golpe")]
     [SerializeField] private float especialPorGolpe = 0.2f;
+    [SerializeField] private int dano = 1;
+    [SerializeField] private float tempoHitStun = 0.1f;
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.J)) Atacar();
+        Atacar();
         if (Input.GetKeyDown(KeyCode.H)) UsarEspecial();
     }
-
     private void Atacar()
     {
-        if (hitbox == null)
+        //Ataque leve
+        if (Input.GetKeyDown(KeyCode.J))
         {
-            Debug.LogError("Hitbox não atribuída no PlayerCombat!");
-            return;
+            if (hitbox == null)
+            {
+                Debug.LogError("Hitbox nï¿½o atribuï¿½da no PlayerCombat!");
+                return;
+            }
+
+            hitbox.AplicarDano(especialPorGolpe, dano, tempoHitStun);
+            Debug.Log("Ataque Leve executado!");
+        }
+        //Ataque Pesado
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            //animaÃ§Ã£o a ser feita
+            if(GameManager.Instance.UsarGolpePesado()){
+                hitbox.AplicarDano(especialPorGolpe*2, dano*2, tempoHitStun*2);
+            }
         }
 
-        hitbox.AplicarDano(especialPorGolpe);
-        Debug.Log("Ataque executado!");
     }
 
     private void UsarEspecial()
