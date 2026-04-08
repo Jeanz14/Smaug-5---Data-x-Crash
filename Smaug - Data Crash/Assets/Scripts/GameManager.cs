@@ -11,9 +11,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Image barra2;
     [SerializeField] private TMP_Text txtPlacar;
     [SerializeField] private TMP_Text txtVidas;
+    [SerializeField] private TMP_Text txtLife;
 
     [Header("Dados")]
     private int placar = 0;
+    private int maxLife = 100;
     private int life = 100; //não confundir com vidas (desculpa eu n tenho criatividade e achei engraçado, te dou todo direito de trocar o termo)
     private int ghostLife = 0;
     private int vidas = 2;
@@ -72,6 +74,7 @@ public class GameManager : MonoBehaviour
     {
         txtVidas.text = "Vidas: " + vidas;
         txtPlacar.text = placar.ToString("D6");
+        txtLife.text = "Saúde: " + life;
         AtualizarBarrasEspecial();
     }
     //── life ───────────────────────────────────────────────
@@ -87,6 +90,12 @@ public class GameManager : MonoBehaviour
     }
     public void PlayerApanhou(int dano)
     {
+        if (dano < 0)
+        {
+            life = Mathf.Min(life - dano, maxLife);
+            AtualizarHUD();
+            return;
+        }
         //a ser adicionado mecanica de hitstun e invulnerabilidade
         life -= dano+ghostLife;
         if(life <= 0){
@@ -100,6 +109,7 @@ public class GameManager : MonoBehaviour
                 Morrer();//a ser criado
             }
         }
+        AtualizarHUD();
     }
     private void Morrer()
     {

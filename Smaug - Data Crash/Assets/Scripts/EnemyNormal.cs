@@ -20,14 +20,10 @@ public class EnemyNormal : MonoBehaviour
         GameManager.Instance.AdicionarPontos(pontosAoDerrotar);
         Debug.Log("Inimigo nocauteado! +" + pontosAoDerrotar + " pontos");
         //adicionar firula de animação da morte/destruição
-        
-        Destroy(gameObject);
-    }
-    void OnDestroy()
-    {
         if(recompensa != null)
         {
             Instantiate(recompensa, transform.position, Quaternion.identity);
         }
+        Destroy(gameObject);
     }
 }
