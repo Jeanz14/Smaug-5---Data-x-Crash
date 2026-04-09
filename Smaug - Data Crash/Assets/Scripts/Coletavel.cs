@@ -6,9 +6,9 @@ public class Coletavel : MonoBehaviour
     private bool pegavel = false;
     void OntriggerEnter2D(Collider2D other)
     {
+        Debug.Log("Player entrou em range");
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Player entrou em range");
             pegavel = true;
         }
     }
