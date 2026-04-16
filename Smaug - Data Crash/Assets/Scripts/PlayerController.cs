@@ -3,6 +3,18 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
+    public enum Acao : int
+    {
+        //Na pratica o primeiro é 0, o segundo 1 e assim indo
+        Idle, 
+        Andar, 
+        Pular, 
+        Correr, 
+        AtacarLeve, 
+        AtacarForte, 
+        AtaqueEspecial, 
+        TomandoDano
+    }
     [Header("Movimento")]
     [SerializeField] private float velocidade = 5f;
 
@@ -17,6 +29,9 @@ public class PlayerController : MonoBehaviour
     [Header("Hitbox")]
     [SerializeField] private Transform hitboxTransform;
 
+    [Header("Animator")]
+    [SerializeField] private Animator anim;
+
     private SpriteRenderer sr;
     private bool pulando = false;
     private float groundY;
@@ -24,6 +39,7 @@ public class PlayerController : MonoBehaviour
 
     void Awake()
     {
+        anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
         if (sr == null)
             sr = GetComponentInChildren<SpriteRenderer>();
@@ -58,6 +74,7 @@ public class PlayerController : MonoBehaviour
         if (h > 0) direcaoAtual = 1f;
         if (h < 0) direcaoAtual = -1f;
 
+        if(h!=0 || v!=0){anim.SetInteger("PlayerState", (int)Acao.Andar);}
         
         if (sr != null)
         {
@@ -70,9 +87,11 @@ public class PlayerController : MonoBehaviour
             hitboxTransform.localPosition = new Vector3(0.6f * direcaoAtual, 0f, 0f);
         }
 
-        
-        float novoX = transform.position.x + h * velocidade * Time.deltaTime;
-        transform.position = new Vector3(novoX, transform.position.y, transform.position.z);
+        if (h != 0)
+        {
+            float novoX = transform.position.x + h * velocidade * Time.deltaTime;
+            transform.position = new Vector3(novoX, transform.position.y, transform.position.z);
+        }
 
         
         if (!pulando && v != 0)
