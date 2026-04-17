@@ -1011,6 +1011,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   velocidade: 3
+  direcaoAtual: 1
   dano: 10
   podeAtacar: 0
   hitbox: {fileID: 1247893887}
@@ -1450,7 +1451,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d56ec94fef37ca143a9f04bfda31d494, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
-  hitboxCollider: {fileID: 0}
+  playerController: {fileID: 0}
+  hitboxCollider: {fileID: 1094624360}
   hitbox: {fileID: 1094624359}
   especialPorGolpe: 0.2
   dano: 1
@@ -1977,7 +1979,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 1.6334751, y: 2.0317028}
+  m_Offset: {x: 3, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1987,7 +1989,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.1101613, y: 8.910086}
+  m_Size: {x: 4.8, y: 6}
   m_EdgeRadius: 0
 --- !u!4 &1094624361
 Transform:
@@ -1998,7 +2000,7 @@ Transform:
   m_GameObject: {fileID: 1094624358}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 0.173, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2055,7 +2057,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -2.631697, y: 2.1271443}
+  m_Offset: {x: -1.504825, y: 0.17690337}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2065,7 +2067,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.4195457, y: 4.2818794}
+  m_Size: {x: 7.55626, y: 2.9470646}
   m_EdgeRadius: 0
 --- !u!4 &1247893888
 Transform:
@@ -2076,7 +2078,7 @@ Transform:
   m_GameObject: {fileID: 1247893886}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.27, y: 2.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

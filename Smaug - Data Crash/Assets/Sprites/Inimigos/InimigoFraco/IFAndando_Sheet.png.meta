@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: cf5b4560a488f1748b2460f75d72031a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8792262542379876914
+    second: IFAndando_Sheet_0
+  - first:
+      213: 26334518266766464
+    second: IFAndando_Sheet_1
+  - first:
+      213: -607962213331799731
+    second: IFAndando_Sheet_2
+  - first:
+      213: 4244004119298817714
+    second: IFAndando_Sheet_3
+  - first:
+      213: 7189461099937461167
+    second: IFAndando_Sheet_4
+  - first:
+      213: 4764192928933499234
+    second: IFAndando_Sheet_5
+  - first:
+      213: -6637202785771110426
+    second: IFAndando_Sheet_6
+  - first:
+      213: -1192346211478525421
+    second: IFAndando_Sheet_7
+  - first:
+      213: 5481886727650698364
+    second: IFAndando_Sheet_8
+  - first:
+      213: 4191685383701353317
+    second: IFAndando_Sheet_9
+  - first:
+      213: 6044055493787952632
+    second: IFAndando_Sheet_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IFAndando_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 2359
+        width: 558
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd79751dcb9bf580800000000000000
+      internalID: -8792262542379876914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFAndando_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 2359
+        width: 552
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0842f96da1f8d5000800000000000000
+      internalID: 26334518266766464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFAndando_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 2422
+        width: 96
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d417f7d86951097f0800000000000000
+      internalID: -607962213331799731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFAndando_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 2359
+        width: 552
+        height: 964
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2beb914c24bb5ea30800000000000000
+      internalID: 4244004119298817714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFAndando_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 2396
+        width: 552
+        height: 895
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3f24c67c816c360800000000000000
+      internalID: 7189461099937461167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFAndando_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1274
+        width: 552
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26152822a30dd1240800000000000000
+      internalID: 4764192928933499234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFAndando_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1207
+        width: 548
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef31e35b3be3e3a0800000000000000
+      internalID: -6637202785771110426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFAndando_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 1207
+        width: 548
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a2a8f107fe37fe0800000000000000
+      internalID: -1192346211478525421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFAndando_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 1207
+        width: 548
+        height: 955
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c746c8c3fe2931c40800000000000000
+      internalID: 5481886727650698364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFAndando_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 63
+        width: 554
+        height: 968
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56357b1e5abdb2a30800000000000000
+      internalID: 4191685383701353317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFAndando_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 58
+        width: 550
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5aaf5e27cc0e350800000000000000
+      internalID: 6044055493787952632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      IFAndando_Sheet_0: -8792262542379876914
+      IFAndando_Sheet_1: 26334518266766464
+      IFAndando_Sheet_10: 6044055493787952632
+      IFAndando_Sheet_2: -607962213331799731
+      IFAndando_Sheet_3: 4244004119298817714
+      IFAndando_Sheet_4: 7189461099937461167
+      IFAndando_Sheet_5: 4764192928933499234
+      IFAndando_Sheet_6: -6637202785771110426
+      IFAndando_Sheet_7: -1192346211478525421
+      IFAndando_Sheet_8: 5481886727650698364
+      IFAndando_Sheet_9: 4191685383701353317
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

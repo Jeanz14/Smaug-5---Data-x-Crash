@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerCombat : MonoBehaviour
 {
     [Header("Hitbox")]
+    [SerializeField] private PlayerController playerController;
     [SerializeField] private BoxCollider2D hitboxCollider;
     [SerializeField] private HitboxController hitbox;
 
@@ -20,6 +21,7 @@ public class PlayerCombat : MonoBehaviour
 
     void Awake()
     {
+        playerController = GetComponent<PlayerController>();
         anim = GetComponent<Animator>();
     }
 
@@ -87,19 +89,16 @@ public class PlayerCombat : MonoBehaviour
         switch (golpe)
         {
             case 1: 
-                hitboxCollider.size = new Vector2(1f, 1f);
+                hitboxCollider.offset = new Vector2(2.9f * playerController.GetDirecao(), 2f);
+                hitboxCollider.size = new Vector2(4.5f, 4.4f);
                 break;
             case 2: 
-                hitboxCollider.size = new Vector2(1.5f, 1.5f);
+                hitboxCollider.offset = new Vector2(2.4f * playerController.GetDirecao(), -2.5f);
+                hitboxCollider.size = new Vector2(3.5f, 4.4f);
                 break;
             case 3: 
-                hitboxCollider.size = new Vector2(2f, 2f);
-                break;
-            case 4: 
-                hitboxCollider.size = new Vector2(3f, 3f);
-                break;
-            case 5: 
-                hitboxCollider.size = new Vector2(3f, 3f);
+                hitboxCollider.offset = new Vector2(3f * playerController.GetDirecao(), 0f);
+                hitboxCollider.size = new Vector2(4.8f, 6f);
                 break;
             default:
                 break;

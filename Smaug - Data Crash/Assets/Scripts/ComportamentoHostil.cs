@@ -9,6 +9,7 @@ public class ComportamentoHostil : MonoBehaviour
         Atacando = 2
     }
     [SerializeField] private float velocidade = 3f;
+    [SerializeField] private float direcaoAtual = 1f;
     [SerializeField] private int dano = 10;
     [SerializeField] private bool podeAtacar = true;
     [SerializeField] private Collider2D hitbox;
@@ -22,6 +23,7 @@ public class ComportamentoHostil : MonoBehaviour
         if(!other.CompareTag("Player")) return;
         if (hitbox.IsTouching(other))
         {
+            
             Debug.Log("Player agrou o inimigo");
             podeAtacar = true;
             anim.SetInteger("IFState", (int)InimigoState.Atacando);

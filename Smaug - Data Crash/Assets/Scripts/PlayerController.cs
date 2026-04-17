@@ -36,6 +36,7 @@ public class PlayerController : MonoBehaviour
     private float groundY;
     private float direcaoAtual = 1f; // 1 = direita, -1 = esquerda
 
+
     void Awake()
     {
         anim = GetComponent<Animator>();

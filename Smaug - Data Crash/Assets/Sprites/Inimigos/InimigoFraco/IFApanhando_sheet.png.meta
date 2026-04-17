@@ -1,0 +1,1235 @@
+fileFormatVersion: 2
+guid: 347c44b8c5d320441a89e970058f5db5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2955556999312910824
+    second: IFApanhando_sheet_0
+  - first:
+      213: -5373672618318092800
+    second: IFApanhando_sheet_1
+  - first:
+      213: 4270952423946709779
+    second: IFApanhando_sheet_2
+  - first:
+      213: -2070014934421993405
+    second: IFApanhando_sheet_3
+  - first:
+      213: -5080894857317296017
+    second: IFApanhando_sheet_4
+  - first:
+      213: -1217826377344750039
+    second: IFApanhando_sheet_5
+  - first:
+      213: -404185723941598763
+    second: IFApanhando_sheet_6
+  - first:
+      213: 3586327883242909365
+    second: IFApanhando_sheet_7
+  - first:
+      213: -7974321265847304464
+    second: IFApanhando_sheet_8
+  - first:
+      213: -102156911759769499
+    second: IFApanhando_sheet_9
+  - first:
+      213: 2747726519264807075
+    second: IFApanhando_sheet_10
+  - first:
+      213: -6626328966417752638
+    second: IFApanhando_sheet_11
+  - first:
+      213: 149314501397115080
+    second: IFApanhando_sheet_12
+  - first:
+      213: 3869044971155924589
+    second: IFApanhando_sheet_13
+  - first:
+      213: -1602965592213896496
+    second: IFApanhando_sheet_14
+  - first:
+      213: 8763932909402601114
+    second: IFApanhando_sheet_15
+  - first:
+      213: -7869452341978427473
+    second: IFApanhando_sheet_16
+  - first:
+      213: 7311166254747337533
+    second: IFApanhando_sheet_17
+  - first:
+      213: -8806642379182518234
+    second: IFApanhando_sheet_18
+  - first:
+      213: -3902055059165764145
+    second: IFApanhando_sheet_19
+  - first:
+      213: 8165850644788932067
+    second: IFApanhando_sheet_20
+  - first:
+      213: -1338707669820303892
+    second: IFApanhando_sheet_21
+  - first:
+      213: -3013247055875169272
+    second: IFApanhando_sheet_22
+  - first:
+      213: -5337466003465553574
+    second: IFApanhando_sheet_23
+  - first:
+      213: -4888706896617777255
+    second: IFApanhando_sheet_24
+  - first:
+      213: -163393158069240602
+    second: IFApanhando_sheet_25
+  - first:
+      213: -2906581841936846513
+    second: IFApanhando_sheet_26
+  - first:
+      213: 4886647336474914114
+    second: IFApanhando_sheet_27
+  - first:
+      213: 4383203755408925865
+    second: IFApanhando_sheet_28
+  - first:
+      213: -5355770333183286442
+    second: IFApanhando_sheet_29
+  - first:
+      213: 7253614829017057382
+    second: IFApanhando_sheet_30
+  - first:
+      213: 2218338469656991479
+    second: IFApanhando_sheet_31
+  - first:
+      213: -5215780012248268974
+    second: IFApanhando_sheet_32
+  - first:
+      213: -7363238203153681267
+    second: IFApanhando_sheet_33
+  - first:
+      213: -8342290738885021412
+    second: IFApanhando_sheet_34
+  - first:
+      213: 5296510044262098540
+    second: IFApanhando_sheet_35
+  - first:
+      213: -2446373904640934941
+    second: IFApanhando_sheet_36
+  - first:
+      213: 7553047249147500496
+    second: IFApanhando_sheet_37
+  - first:
+      213: 7624066883620888059
+    second: IFApanhando_sheet_38
+  - first:
+      213: 1362964571542418489
+    second: IFApanhando_sheet_39
+  - first:
+      213: -8771695726515212463
+    second: IFApanhando_sheet_40
+  - first:
+      213: 9115502202068849280
+    second: IFApanhando_sheet_41
+  - first:
+      213: 2167960388256012771
+    second: IFApanhando_sheet_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IFApanhando_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 7657
+        width: 552
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e927718e6f340920800000000000000
+      internalID: 2955556999312910824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 7655
+        width: 638
+        height: 965
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00628ed7931ec65b0800000000000000
+      internalID: -5373672618318092800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 3047
+        y: 7636
+        width: 661
+        height: 1021
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31befe1e998754b30800000000000000
+      internalID: 4270952423946709779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 4372
+        y: 7639
+        width: 662
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34806027264d543e0800000000000000
+      internalID: -2070014934421993405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 5872
+        y: 7655
+        width: 638
+        height: 961
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f685e780c090d79b0800000000000000
+      internalID: -5080894857317296017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 7256
+        y: 7657
+        width: 552
+        height: 964
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ee344bc59691fe0800000000000000
+      internalID: -1217826377344750039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 4723
+        y: 7126
+        width: 153
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d94d2db93b046af0800000000000000
+      internalID: -404185723941598763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 6104
+        y: 7251
+        width: 155
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bea5c8653235c130800000000000000
+      internalID: 3586327883242909365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 7437
+        y: 7216
+        width: 131
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fef358fe05855190800000000000000
+      internalID: -7974321265847304464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 6177
+        width: 555
+        height: 1006
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560453b74d0159ef0800000000000000
+      internalID: -102156911759769499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 5918
+        y: 6342
+        width: 581
+        height: 903
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a803b016b2e12620800000000000000
+      internalID: 2747726519264807075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 7281
+        y: 6327
+        width: 555
+        height: 855
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cdd9cfa9ec8a04a0800000000000000
+      internalID: -6626328966417752638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 7473
+        y: 7179
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0f6977fb8721200800000000000000
+      internalID: 149314501397115080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 6151
+        width: 552
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66a2c5f6eb91b530800000000000000
+      internalID: 3869044971155924589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 6151
+        width: 552
+        height: 949
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2cae8694f11c9e0800000000000000
+      internalID: -1602965592213896496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 4567
+        y: 6319
+        width: 581
+        height: 858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a963c4c3c8ebf9970800000000000000
+      internalID: 8763932909402601114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 7856
+        y: 7011
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf82830ac61ac290800000000000000
+      internalID: -7869452341978427473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 3764
+        y: 6861
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33c904f8fa767560800000000000000
+      internalID: 7311166254747337533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 5526
+        width: 112
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620dcec6a6588c580800000000000000
+      internalID: -8806642379182518234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 4645
+        width: 552
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5a860099d19d9c0800000000000000
+      internalID: -3902055059165764145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 3188
+        y: 4645
+        width: 552
+        height: 960
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ede98b95ede25170800000000000000
+      internalID: 8165850644788932067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 4544
+        y: 4645
+        width: 552
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce515429774fb6de0800000000000000
+      internalID: -1338707669820303892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 5843
+        y: 4671
+        width: 638
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804a11e74cbce26d0800000000000000
+      internalID: -3013247055875169272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 7118
+        y: 4695
+        width: 743
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5936bee2f28de5b0800000000000000
+      internalID: -5337466003465553574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 4645
+        width: 552
+        height: 880
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9975810aaf2d72cb0800000000000000
+      internalID: -4888706896617777255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 3274
+        width: 921
+        height: 964
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecbd86d9c28bbdf0800000000000000
+      internalID: -163393158069240602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 3423
+        width: 1064
+        height: 771
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41f0c8e63fb9a7d0800000000000000
+      internalID: -2906581841936846513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 2789
+        y: 3296
+        width: 878
+        height: 882
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d2239acdbd0d340800000000000000
+      internalID: 4886647336474914114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 4191
+        y: 3163
+        width: 545
+        height: 815
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4ae43a79444dc30800000000000000
+      internalID: 4383203755408925865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 6068
+        y: 3896
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653e800124b7ca5b0800000000000000
+      internalID: -5355770333183286442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 5549
+        y: 3108
+        width: 538
+        height: 606
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668411571440aa460800000000000000
+      internalID: 7253614829017057382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 6897
+        y: 3093
+        width: 820
+        height: 758
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f61d7bb51f19ce10800000000000000
+      internalID: 2218338469656991479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1585
+        width: 1024
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ffb5796b3dd97b0800000000000000
+      internalID: -5215780012248268974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 1585
+        width: 1038
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d847078cdd580d990800000000000000
+      internalID: -7363238203153681267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 2825
+        y: 1585
+        width: 1050
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c113ab7b5ca3a3c80800000000000000
+      internalID: -8342290738885021412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 4227
+        y: 1591
+        width: 785
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66e789b2dbf08940800000000000000
+      internalID: 5296510044262098540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 5627
+        y: 1601
+        width: 762
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb771a25ebbc0ed0800000000000000
+      internalID: -2446373904640934941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 7009
+        y: 1621
+        width: 708
+        height: 556
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d79d219470d1d860800000000000000
+      internalID: 7553047249147500496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 502
+        width: 73
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdda06cf602ec960800000000000000
+      internalID: 7624066883620888059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 141
+        width: 595
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9347a387e093ae210800000000000000
+      internalID: 1362964571542418489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 145
+        width: 628
+        height: 983
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15faf3f063da44680800000000000000
+      internalID: -8771695726515212463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 65
+        width: 527
+        height: 1068
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082da9fe4f4c08e70800000000000000
+      internalID: 9115502202068849280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IFApanhando_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 4544
+        y: 127
+        width: 552
+        height: 946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e91e1d9c74261e10800000000000000
+      internalID: 2167960388256012771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      IFApanhando_sheet_0: 2955556999312910824
+      IFApanhando_sheet_1: -5373672618318092800
+      IFApanhando_sheet_10: 2747726519264807075
+      IFApanhando_sheet_11: -6626328966417752638
+      IFApanhando_sheet_12: 149314501397115080
+      IFApanhando_sheet_13: 3869044971155924589
+      IFApanhando_sheet_14: -1602965592213896496
+      IFApanhando_sheet_15: 8763932909402601114
+      IFApanhando_sheet_16: -7869452341978427473
+      IFApanhando_sheet_17: 7311166254747337533
+      IFApanhando_sheet_18: -8806642379182518234
+      IFApanhando_sheet_19: -3902055059165764145
+      IFApanhando_sheet_2: 4270952423946709779
+      IFApanhando_sheet_20: 8165850644788932067
+      IFApanhando_sheet_21: -1338707669820303892
+      IFApanhando_sheet_22: -3013247055875169272
+      IFApanhando_sheet_23: -5337466003465553574
+      IFApanhando_sheet_24: -4888706896617777255
+      IFApanhando_sheet_25: -163393158069240602
+      IFApanhando_sheet_26: -2906581841936846513
+      IFApanhando_sheet_27: 4886647336474914114
+      IFApanhando_sheet_28: 4383203755408925865
+      IFApanhando_sheet_29: -5355770333183286442
+      IFApanhando_sheet_3: -2070014934421993405
+      IFApanhando_sheet_30: 7253614829017057382
+      IFApanhando_sheet_31: 2218338469656991479
+      IFApanhando_sheet_32: -5215780012248268974
+      IFApanhando_sheet_33: -7363238203153681267
+      IFApanhando_sheet_34: -8342290738885021412
+      IFApanhando_sheet_35: 5296510044262098540
+      IFApanhando_sheet_36: -2446373904640934941
+      IFApanhando_sheet_37: 7553047249147500496
+      IFApanhando_sheet_38: 7624066883620888059
+      IFApanhando_sheet_39: 1362964571542418489
+      IFApanhando_sheet_4: -5080894857317296017
+      IFApanhando_sheet_40: -8771695726515212463
+      IFApanhando_sheet_41: 9115502202068849280
+      IFApanhando_sheet_42: 2167960388256012771
+      IFApanhando_sheet_5: -1217826377344750039
+      IFApanhando_sheet_6: -404185723941598763
+      IFApanhando_sheet_7: 3586327883242909365
+      IFApanhando_sheet_8: -7974321265847304464
+      IFApanhando_sheet_9: -102156911759769499
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
