@@ -8,6 +8,7 @@ public class ComportamentoHostil : MonoBehaviour
         Andando = 1, 
         Atacando = 2
     }
+    [SerializeField] private float velocidade = 3f;
     [SerializeField] private int dano = 10;
     [SerializeField] private bool podeAtacar = true;
     [SerializeField] private Collider2D hitbox;

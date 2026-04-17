@@ -5,15 +5,14 @@ public class PlayerController : MonoBehaviour
 {
     public enum Acao : int
     {
-        //Na pratica o primeiro é 0, o segundo 1 e assim indo
-        Idle, 
-        Andar, 
-        Pular, 
-        Correr, 
-        AtacarLeve, 
-        AtacarForte, 
-        AtaqueEspecial, 
-        TomandoDano
+        Idle = 0, 
+        Andar = 1, 
+        Pular = 2, 
+        Correr = 3, 
+        AtacarLeve = 4, 
+        AtacarForte = 5,
+        AtaqueEspecial = 6, 
+        TomandoDano = 7
     }
     [Header("Movimento")]
     [SerializeField] private float velocidade = 5f;
@@ -74,7 +73,8 @@ public class PlayerController : MonoBehaviour
         if (h > 0) direcaoAtual = 1f;
         if (h < 0) direcaoAtual = -1f;
 
-        if(h!=0 || v!=0){anim.SetInteger("PlayerState", (int)Acao.Andar);}
+        if(h!=0 || v!=0) {anim.SetInteger("PlayerState", (int)Acao.Andar);}
+        else {anim.SetInteger("PlayerState", (int)Acao.Idle);}
         
         if (sr != null)
         {

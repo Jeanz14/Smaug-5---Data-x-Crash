@@ -3,12 +3,25 @@ using UnityEngine;
 public class PlayerCombat : MonoBehaviour
 {
     [Header("Hitbox")]
+    [SerializeField] private BoxCollider2D hitboxCollider;
     [SerializeField] private HitboxController hitbox;
 
     [Header("Especializacao do golpe")]
     [SerializeField] private float especialPorGolpe = 0.2f;
     [SerializeField] private int dano = 1;
     [SerializeField] private float tempoHitStun = 0.1f;
+
+    [Header("Animator")]
+    [SerializeField] private Animator anim;
+
+    [Header("Restricoes")]
+    [SerializeField] private bool podeAtacarLeve = true;
+    [SerializeField] private bool podeAtacarPesado = true;
+
+    void Awake()
+    {
+        anim = GetComponent<Animator>();
+    }
 
     void Update()
     {
@@ -25,16 +38,26 @@ public class PlayerCombat : MonoBehaviour
                 Debug.LogError("Hitbox n�o atribu�da no PlayerCombat!");
                 return;
             }
+            if(podeAtacarLeve)
+            {
+                podeAtacarPesado = false;
+                anim.SetInteger("PlayerState", 4);
+                anim.SetBool("ContinuarCombo", true);
+            }
+            
 
-            hitbox.AplicarDano(especialPorGolpe, dano, tempoHitStun);
+            
             Debug.Log("Ataque Leve executado!");
         }
         //Ataque Pesado
         if (Input.GetKeyDown(KeyCode.U))
         {
-            //animação a ser feita
-            if(GameManager.Instance.UsarGolpePesado()){
-                hitbox.AplicarDano(especialPorGolpe*2, dano*2, tempoHitStun*2);
+            if(podeAtacarPesado)
+            {
+                if(GameManager.Instance.UsarGolpePesado()){
+                    podeAtacarLeve = false;
+                    anim.SetInteger("PlayerState", 5);
+                }
             }
         }
 
@@ -47,4 +70,41 @@ public class PlayerCombat : MonoBehaviour
         else
             Debug.Log("Sem barra especial suficiente.");
     }
+    private void Fim()
+    {
+        anim.SetInteger("PlayerState", 0);
+        anim.SetBool("ContinuarCombo", false);
+    }
+    private void Resetar()
+    {
+        if(anim.GetBool("ContinuarCombo") && !anim.GetCurrentAnimatorStateInfo(0).IsName("AtaqueLeveP3")) return;
+        podeAtacarLeve = true;
+        podeAtacarPesado = true;
+        anim.SetInteger("PlayerState", 0);
+    }
+    private void Danificar(int golpe)
+    {
+        switch (golpe)
+        {
+            case 1: 
+                hitboxCollider.size = new Vector2(1f, 1f);
+                break;
+            case 2: 
+                hitboxCollider.size = new Vector2(1.5f, 1.5f);
+                break;
+            case 3: 
+                hitboxCollider.size = new Vector2(2f, 2f);
+                break;
+            case 4: 
+                hitboxCollider.size = new Vector2(3f, 3f);
+                break;
+            case 5: 
+                hitboxCollider.size = new Vector2(3f, 3f);
+                break;
+            default:
+                break;
+        }
+        hitbox.AplicarDano(especialPorGolpe, dano, tempoHitStun);
+    }
+
 }
