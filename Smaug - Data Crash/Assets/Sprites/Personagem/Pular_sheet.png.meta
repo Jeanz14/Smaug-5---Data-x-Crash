@@ -130,12 +130,12 @@ TextureImporter:
       name: Pular_sheet_0
       rect:
         serializedVersion: 2
-        x: 116
-        y: 2166
-        width: 406
-        height: 970
+        x: 0
+        y: 2136
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -152,12 +152,12 @@ TextureImporter:
       name: Pular_sheet_1
       rect:
         serializedVersion: 2
-        x: 1154
-        y: 2166
-        width: 406
-        height: 970
+        x: 1038
+        y: 2136
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -174,12 +174,12 @@ TextureImporter:
       name: Pular_sheet_2
       rect:
         serializedVersion: 2
-        x: 2198
-        y: 2179
-        width: 445
-        height: 916
+        x: 2076
+        y: 2136
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -196,12 +196,12 @@ TextureImporter:
       name: Pular_sheet_3
       rect:
         serializedVersion: 2
-        x: 3259
-        y: 2267
-        width: 480
-        height: 848
+        x: 3114
+        y: 2136
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -218,12 +218,12 @@ TextureImporter:
       name: Pular_sheet_4
       rect:
         serializedVersion: 2
-        x: 171
-        y: 1251
-        width: 465
-        height: 794
+        x: 0
+        y: 1068
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -240,12 +240,12 @@ TextureImporter:
       name: Pular_sheet_5
       rect:
         serializedVersion: 2
-        x: 1192
-        y: 1227
-        width: 518
-        height: 800
+        x: 1038
+        y: 1068
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -262,12 +262,12 @@ TextureImporter:
       name: Pular_sheet_6
       rect:
         serializedVersion: 2
-        x: 2230
-        y: 1227
-        width: 518
-        height: 800
+        x: 2076
+        y: 1068
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -284,12 +284,12 @@ TextureImporter:
       name: Pular_sheet_7
       rect:
         serializedVersion: 2
-        x: 3268
-        y: 1227
-        width: 518
-        height: 800
+        x: 3114
+        y: 1068
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -306,12 +306,12 @@ TextureImporter:
       name: Pular_sheet_8
       rect:
         serializedVersion: 2
-        x: 171
-        y: 183
-        width: 465
-        height: 794
+        x: 0
+        y: 0
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -328,12 +328,12 @@ TextureImporter:
       name: Pular_sheet_9
       rect:
         serializedVersion: 2
-        x: 1160
-        y: 43
-        width: 445
-        height: 916
+        x: 1038
+        y: 0
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -350,7 +350,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5369a67da8da4d9428b953b30682ec78
     internalID: 0
     vertices: []
     indices: 
@@ -358,7 +358,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":1038.0,"y":1068.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Pular_sheet_0: -5132430308643659893
       Pular_sheet_1: 4091694571421041850

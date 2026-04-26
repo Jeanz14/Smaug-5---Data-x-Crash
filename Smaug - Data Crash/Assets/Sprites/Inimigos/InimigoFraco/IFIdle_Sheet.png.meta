@@ -136,12 +136,12 @@ TextureImporter:
       name: IFIdle_Sheet_0
       rect:
         serializedVersion: 2
-        x: 132
-        y: 2359
-        width: 552
-        height: 932
+        x: 0
+        y: 2292
+        width: 780
+        height: 1146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -158,12 +158,12 @@ TextureImporter:
       name: IFIdle_Sheet_1
       rect:
         serializedVersion: 2
-        x: 912
-        y: 2359
-        width: 552
-        height: 949
+        x: 780
+        y: 2292
+        width: 780
+        height: 1146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -180,12 +180,12 @@ TextureImporter:
       name: IFIdle_Sheet_2
       rect:
         serializedVersion: 2
-        x: 1692
-        y: 2359
-        width: 552
-        height: 964
+        x: 1560
+        y: 2292
+        width: 780
+        height: 1146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -202,12 +202,12 @@ TextureImporter:
       name: IFIdle_Sheet_3
       rect:
         serializedVersion: 2
-        x: 2472
-        y: 2359
-        width: 552
-        height: 932
+        x: 2340
+        y: 2292
+        width: 780
+        height: 1146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -224,12 +224,12 @@ TextureImporter:
       name: IFIdle_Sheet_4
       rect:
         serializedVersion: 2
-        x: 132
-        y: 1213
-        width: 552
-        height: 949
+        x: 0
+        y: 1146
+        width: 780
+        height: 1146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -246,12 +246,12 @@ TextureImporter:
       name: IFIdle_Sheet_5
       rect:
         serializedVersion: 2
-        x: 912
-        y: 1213
-        width: 552
-        height: 964
+        x: 780
+        y: 1146
+        width: 780
+        height: 1146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -268,12 +268,12 @@ TextureImporter:
       name: IFIdle_Sheet_6
       rect:
         serializedVersion: 2
-        x: 1692
-        y: 1213
-        width: 552
-        height: 932
+        x: 1560
+        y: 1146
+        width: 780
+        height: 1146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -290,12 +290,12 @@ TextureImporter:
       name: IFIdle_Sheet_7
       rect:
         serializedVersion: 2
-        x: 2472
-        y: 1213
-        width: 552
-        height: 949
+        x: 2340
+        y: 1146
+        width: 780
+        height: 1146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -312,12 +312,12 @@ TextureImporter:
       name: IFIdle_Sheet_8
       rect:
         serializedVersion: 2
-        x: 132
-        y: 67
-        width: 552
-        height: 964
+        x: 0
+        y: 0
+        width: 780
+        height: 1146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -334,12 +334,12 @@ TextureImporter:
       name: IFIdle_Sheet_9
       rect:
         serializedVersion: 2
-        x: 912
-        y: 67
-        width: 552
-        height: 932
+        x: 780
+        y: 0
+        width: 780
+        height: 1146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -356,12 +356,12 @@ TextureImporter:
       name: IFIdle_Sheet_10
       rect:
         serializedVersion: 2
-        x: 1692
-        y: 67
-        width: 552
-        height: 949
+        x: 1560
+        y: 0
+        width: 780
+        height: 1146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -378,12 +378,12 @@ TextureImporter:
       name: IFIdle_Sheet_11
       rect:
         serializedVersion: 2
-        x: 2472
-        y: 67
-        width: 552
-        height: 964
+        x: 2340
+        y: 0
+        width: 780
+        height: 1146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -400,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 21d681df6d3b35543a49e9c134365fc9
     internalID: 0
     vertices: []
     indices: 
@@ -408,7 +408,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":780.0,"y":1146.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       IFIdle_Sheet_0: -2441711029386093632
       IFIdle_Sheet_1: 2808601331436115345

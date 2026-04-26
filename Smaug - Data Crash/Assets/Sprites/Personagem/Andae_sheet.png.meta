@@ -121,12 +121,12 @@ TextureImporter:
       name: Andae_sheet_0
       rect:
         serializedVersion: 2
-        x: 2593
-        y: 2083
-        width: 6
-        height: 7
+        x: 0
+        y: 1068
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -143,12 +143,12 @@ TextureImporter:
       name: Andae_sheet_1
       rect:
         serializedVersion: 2
-        x: 102
-        y: 1142
-        width: 675
-        height: 917
+        x: 1038
+        y: 1068
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -165,12 +165,12 @@ TextureImporter:
       name: Andae_sheet_2
       rect:
         serializedVersion: 2
-        x: 1253
-        y: 1119
-        width: 531
-        height: 944
+        x: 2076
+        y: 1068
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -187,12 +187,12 @@ TextureImporter:
       name: Andae_sheet_3
       rect:
         serializedVersion: 2
-        x: 2347
-        y: 1142
-        width: 459
-        height: 934
+        x: 0
+        y: 0
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -209,12 +209,12 @@ TextureImporter:
       name: Andae_sheet_4
       rect:
         serializedVersion: 2
-        x: 244
-        y: 86
-        width: 480
-        height: 927
+        x: 1038
+        y: 0
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -231,12 +231,12 @@ TextureImporter:
       name: Andae_sheet_5
       rect:
         serializedVersion: 2
-        x: 1297
-        y: 79
-        width: 495
-        height: 936
+        x: 2076
+        y: 0
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -249,33 +249,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Andae_sheet_6
-      rect:
-        serializedVersion: 2
-        x: 2286
-        y: 31
-        width: 554
-        height: 980
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5a6a65949d60c42d0800000000000000
-      internalID: -3293249697206589787
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 38629b1d9430f8241b0aed2a47403eba
     internalID: 0
     vertices: []
     indices: 
@@ -283,7 +261,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":2.0},"gridSpriteSize":{"x":1038.0,"y":1068.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Andae_sheet_0: -8627701684774874789
       Andae_sheet_1: 2949734477837004630
@@ -291,7 +271,6 @@ TextureImporter:
       Andae_sheet_3: 8017338929652559918
       Andae_sheet_4: -7951640961784420608
       Andae_sheet_5: 4963109214339790252
-      Andae_sheet_6: -3293249697206589787
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

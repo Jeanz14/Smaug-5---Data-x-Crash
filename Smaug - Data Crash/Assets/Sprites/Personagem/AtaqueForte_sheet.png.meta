@@ -193,12 +193,12 @@ TextureImporter:
       name: AtaqueForte_sheet_0
       rect:
         serializedVersion: 2
-        x: 66
-        y: 3203
-        width: 588
-        height: 999
+        x: 0
+        y: 3204
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -215,12 +215,12 @@ TextureImporter:
       name: AtaqueForte_sheet_1
       rect:
         serializedVersion: 2
-        x: 1140
-        y: 3223
-        width: 599
-        height: 976
+        x: 1038
+        y: 3204
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -237,12 +237,12 @@ TextureImporter:
       name: AtaqueForte_sheet_2
       rect:
         serializedVersion: 2
-        x: 2232
-        y: 3242
-        width: 543
-        height: 979
+        x: 2076
+        y: 3204
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -259,12 +259,12 @@ TextureImporter:
       name: AtaqueForte_sheet_3
       rect:
         serializedVersion: 2
-        x: 3204
-        y: 3245
-        width: 607
-        height: 955
+        x: 3114
+        y: 3204
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -281,12 +281,12 @@ TextureImporter:
       name: AtaqueForte_sheet_4
       rect:
         serializedVersion: 2
-        x: 294
-        y: 2162
-        width: 745
-        height: 918
+        x: 0
+        y: 2136
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -303,12 +303,12 @@ TextureImporter:
       name: AtaqueForte_sheet_5
       rect:
         serializedVersion: 2
-        x: 1326
-        y: 2179
-        width: 683
-        height: 948
+        x: 1038
+        y: 2136
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -325,12 +325,12 @@ TextureImporter:
       name: AtaqueForte_sheet_6
       rect:
         serializedVersion: 2
-        x: 2232
-        y: 2174
-        width: 543
-        height: 979
+        x: 2076
+        y: 2136
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -347,12 +347,12 @@ TextureImporter:
       name: AtaqueForte_sheet_7
       rect:
         serializedVersion: 2
-        x: 2997
-        y: 2636
-        width: 12
-        height: 33
+        x: 3114
+        y: 2136
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -369,12 +369,12 @@ TextureImporter:
       name: AtaqueForte_sheet_8
       rect:
         serializedVersion: 2
-        x: 3180
-        y: 2135
-        width: 588
-        height: 999
+        x: 0
+        y: 1068
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -391,12 +391,12 @@ TextureImporter:
       name: AtaqueForte_sheet_9
       rect:
         serializedVersion: 2
-        x: 1999
-        y: 2455
-        width: 22
-        height: 44
+        x: 1038
+        y: 1068
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -413,12 +413,12 @@ TextureImporter:
       name: AtaqueForte_sheet_10
       rect:
         serializedVersion: 2
-        x: 2050
-        y: 2456
-        width: 15
-        height: 16
+        x: 2076
+        y: 1068
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -435,12 +435,12 @@ TextureImporter:
       name: AtaqueForte_sheet_11
       rect:
         serializedVersion: 2
-        x: 3077
-        y: 2363
-        width: 28
-        height: 15
+        x: 3114
+        y: 1068
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -457,12 +457,12 @@ TextureImporter:
       name: AtaqueForte_sheet_12
       rect:
         serializedVersion: 2
-        x: 1980
-        y: 2172
-        width: 19
-        height: 33
+        x: 0
+        y: 0
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -479,12 +479,12 @@ TextureImporter:
       name: AtaqueForte_sheet_13
       rect:
         serializedVersion: 2
-        x: 2919
-        y: 2148
-        width: 9
-        height: 35
+        x: 1038
+        y: 0
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -501,12 +501,12 @@ TextureImporter:
       name: AtaqueForte_sheet_14
       rect:
         serializedVersion: 2
-        x: 185
-        y: 1122
-        width: 478
-        height: 943
+        x: 2076
+        y: 0
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -523,12 +523,12 @@ TextureImporter:
       name: AtaqueForte_sheet_15
       rect:
         serializedVersion: 2
-        x: 1210
-        y: 1109
-        width: 518
-        height: 921
+        x: 3114
+        y: 0
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -541,341 +541,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: AtaqueForte_sheet_16
-      rect:
-        serializedVersion: 2
-        x: 2249
-        y: 1109
-        width: 431
-        height: 847
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e397928e763d69540800000000000000
-      internalID: 5014427678353750334
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqueForte_sheet_17
-      rect:
-        serializedVersion: 2
-        x: 3186
-        y: 1109
-        width: 966
-        height: 983
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7035810fef163bcc0800000000000000
-      internalID: -3696503121563331833
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqueForte_sheet_18
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 44
-        width: 811
-        height: 976
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: af4cc15bb797c8f40800000000000000
-      internalID: 5732089997962298618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqueForte_sheet_19
-      rect:
-        serializedVersion: 2
-        x: 1168
-        y: 887
-        width: 13
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0162c857d56ffa220800000000000000
-      internalID: 2499487199478425104
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqueForte_sheet_20
-      rect:
-        serializedVersion: 2
-        x: 1291
-        y: 44
-        width: 710
-        height: 976
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 83ae666b8e7539270800000000000000
-      internalID: 8256039198904478264
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqueForte_sheet_21
-      rect:
-        serializedVersion: 2
-        x: 2337
-        y: 48
-        width: 635
-        height: 977
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5809a2d101bcefd00800000000000000
-      internalID: 1008466636646813829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqueForte_sheet_22
-      rect:
-        serializedVersion: 2
-        x: 3270
-        y: 38
-        width: 543
-        height: 979
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 90736783ad812f940800000000000000
-      internalID: 5328348634661926665
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqueForte_sheet_23
-      rect:
-        serializedVersion: 2
-        x: 2019
-        y: 861
-        width: 54
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d5ee54d1b1da47230800000000000000
-      internalID: 3635721131161677405
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqueForte_sheet_24
-      rect:
-        serializedVersion: 2
-        x: 2899
-        y: 843
-        width: 95
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 93dd3e55b910e32d0800000000000000
-      internalID: -3297196110516069063
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqueForte_sheet_25
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 780
-        width: 50
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0a0d46017c00885e0800000000000000
-      internalID: -1907273587217870688
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqueForte_sheet_26
-      rect:
-        serializedVersion: 2
-        x: 1904
-        y: 816
-        width: 108
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: debc6bad0a2d11a10800000000000000
-      internalID: 1878514107896220653
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqueForte_sheet_27
-      rect:
-        serializedVersion: 2
-        x: 87
-        y: 546
-        width: 46
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 401f79889f162d060800000000000000
-      internalID: 6976746497116729604
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqueForte_sheet_28
-      rect:
-        serializedVersion: 2
-        x: 125
-        y: 518
-        width: 19
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b9a7e4fa5a8e91380800000000000000
-      internalID: -8999906582014821733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqueForte_sheet_29
-      rect:
-        serializedVersion: 2
-        x: 1123
-        y: 434
-        width: 19
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c78e0d3cdee42bb10800000000000000
-      internalID: 1995744367978014844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqueForte_sheet_30
-      rect:
-        serializedVersion: 2
-        x: 1891
-        y: 299
-        width: 186
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 93b82a616ae8df430800000000000000
-      internalID: 3818364903075515193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 76059bc247a96db4aa4f27e31976088a
     internalID: 0
     vertices: []
     indices: 
@@ -883,7 +553,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":1038.0,"y":1068.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       AtaqueForte_sheet_0: -6945410954635348873
       AtaqueForte_sheet_1: -3451570508637056425
@@ -893,23 +565,8 @@ TextureImporter:
       AtaqueForte_sheet_13: -7275571020924823342
       AtaqueForte_sheet_14: 2735739313629607417
       AtaqueForte_sheet_15: 7445429059280394706
-      AtaqueForte_sheet_16: 5014427678353750334
-      AtaqueForte_sheet_17: -3696503121563331833
-      AtaqueForte_sheet_18: 5732089997962298618
-      AtaqueForte_sheet_19: 2499487199478425104
       AtaqueForte_sheet_2: 7579780244431676388
-      AtaqueForte_sheet_20: 8256039198904478264
-      AtaqueForte_sheet_21: 1008466636646813829
-      AtaqueForte_sheet_22: 5328348634661926665
-      AtaqueForte_sheet_23: 3635721131161677405
-      AtaqueForte_sheet_24: -3297196110516069063
-      AtaqueForte_sheet_25: -1907273587217870688
-      AtaqueForte_sheet_26: 1878514107896220653
-      AtaqueForte_sheet_27: 6976746497116729604
-      AtaqueForte_sheet_28: -8999906582014821733
-      AtaqueForte_sheet_29: 1995744367978014844
       AtaqueForte_sheet_3: 3150190525616086814
-      AtaqueForte_sheet_30: 3818364903075515193
       AtaqueForte_sheet_4: 4433746635609602545
       AtaqueForte_sheet_5: -4860886558225863808
       AtaqueForte_sheet_6: -2731202490145252394

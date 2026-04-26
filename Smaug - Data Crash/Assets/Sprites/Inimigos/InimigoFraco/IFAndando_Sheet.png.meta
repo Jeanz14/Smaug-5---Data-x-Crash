@@ -133,12 +133,12 @@ TextureImporter:
       name: IFAndando_Sheet_0
       rect:
         serializedVersion: 2
-        x: 132
-        y: 2359
-        width: 558
-        height: 932
+        x: 0
+        y: 2292
+        width: 780
+        height: 1146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -155,12 +155,12 @@ TextureImporter:
       name: IFAndando_Sheet_1
       rect:
         serializedVersion: 2
-        x: 912
-        y: 2359
-        width: 552
-        height: 949
+        x: 780
+        y: 2292
+        width: 780
+        height: 1146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -177,12 +177,12 @@ TextureImporter:
       name: IFAndando_Sheet_2
       rect:
         serializedVersion: 2
-        x: 1380
-        y: 2422
-        width: 96
-        height: 57
+        x: 1560
+        y: 2292
+        width: 780
+        height: 1146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -199,12 +199,12 @@ TextureImporter:
       name: IFAndando_Sheet_3
       rect:
         serializedVersion: 2
-        x: 1692
-        y: 2359
-        width: 552
-        height: 964
+        x: 2340
+        y: 2292
+        width: 780
+        height: 1146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -221,12 +221,12 @@ TextureImporter:
       name: IFAndando_Sheet_4
       rect:
         serializedVersion: 2
-        x: 2472
-        y: 2396
-        width: 552
-        height: 895
+        x: 0
+        y: 1146
+        width: 780
+        height: 1146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -243,12 +243,12 @@ TextureImporter:
       name: IFAndando_Sheet_5
       rect:
         serializedVersion: 2
-        x: 131
-        y: 1274
-        width: 552
-        height: 888
+        x: 780
+        y: 1146
+        width: 780
+        height: 1146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -265,12 +265,12 @@ TextureImporter:
       name: IFAndando_Sheet_6
       rect:
         serializedVersion: 2
-        x: 913
-        y: 1207
-        width: 548
-        height: 970
+        x: 1560
+        y: 1146
+        width: 780
+        height: 1146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -287,12 +287,12 @@ TextureImporter:
       name: IFAndando_Sheet_7
       rect:
         serializedVersion: 2
-        x: 1693
-        y: 1207
-        width: 548
-        height: 938
+        x: 2340
+        y: 1146
+        width: 780
+        height: 1146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -309,12 +309,12 @@ TextureImporter:
       name: IFAndando_Sheet_8
       rect:
         serializedVersion: 2
-        x: 2473
-        y: 1207
-        width: 548
-        height: 955
+        x: 0
+        y: 0
+        width: 780
+        height: 1146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -331,12 +331,12 @@ TextureImporter:
       name: IFAndando_Sheet_9
       rect:
         serializedVersion: 2
-        x: 131
-        y: 63
-        width: 554
-        height: 968
+        x: 780
+        y: 0
+        width: 780
+        height: 1146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -349,33 +349,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: IFAndando_Sheet_10
-      rect:
-        serializedVersion: 2
-        x: 913
-        y: 58
-        width: 550
-        height: 942
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8f5aaf5e27cc0e350800000000000000
-      internalID: 6044055493787952632
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: be03b86203d91324c94863243206bce4
     internalID: 0
     vertices: []
     indices: 
@@ -383,11 +361,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":780.0,"y":1146.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       IFAndando_Sheet_0: -8792262542379876914
       IFAndando_Sheet_1: 26334518266766464
-      IFAndando_Sheet_10: 6044055493787952632
       IFAndando_Sheet_2: -607962213331799731
       IFAndando_Sheet_3: 4244004119298817714
       IFAndando_Sheet_4: 7189461099937461167

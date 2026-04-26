@@ -253,12 +253,12 @@ TextureImporter:
       name: AtaqyeLeve_sheet_0
       rect:
         serializedVersion: 2
-        x: 66
-        y: 4271
-        width: 588
-        height: 999
+        x: 0
+        y: 4272
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -275,12 +275,12 @@ TextureImporter:
       name: AtaqyeLeve_sheet_1
       rect:
         serializedVersion: 2
-        x: 1104
-        y: 4271
-        width: 588
-        height: 1008
+        x: 1038
+        y: 4272
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -297,12 +297,12 @@ TextureImporter:
       name: AtaqyeLeve_sheet_2
       rect:
         serializedVersion: 2
-        x: 2144
-        y: 4271
-        width: 903
-        height: 999
+        x: 2076
+        y: 4272
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -319,12 +319,12 @@ TextureImporter:
       name: AtaqyeLeve_sheet_3
       rect:
         serializedVersion: 2
-        x: 2993
-        y: 5086
-        width: 89
-        height: 67
+        x: 3114
+        y: 4272
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -341,12 +341,12 @@ TextureImporter:
       name: AtaqyeLeve_sheet_4
       rect:
         serializedVersion: 2
-        x: 3180
-        y: 4271
-        width: 696
-        height: 990
+        x: 4152
+        y: 4272
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -363,12 +363,12 @@ TextureImporter:
       name: AtaqyeLeve_sheet_5
       rect:
         serializedVersion: 2
-        x: 3963
-        y: 5087
-        width: 45
-        height: 46
+        x: 0
+        y: 3204
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -385,12 +385,12 @@ TextureImporter:
       name: AtaqyeLeve_sheet_6
       rect:
         serializedVersion: 2
-        x: 4218
-        y: 4271
-        width: 591
-        height: 978
+        x: 1038
+        y: 3204
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -407,12 +407,12 @@ TextureImporter:
       name: AtaqyeLeve_sheet_7
       rect:
         serializedVersion: 2
-        x: 5020
-        y: 5126
-        width: 35
-        height: 34
+        x: 2076
+        y: 3204
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -429,12 +429,12 @@ TextureImporter:
       name: AtaqyeLeve_sheet_8
       rect:
         serializedVersion: 2
-        x: 3981
-        y: 5075
-        width: 24
-        height: 21
+        x: 3114
+        y: 3204
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -451,12 +451,12 @@ TextureImporter:
       name: AtaqyeLeve_sheet_9
       rect:
         serializedVersion: 2
-        x: 3970
-        y: 4949
-        width: 67
-        height: 39
+        x: 4152
+        y: 3204
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -473,12 +473,12 @@ TextureImporter:
       name: AtaqyeLeve_sheet_10
       rect:
         serializedVersion: 2
-        x: 5112
-        y: 4984
-        width: 27
-        height: 10
+        x: 0
+        y: 2136
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -495,12 +495,12 @@ TextureImporter:
       name: AtaqyeLeve_sheet_11
       rect:
         serializedVersion: 2
-        x: 3942
-        y: 4926
-        width: 30
-        height: 19
+        x: 1038
+        y: 2136
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -517,12 +517,12 @@ TextureImporter:
       name: AtaqyeLeve_sheet_12
       rect:
         serializedVersion: 2
-        x: 5069
-        y: 4882
-        width: 41
-        height: 28
+        x: 2076
+        y: 2136
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -539,12 +539,12 @@ TextureImporter:
       name: AtaqyeLeve_sheet_13
       rect:
         serializedVersion: 2
-        x: 66
-        y: 3203
-        width: 588
-        height: 966
+        x: 3114
+        y: 2136
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -561,12 +561,12 @@ TextureImporter:
       name: AtaqyeLeve_sheet_14
       rect:
         serializedVersion: 2
-        x: 1104
-        y: 3203
-        width: 588
-        height: 954
+        x: 4152
+        y: 2136
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -583,12 +583,12 @@ TextureImporter:
       name: AtaqyeLeve_sheet_15
       rect:
         serializedVersion: 2
-        x: 2150
-        y: 3208
-        width: 621
-        height: 973
+        x: 0
+        y: 1068
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -605,12 +605,12 @@ TextureImporter:
       name: AtaqyeLeve_sheet_16
       rect:
         serializedVersion: 2
-        x: 3143
-        y: 3222
-        width: 974
-        height: 1001
+        x: 1038
+        y: 1068
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -627,12 +627,12 @@ TextureImporter:
       name: AtaqyeLeve_sheet_17
       rect:
         serializedVersion: 2
-        x: 4201
-        y: 3208
-        width: 841
-        height: 978
+        x: 2076
+        y: 1068
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -649,12 +649,12 @@ TextureImporter:
       name: AtaqyeLeve_sheet_18
       rect:
         serializedVersion: 2
-        x: 5058
-        y: 3921
-        width: 95
-        height: 101
+        x: 3114
+        y: 1068
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -671,12 +671,12 @@ TextureImporter:
       name: AtaqyeLeve_sheet_19
       rect:
         serializedVersion: 2
-        x: 5138
-        y: 3913
-        width: 52
-        height: 15
+        x: 4152
+        y: 1068
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -693,12 +693,12 @@ TextureImporter:
       name: AtaqyeLeve_sheet_20
       rect:
         serializedVersion: 2
-        x: 4067
-        y: 3868
-        width: 80
-        height: 43
+        x: 0
+        y: 0
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -715,12 +715,12 @@ TextureImporter:
       name: AtaqyeLeve_sheet_21
       rect:
         serializedVersion: 2
-        x: 5074
-        y: 3855
-        width: 52
-        height: 18
+        x: 1038
+        y: 0
+        width: 1038
+        height: 1068
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -733,649 +733,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_22
-      rect:
-        serializedVersion: 2
-        x: 5050
-        y: 3810
-        width: 54
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f4317c87db56f63d0800000000000000
-      internalID: -3211236144842337457
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_23
-      rect:
-        serializedVersion: 2
-        x: 5099
-        y: 3819
-        width: 27
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c244dade206211c0800000000000000
-      internalID: -4534456120452562231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_24
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 2155
-        width: 667
-        height: 976
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5a26211489d46f880800000000000000
-      internalID: -8577583123958439259
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_25
-      rect:
-        serializedVersion: 2
-        x: 923
-        y: 2877
-        width: 47
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eaa8722fc856f3210800000000000000
-      internalID: 1314881272247978670
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_26
-      rect:
-        serializedVersion: 2
-        x: 1112
-        y: 2140
-        width: 621
-        height: 973
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a2bc04d53dfb6660800000000000000
-      internalID: 7380270822009385638
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_27
-      rect:
-        serializedVersion: 2
-        x: 2142
-        y: 2135
-        width: 588
-        height: 954
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ef9c423cf52a98060800000000000000
-      internalID: 6956269631630002686
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_28
-      rect:
-        serializedVersion: 2
-        x: 3180
-        y: 2135
-        width: 588
-        height: 999
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4971259cacf841510800000000000000
-      internalID: 1518997075454465940
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_29
-      rect:
-        serializedVersion: 2
-        x: 4238
-        y: 2138
-        width: 573
-        height: 977
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f00e7a5ec1c09770800000000000000
-      internalID: 8615599179185389814
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_30
-      rect:
-        serializedVersion: 2
-        x: 955
-        y: 2838
-        width: 21
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d81cba3c38a171ae0800000000000000
-      internalID: -1578763991144218227
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_31
-      rect:
-        serializedVersion: 2
-        x: 947
-        y: 2735
-        width: 35
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1715821049529bb20800000000000000
-      internalID: 3150590731927179633
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_32
-      rect:
-        serializedVersion: 2
-        x: 4754
-        y: 2074
-        width: 18
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b9da1bcbf4c69cba0800000000000000
-      internalID: -6068199933181055589
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_33
-      rect:
-        serializedVersion: 2
-        x: 4767
-        y: 2081
-        width: 14
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b09fae17ea66b1f80800000000000000
-      internalID: -8134795402493101813
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_34
-      rect:
-        serializedVersion: 2
-        x: 4881
-        y: 2082
-        width: 15
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e691cce48722e48f0800000000000000
-      internalID: -554467804006573714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_35
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 1104
-        width: 647
-        height: 917
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b9ce60b963a961160800000000000000
-      internalID: 6995948630486477979
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_36
-      rect:
-        serializedVersion: 2
-        x: 2143
-        y: 1096
-        width: 876
-        height: 951
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b5d971c1f76de6a40800000000000000
-      internalID: 5363460047665339739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_37
-      rect:
-        serializedVersion: 2
-        x: 3719
-        y: 1972
-        width: 24
-        height: 98
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: be15dc525b31827b0800000000000000
-      internalID: -5248923696956091925
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_38
-      rect:
-        serializedVersion: 2
-        x: 3803
-        y: 1904
-        width: 139
-        height: 112
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9a2d5bb54960dbbc0800000000000000
-      internalID: -3765846479148297559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_39
-      rect:
-        serializedVersion: 2
-        x: 4548
-        y: 2001
-        width: 24
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d5ce643195914a3b0800000000000000
-      internalID: -5502244974373704611
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_40
-      rect:
-        serializedVersion: 2
-        x: 5017
-        y: 1993
-        width: 24
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8faf26a6d84a9ce10800000000000000
-      internalID: 2218485218738895608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_41
-      rect:
-        serializedVersion: 2
-        x: 3612
-        y: 1895
-        width: 77
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 182c93be8c2dcc7c0800000000000000
-      internalID: -4049630204531195263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_42
-      rect:
-        serializedVersion: 2
-        x: 3710
-        y: 1924
-        width: 19
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c8302f3b8413f5ee0800000000000000
-      internalID: -1270242381568801908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_43
-      rect:
-        serializedVersion: 2
-        x: 4220
-        y: 1106
-        width: 702
-        height: 845
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 10fc86eed0a66d5f0800000000000000
-      internalID: -732281281334161663
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_44
-      rect:
-        serializedVersion: 2
-        x: 4875
-        y: 1914
-        width: 11
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8af8730147be1e110800000000000000
-      internalID: 1288569852125482920
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_45
-      rect:
-        serializedVersion: 2
-        x: 1090
-        y: 1097
-        width: 626
-        height: 820
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 469229e863122a790800000000000000
-      internalID: -7520411909551412892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_46
-      rect:
-        serializedVersion: 2
-        x: 3191
-        y: 1091
-        width: 703
-        height: 831
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4d6e306db97c68a10800000000000000
-      internalID: 1911434563989792468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_47
-      rect:
-        serializedVersion: 2
-        x: 3847
-        y: 1900
-        width: 11
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 91af9a74062e1aff0800000000000000
-      internalID: -26491219640452583
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_48
-      rect:
-        serializedVersion: 2
-        x: 1677
-        y: 1584
-        width: 49
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 089fd35261f3536c0800000000000000
-      internalID: -4164352916087506560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_49
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 0
-        width: 573
-        height: 970
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5ee8e0ca2e8503b30800000000000000
-      internalID: 4265006577692348133
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtaqyeLeve_sheet_50
-      rect:
-        serializedVersion: 2
-        x: 1062
-        y: 12
-        width: 647
-        height: 917
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5bb886710c6eb79f0800000000000000
-      internalID: -469528023429248075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ab557ab05904e3d4098c6267418e0aa3
     internalID: 0
     vertices: []
     indices: 
@@ -1383,7 +745,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":5.0},"gridSpriteSize":{"x":1038.0,"y":1068.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       AtaqyeLeve_sheet_0: -7339031088487207581
       AtaqyeLeve_sheet_1: -3574544329087121294
@@ -1400,38 +764,9 @@ TextureImporter:
       AtaqyeLeve_sheet_2: -828705581189933051
       AtaqyeLeve_sheet_20: 2474750445761992309
       AtaqyeLeve_sheet_21: 8417018445090697492
-      AtaqyeLeve_sheet_22: -3211236144842337457
-      AtaqyeLeve_sheet_23: -4534456120452562231
-      AtaqyeLeve_sheet_24: -8577583123958439259
-      AtaqyeLeve_sheet_25: 1314881272247978670
-      AtaqyeLeve_sheet_26: 7380270822009385638
-      AtaqyeLeve_sheet_27: 6956269631630002686
-      AtaqyeLeve_sheet_28: 1518997075454465940
-      AtaqyeLeve_sheet_29: 8615599179185389814
       AtaqyeLeve_sheet_3: -1637457455313933308
-      AtaqyeLeve_sheet_30: -1578763991144218227
-      AtaqyeLeve_sheet_31: 3150590731927179633
-      AtaqyeLeve_sheet_32: -6068199933181055589
-      AtaqyeLeve_sheet_33: -8134795402493101813
-      AtaqyeLeve_sheet_34: -554467804006573714
-      AtaqyeLeve_sheet_35: 6995948630486477979
-      AtaqyeLeve_sheet_36: 5363460047665339739
-      AtaqyeLeve_sheet_37: -5248923696956091925
-      AtaqyeLeve_sheet_38: -3765846479148297559
-      AtaqyeLeve_sheet_39: -5502244974373704611
       AtaqyeLeve_sheet_4: -5869017560147391933
-      AtaqyeLeve_sheet_40: 2218485218738895608
-      AtaqyeLeve_sheet_41: -4049630204531195263
-      AtaqyeLeve_sheet_42: -1270242381568801908
-      AtaqyeLeve_sheet_43: -732281281334161663
-      AtaqyeLeve_sheet_44: 1288569852125482920
-      AtaqyeLeve_sheet_45: -7520411909551412892
-      AtaqyeLeve_sheet_46: 1911434563989792468
-      AtaqyeLeve_sheet_47: -26491219640452583
-      AtaqyeLeve_sheet_48: -4164352916087506560
-      AtaqyeLeve_sheet_49: 4265006577692348133
       AtaqyeLeve_sheet_5: 4768509259879359062
-      AtaqyeLeve_sheet_50: -469528023429248075
       AtaqyeLeve_sheet_6: -4940424265869530558
       AtaqyeLeve_sheet_7: -6003998857986960288
       AtaqyeLeve_sheet_8: -5986109673625017164
