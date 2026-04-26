@@ -32,6 +32,7 @@ public class HitboxController : MonoBehaviour
             {
                 normal.ReceberGolpe(dano, tempoHitStun);
                 GameManager.Instance.AdicionarEspecial(especialPorGolpe);
+                GameManager.Instance.AdicionarCombo();
             }
         }
 

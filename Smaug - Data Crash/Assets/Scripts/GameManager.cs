@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
 
     [Header("Dados")]
     private int placar = 0;
+    private int combo = 0;
     private int maxLife = 100;
     private int life = 100; //não confundir com vidas (desculpa eu n tenho criatividade e achei engraçado, te dou todo direito de trocar o termo)
     private int ghostLife = 0;
@@ -59,8 +60,18 @@ public class GameManager : MonoBehaviour
     // ── Placar ────────────────────────────────────────────
     public void AdicionarPontos(int pontos)
     {
-        placar += pontos;
+        placar += pontos*Mathf.Max(1, Mathf.Min((combo/10), 5));
         txtPlacar.text = placar.ToString("D6"); // ex: 001500
+    }
+    public void ResetarCombo()
+    {
+        combo = 0;
+        AtualizarHUD();
+    }
+    public void AdicionarCombo()
+    {
+        combo++;
+        AtualizarHUD();
     }
 
     // ── Vidas ─────────────────────────────────────────────
@@ -75,6 +86,7 @@ public class GameManager : MonoBehaviour
         txtVidas.text = "Vidas: " + vidas;
         txtPlacar.text = placar.ToString("D6");
         txtLife.text = "Saúde: " + life;
+        Debug.Log("Combo: " + combo); // Mudar depois para algo visual
         AtualizarBarrasEspecial();
     }
     //── life ───────────────────────────────────────────────
@@ -98,6 +110,7 @@ public class GameManager : MonoBehaviour
         }
         //a ser adicionado mecanica de hitstun e invulnerabilidade
         life -= dano+ghostLife;
+        ResetarCombo();
         if(life <= 0){
             if (vidas>0)
             {

@@ -6,7 +6,10 @@ public class ComportamentoHostil : MonoBehaviour
     {
         Idle = 0, 
         Andando = 1, 
-        Atacando = 2
+        Atacando = 2,
+        ApanhandoUm = 3,
+        ApanhandoDois = 4,
+        Morreu = 5
     }
     [SerializeField] private float velocidade = 3f;
     [SerializeField] private float direcaoAtual = 1f;
@@ -36,6 +39,7 @@ public class ComportamentoHostil : MonoBehaviour
         {
             Debug.Log("Player desagrou o inimigo");
             podeAtacar = false;
+            anim.SetInteger("IFState", (int)InimigoState.Idle);
         }
     }
     public void AtaqueCompleto()
@@ -46,5 +50,12 @@ public class ComportamentoHostil : MonoBehaviour
             GameManager.Instance.PlayerApanhou(dano);
         }
     }
-
+    void Update()
+    {
+        Andar();
+    }
+    void Andar()
+    {
+        return;
+    }
 }
