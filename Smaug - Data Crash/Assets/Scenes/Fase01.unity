@@ -914,7 +914,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 11.4, y: 14.2425785}
+    oldSize: {x: 7.8018093, y: 11.46}
     newSize: {x: 7.8018093, y: 11.46}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1012,6 +1012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   velocidade: 3
   direcaoAtual: 1
+  alvo: {x: 0, y: 0}
   dano: 10
   podeAtacar: 0
   hitbox: {fileID: 1247893887}
@@ -1602,7 +1603,7 @@ Transform:
   m_GameObject: {fileID: 712898763}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 385, y: 232, z: 0}
+  m_LocalPosition: {x: 392, y: 240, z: 0}
   m_LocalScale: {x: 18, y: 18, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
