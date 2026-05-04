@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class GameManager : MonoBehaviour
@@ -115,21 +116,24 @@ public class GameManager : MonoBehaviour
             if (vidas>0)
             {
                 vidas--;
-                Renascer();//a ser criado
+                Renascer();
             }
             else
             {
-                Morrer();//a ser criado
+                Morrer();
             }
         }
         AtualizarHUD();
     }
     private void Morrer()
     {
-        return;
+        Debug.Log("Game Over");
+        SceneDatabase.cenaAntesDaMorte = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene("GameOver");
     }
     private void Renascer()
     {
-        return;
+        life = maxLife;
+        AtualizarHUD();
     }
 }
