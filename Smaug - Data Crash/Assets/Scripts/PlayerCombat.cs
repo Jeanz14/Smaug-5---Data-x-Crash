@@ -56,10 +56,10 @@ public class PlayerCombat : MonoBehaviour
         {
             if(podeAtacarPesado)
             {
-                if(GameManager.Instance.UsarGolpePesado()){
+                
                     podeAtacarLeve = false;
                     anim.SetInteger("PlayerState", 5);
-                }
+                    anim.SetBool("ContinuarComboPesado", true);
             }
         }
 
@@ -76,6 +76,7 @@ public class PlayerCombat : MonoBehaviour
     {
         anim.SetInteger("PlayerState", 0);
         anim.SetBool("ContinuarCombo", false);
+        anim.SetBool("ContinuarComboPesado", false);
     }
     private void Resetar()
     {

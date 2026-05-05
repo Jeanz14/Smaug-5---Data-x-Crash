@@ -19,7 +19,6 @@ public class GameManager : MonoBehaviour
     private int combo = 0;
     private int maxLife = 100;
     private int life = 100; //não confundir com vidas (desculpa eu n tenho criatividade e achei engraçado, te dou todo direito de trocar o termo)
-    private int ghostLife = 0;
     private int vidas = 2;
     private const int MAX_VIDAS = 3;
 
@@ -91,16 +90,6 @@ public class GameManager : MonoBehaviour
         AtualizarBarrasEspecial();
     }
     //── life ───────────────────────────────────────────────
-    public bool UsarGolpePesado()
-    {
-        if (ghostLife > life-10)
-        {
-            Debug.Log("Vai dar não chefe");
-            return false;
-        }
-        ghostLife+=5;
-        return true;
-    }
     public void PlayerApanhou(int dano)
     {
         if (dano < 0)
@@ -110,7 +99,7 @@ public class GameManager : MonoBehaviour
             return;
         }
         //a ser adicionado mecanica de hitstun e invulnerabilidade
-        life -= dano+ghostLife;
+        life -= dano;
         ResetarCombo();
         if(life <= 0){
             if (vidas>0)
