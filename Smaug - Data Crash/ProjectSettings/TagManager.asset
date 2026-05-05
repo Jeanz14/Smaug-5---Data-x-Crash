@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Inimigo
   - quebravel
+  - Spawner
   layers:
   - Default
   - TransparentFX

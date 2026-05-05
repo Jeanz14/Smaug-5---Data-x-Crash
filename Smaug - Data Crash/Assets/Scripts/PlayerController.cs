@@ -113,7 +113,7 @@ public class PlayerController : MonoBehaviour
         AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
         if (!stateInfo.IsName("Idle") && !stateInfo.IsName("Andar") && !stateInfo.IsName("Pular"))
         {
-            return;
+            yield break;
         }
         pulando = true;
         float tempo = 0f;

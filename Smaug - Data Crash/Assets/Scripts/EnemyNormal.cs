@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class EnemyNormal : MonoBehaviour
 {
+    [SerializeField] private SpawnarInimigo spawnarInimigo = null; 
     [SerializeField] private int pontosAoDerrotar = 100;
     private int vidaAtual = 5;
     public GameObject recompensa = null;
-
     public void ReceberGolpe(int dano, float tempoHitStun)
     {
         vidaAtual-=dano;
@@ -23,6 +23,10 @@ public class EnemyNormal : MonoBehaviour
         if(recompensa != null)
         {
             Instantiate(recompensa, transform.position, Quaternion.identity);
+        }
+        if(spawnarInimigo != null)
+        {
+            spawnarInimigo.Spawnar();
         }
         Destroy(gameObject);
     }
