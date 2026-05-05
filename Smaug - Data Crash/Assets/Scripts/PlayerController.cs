@@ -62,6 +62,11 @@ public class PlayerController : MonoBehaviour
 
     private void Mover()
     {
+        AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
+        if (!stateInfo.IsName("Idle") && !stateInfo.IsName("Andar") && !stateInfo.IsName("Pular"))
+        {
+            return;
+        }
         float h = 0f;
         float v = 0f;
 
@@ -105,6 +110,11 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator Pular()
     {
+        AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
+        if (!stateInfo.IsName("Idle") && !stateInfo.IsName("Andar") && !stateInfo.IsName("Pular"))
+        {
+            return;
+        }
         pulando = true;
         float tempo = 0f;
 
