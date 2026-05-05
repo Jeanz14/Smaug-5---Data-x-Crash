@@ -4,12 +4,10 @@ public class Coletavel : MonoBehaviour
 {
     public int cura = 10;
     [SerializeField] private bool pegavel = false;
-    void OntriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Player entrou em range");
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Player entrou em range de verdade");
             pegavel = true;
         }
     }
@@ -18,7 +16,6 @@ public class Coletavel : MonoBehaviour
         Debug.Log("Player saiu do range");
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Player saiu do range de verdade");
             pegavel = false;
         }
     }
@@ -27,6 +24,7 @@ public class Coletavel : MonoBehaviour
         if (pegavel && Input.GetKeyDown(KeyCode.E))
         {
             GameManager.Instance.PlayerApanhou(-cura);
+            //Tocar algum efeito de musica vai que é sua Jean
             Destroy(gameObject);
         }
     }
