@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 3566098476876518741}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.27, y: 2.8, z: 0}
+  m_LocalPosition: {x: 0, y: 2.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -66,7 +66,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -1.504825, y: 0.17690337}
+  m_Offset: {x: -1.73, y: 0.17499995}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -76,7 +76,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 7.55626, y: 2.9470646}
+  m_Size: {x: 6, y: 2.9470646}
   m_EdgeRadius: 0
 --- !u!1 &7304250784978451396
 GameObject:
@@ -283,6 +283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 626afcf52caf2334aaf5e9db1486dfcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyNormal
+  spawnarInimigo: {fileID: 0}
   pontosAoDerrotar: 100
   recompensa: {fileID: 0}
 --- !u!114 &2642942271988113583
@@ -297,7 +298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcde4206e48f5f741b647fbfbff65651, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  velocidade: 3
+  velocidade: 50
   direcaoAtual: 1
   alvo: {x: 0, y: 0}
   dano: 10

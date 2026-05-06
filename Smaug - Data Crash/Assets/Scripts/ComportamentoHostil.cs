@@ -70,12 +70,14 @@ public class ComportamentoHostil : MonoBehaviour
         alvo = (posPlayer.position - transform.position).normalized;
         if (alvo.x > 0)
         {
-            direcaoAtual = 1f;
+            direcaoAtual = -1f;
+            hitbox.offset = new Vector2(-1.73f*direcaoAtual, 0.175f);//pessima pratica, corrigir depois
             sr.flipX = false;
         }
         else if (alvo.x < 0)
         {
-            direcaoAtual = -1f;
+            direcaoAtual = 1f;
+            hitbox.offset = new Vector2(-1.73f*direcaoAtual, 0.175f);//pessima pratica, corrigir depois
             sr.flipX = true;
         }
         transform.position += (Vector3)(alvo * velocidade * Time.deltaTime);

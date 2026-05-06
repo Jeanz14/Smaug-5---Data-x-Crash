@@ -2776,7 +2776,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2123141896}
-  - component: {fileID: 2123141897}
   m_Layer: 0
   m_Name: Spawner de Inimigo Normal
   m_TagString: Spawner
@@ -2799,19 +2798,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2123141897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2123141895}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc024b15e7902cf4794079262bcebc48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnarInimigo
-  inimigo: {fileID: 7304250784978451396, guid: a9184a2394c945242830aa0ab94bf900, type: 3}
 --- !u!1001 &8106182103594206043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2864,10 +2850,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyNormal
       objectReference: {fileID: 0}
-    - target: {fileID: 7521373271388758512, guid: a9184a2394c945242830aa0ab94bf900, type: 3}
-      propertyPath: spawnarInimigo
-      value: 
-      objectReference: {fileID: 2123141897}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
