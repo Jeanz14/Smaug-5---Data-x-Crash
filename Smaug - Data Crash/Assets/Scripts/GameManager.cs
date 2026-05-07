@@ -17,10 +17,13 @@ public class GameManager : MonoBehaviour
     [Header("Dados")]
     private int placar = 0;
     private int combo = 0;
+
+    [Header("Player")]
     private int maxLife = 100;
     private int life = 100; //não confundir com vidas (desculpa eu n tenho criatividade e achei engraçado, te dou todo direito de trocar o termo)
     private int vidas = 2;
     private const int MAX_VIDAS = 3;
+    private Animator playerAnim;
 
     // Especial: valor entre 0 e 2 (cada unidade = 1 barra cheia)
     private float especial = 0f;
@@ -29,6 +32,7 @@ public class GameManager : MonoBehaviour
     void Awake()
     {
         Instance = this;
+        playerAnim = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
     }
 
     void Start()
@@ -98,7 +102,6 @@ public class GameManager : MonoBehaviour
             AtualizarHUD();
             return;
         }
-        //a ser adicionado mecanica de hitstun e invulnerabilidade
         life -= dano;
         ResetarCombo();
         if(life <= 0){
@@ -111,12 +114,22 @@ public class GameManager : MonoBehaviour
             {
                 Morrer();
             }
+            return;
         }
         AtualizarHUD();
+        if (playerAnim.GetBool("StunImune"))
+        {
+            playerAnim.SetBool("StunImune", false);
+            return;
+        }
+        else
+        {
+            playerAnim.SetBool("StunImune", true);
+        }
+        playerAnim.SetTrigger("HitStun");
     }
     private void Morrer()
     {
-        Debug.Log("Game Over");
         SceneDatabase.cenaAntesDaMorte = SceneManager.GetActiveScene().name;
         SceneManager.LoadScene("GameOver");
     }

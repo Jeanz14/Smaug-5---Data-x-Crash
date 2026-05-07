@@ -47,6 +47,13 @@ public class ComportamentoHostil : MonoBehaviour
             anim.SetInteger("IFState", (int)InimigoState.Idle);
         }
     }
+    public void ChecarRange()
+    {
+        if(hitbox.IsTouching(GameObject.FindGameObjectWithTag("Player").GetComponent<Collider2D>()))
+        {
+            anim.SetInteger("IFState", (int)InimigoState.Atacando);
+        }
+    }
     public void AtaqueCompleto()
     {
         if (podeAtacar)

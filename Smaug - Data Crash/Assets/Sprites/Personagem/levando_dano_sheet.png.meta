@@ -1,0 +1,475 @@
+fileFormatVersion: 2
+guid: 6c7d176f724f813449381c616f698772
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2653155469036901405
+    second: levando_dano_sheet_0
+  - first:
+      213: 2130963174995025805
+    second: levando_dano_sheet_1
+  - first:
+      213: -5236865059172938565
+    second: levando_dano_sheet_2
+  - first:
+      213: 7379413307401258699
+    second: levando_dano_sheet_3
+  - first:
+      213: -6481510004007652487
+    second: levando_dano_sheet_4
+  - first:
+      213: -2595364425604122546
+    second: levando_dano_sheet_5
+  - first:
+      213: 2582360223874462171
+    second: levando_dano_sheet_6
+  - first:
+      213: 8429529263969120699
+    second: levando_dano_sheet_7
+  - first:
+      213: 5443222133999926742
+    second: levando_dano_sheet_8
+  - first:
+      213: -4595600689453009690
+    second: levando_dano_sheet_9
+  - first:
+      213: -6453055960416076090
+    second: levando_dano_sheet_10
+  - first:
+      213: -6957694232942674911
+    second: levando_dano_sheet_11
+  - first:
+      213: -2133305730438133552
+    second: levando_dano_sheet_12
+  - first:
+      213: 5147582988030537009
+    second: levando_dano_sheet_13
+  - first:
+      213: 5852704400160504604
+    second: levando_dano_sheet_14
+  - first:
+      213: -7602256894628741969
+    second: levando_dano_sheet_15
+  - first:
+      213: 7281112846545615984
+    second: levando_dano_sheet_16
+  - first:
+      213: 8101141840712259064
+    second: levando_dano_sheet_17
+  - first:
+      213: 8219968942049711249
+    second: levando_dano_sheet_18
+  - first:
+      213: -149706268737273704
+    second: levando_dano_sheet_19
+  - first:
+      213: -4104761270600038631
+    second: levando_dano_sheet_20
+  - first:
+      213: 7321100711955563732
+    second: levando_dano_sheet_21
+  - first:
+      213: 6454741295881256681
+    second: levando_dano_sheet_22
+  - first:
+      213: -777643214704731810
+    second: levando_dano_sheet_23
+  - first:
+      213: 3509109588367657960
+    second: levando_dano_sheet_24
+  - first:
+      213: 7927249826125902791
+    second: levando_dano_sheet_25
+  - first:
+      213: 971208869574646215
+    second: levando_dano_sheet_26
+  - first:
+      213: 7012648280921024927
+    second: levando_dano_sheet_27
+  - first:
+      213: 6546412298046603304
+    second: levando_dano_sheet_28
+  - first:
+      213: 4806354438013299996
+    second: levando_dano_sheet_29
+  - first:
+      213: -8787091879075309557
+    second: levando_dano_sheet_30
+  - first:
+      213: -2944026768548278333
+    second: levando_dano_sheet_31
+  - first:
+      213: 8770576619099271926
+    second: levando_dano_sheet_32
+  - first:
+      213: 5646235898935668913
+    second: levando_dano_sheet_33
+  - first:
+      213: -8187592075643671738
+    second: levando_dano_sheet_34
+  - first:
+      213: -4044936242482002881
+    second: levando_dano_sheet_35
+  - first:
+      213: -3840993531706767646
+    second: levando_dano_sheet_36
+  - first:
+      213: -412105899513220106
+    second: levando_dano_sheet_37
+  - first:
+      213: 1362497023937616651
+    second: levando_dano_sheet_38
+  - first:
+      213: 3710930073056739727
+    second: levando_dano_sheet_39
+  - first:
+      213: -560251139303470389
+    second: levando_dano_sheet_40
+  - first:
+      213: -4338428564196829724
+    second: levando_dano_sheet_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: levando_dano_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2552
+        width: 1020
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1454d197d6e1d420800000000000000
+      internalID: 2653155469036901405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levando_dano_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 2552
+        width: 1020
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f5403a7b3b29d10800000000000000
+      internalID: 2130963174995025805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levando_dano_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 2552
+        width: 1020
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc875b89fae257b0800000000000000
+      internalID: -5236865059172938565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levando_dano_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 2552
+        width: 1020
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc641762e41f86660800000000000000
+      internalID: 7379413307401258699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levando_dano_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1276
+        width: 1020
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973bbfaedfc0d06a0800000000000000
+      internalID: -6481510004007652487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levando_dano_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1276
+        width: 1020
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e483e254ec96bfbd0800000000000000
+      internalID: -2595364425604122546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levando_dano_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 1276
+        width: 1020
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1b22211f266d320800000000000000
+      internalID: 2582360223874462171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levando_dano_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 1276
+        width: 1020
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1b3aa3434bbf470800000000000000
+      internalID: 8429529263969120699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levando_dano_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1020
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ddfb9201b53a8b40800000000000000
+      internalID: 5443222133999926742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: levando_dano_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 0
+        width: 1020
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4fc9f75852930c0800000000000000
+      internalID: -4595600689453009690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6f8747ad5d4f2534dbff25f76bd6d13d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":1020.0,"y":1276.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      levando_dano_sheet_0: 2653155469036901405
+      levando_dano_sheet_1: 2130963174995025805
+      levando_dano_sheet_2: -5236865059172938565
+      levando_dano_sheet_3: 7379413307401258699
+      levando_dano_sheet_4: -6481510004007652487
+      levando_dano_sheet_5: -2595364425604122546
+      levando_dano_sheet_6: 2582360223874462171
+      levando_dano_sheet_7: 8429529263969120699
+      levando_dano_sheet_8: 5443222133999926742
+      levando_dano_sheet_9: -4595600689453009690
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
