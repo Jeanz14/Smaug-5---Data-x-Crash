@@ -90,16 +90,16 @@ public class PlayerCombat : MonoBehaviour
         switch (golpe)
         {
             case 1: 
-                hitboxCollider.offset = new Vector2(2.9f * playerController.GetDirecao(), 2f);
-                hitboxCollider.size = new Vector2(4.5f, 4.4f);
+                hitboxCollider.offset = new Vector2(2.9f * playerController.GetDirecao(), 0f);
+                hitboxCollider.size = new Vector2(4.5f, 1f);
                 break;
             case 2: 
-                hitboxCollider.offset = new Vector2(2.4f * playerController.GetDirecao(), -2.5f);
-                hitboxCollider.size = new Vector2(3.5f, 4.4f);
+                hitboxCollider.offset = new Vector2(2.4f * playerController.GetDirecao(), 0f);
+                hitboxCollider.size = new Vector2(3.5f, 1f);
                 break;
             case 3: 
                 hitboxCollider.offset = new Vector2(3f * playerController.GetDirecao(), 0f);
-                hitboxCollider.size = new Vector2(4.8f, 6f);
+                hitboxCollider.size = new Vector2(4.8f, 1f);
                 break;
             default:
                 break;

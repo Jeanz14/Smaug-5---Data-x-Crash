@@ -706,7 +706,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.11017752, y: -3.347412}
+  m_Offset: {x: -0.11017752, y: -4.808939}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -716,7 +716,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 6.264905, y: 4.5585833}
+  m_Size: {x: 6.264905, y: 1.63553}
   m_EdgeRadius: 0
 --- !u!95 &271529409
 Animator:
@@ -1297,7 +1297,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.1160059, y: 0.03568244}
+  m_Offset: {x: 0.1160059, y: -4.5874176}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1307,7 +1307,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 5.1890125, y: 9.73114}
+  m_Size: {x: 5.1890125, y: 1}
   m_EdgeRadius: 0
 --- !u!50 &712898767
 Rigidbody2D:
@@ -1717,7 +1717,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.8, y: 6}
+  m_Size: {x: 4.8, y: 1}
   m_EdgeRadius: 0
 --- !u!4 &1094624361
 Transform:
@@ -1728,7 +1728,7 @@ Transform:
   m_GameObject: {fileID: 1094624358}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -4.587, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3186,9 +3186,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 399046198421972233, guid: a9184a2394c945242830aa0ab94bf900, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3095745741408519175, guid: a9184a2394c945242830aa0ab94bf900, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1236
+      value: 1140
       objectReference: {fileID: 0}
     - target: {fileID: 3095745741408519175, guid: a9184a2394c945242830aa0ab94bf900, type: 3}
       propertyPath: m_LocalPosition.y
