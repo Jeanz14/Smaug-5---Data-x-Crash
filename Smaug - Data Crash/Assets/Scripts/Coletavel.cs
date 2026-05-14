@@ -4,6 +4,12 @@ public class Coletavel : MonoBehaviour
 {
     public int cura = 10;
     [SerializeField] private bool pegavel = false;
+    private SpriteRenderer sr;
+    void Awake()
+    {
+        sr = GetComponent<SpriteRenderer>();
+        sr.sortingOrder = Mathf.RoundToInt(transform.position.y * SceneDatabase.divisorDeCamada);
+    }
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))

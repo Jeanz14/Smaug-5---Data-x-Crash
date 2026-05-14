@@ -7,8 +7,11 @@ public class EnemyNormal : MonoBehaviour
     [SerializeField] private int pontosAoDerrotar = 100;
     private int vidaAtual = 5;
     public GameObject recompensa = null;
+    private SpriteRenderer sr;
     void Awake()
     {
+        sr = GetComponent<SpriteRenderer>();
+        sr.sortingOrder = Mathf.RoundToInt(transform.position.y * SceneDatabase.divisorDeCamada);
         anim = GetComponent<Animator>();
         if (spawnarInimigo == null && recompensa == null) 
         {

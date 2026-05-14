@@ -134,7 +134,10 @@ public class PlayerController : MonoBehaviour
         transform.position = new Vector3(transform.position.x, groundY, transform.position.z);
         pulando = false;
     }
-
+    void LateUpdate()
+    {
+        sr.sortingOrder = Mathf.RoundToInt(transform.position.y * SceneDatabase.divisorDeCamada);
+    }
     
     public float GetDirecao() => direcaoAtual;
 }

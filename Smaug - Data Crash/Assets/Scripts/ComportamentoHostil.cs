@@ -78,15 +78,19 @@ public class ComportamentoHostil : MonoBehaviour
         if (alvo.x > 0)
         {
             direcaoAtual = -1f;
-            hitbox.offset = new Vector2(-1.73f*direcaoAtual, 0.175f);//pessima pratica, corrigir depois
+            hitbox.offset = new Vector2(-1.73f*direcaoAtual, -4.5f);//pessima pratica, corrigir depois
             sr.flipX = false;
         }
         else if (alvo.x < 0)
         {
             direcaoAtual = 1f;
-            hitbox.offset = new Vector2(-1.73f*direcaoAtual, 0.175f);//pessima pratica, corrigir depois
+            hitbox.offset = new Vector2(-1.73f*direcaoAtual, -4.5f);//pessima pratica, corrigir depois
             sr.flipX = true;
         }
         transform.position += (Vector3)(alvo * velocidade * Time.deltaTime);
+    }
+    void LateUpdate()
+    {
+        sr.sortingOrder = Mathf.RoundToInt(transform.position.y * SceneDatabase.divisorDeCamada);
     }
 }

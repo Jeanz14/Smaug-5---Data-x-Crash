@@ -3230,14 +3230,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5593594241994286927, guid: a9184a2394c945242830aa0ab94bf900, type: 3}
-      propertyPath: m_Offset.x
-      value: -3.45934
-      objectReference: {fileID: 0}
-    - target: {fileID: 5593594241994286927, guid: a9184a2394c945242830aa0ab94bf900, type: 3}
-      propertyPath: m_Offset.y
-      value: -4.5
-      objectReference: {fileID: 0}
     - target: {fileID: 7304250784978451396, guid: a9184a2394c945242830aa0ab94bf900, type: 3}
       propertyPath: m_Name
       value: EnemyNormal
@@ -3246,10 +3238,6 @@ PrefabInstance:
       propertyPath: spawnarInimigo
       value: 
       objectReference: {fileID: 2123141897}
-    - target: {fileID: 8954119571071801648, guid: a9184a2394c945242830aa0ab94bf900, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
