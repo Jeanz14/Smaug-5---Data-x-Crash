@@ -1,0 +1,823 @@
+fileFormatVersion: 2
+guid: 37ed8ab2b52204d4193c21f015b9579e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8241203511238081116
+    second: IEApanhando_0
+  - first:
+      213: 8043405325176745434
+    second: IEApanhando_1
+  - first:
+      213: 6057063992681352717
+    second: IEApanhando_2
+  - first:
+      213: -1322900238312214801
+    second: IEApanhando_3
+  - first:
+      213: -2759287181291617619
+    second: IEApanhando_4
+  - first:
+      213: -537928444807460603
+    second: IEApanhando_5
+  - first:
+      213: 1454831288981953846
+    second: IEApanhando_6
+  - first:
+      213: -2229704002374925887
+    second: IEApanhando_7
+  - first:
+      213: 615085697109199
+    second: IEApanhando_8
+  - first:
+      213: 1906052892947164810
+    second: IEApanhando_9
+  - first:
+      213: 2116810891357480043
+    second: IEApanhando_10
+  - first:
+      213: -7081421515208477196
+    second: IEApanhando_11
+  - first:
+      213: -681324159869505492
+    second: IEApanhando_12
+  - first:
+      213: 6371127097124923429
+    second: IEApanhando_13
+  - first:
+      213: 3117398108402326765
+    second: IEApanhando_14
+  - first:
+      213: -755465974417575346
+    second: IEApanhando_15
+  - first:
+      213: -3384154757976905344
+    second: IEApanhando_16
+  - first:
+      213: -6975907372764639078
+    second: IEApanhando_17
+  - first:
+      213: -3989629271811371004
+    second: IEApanhando_18
+  - first:
+      213: -567360918501118237
+    second: IEApanhando_19
+  - first:
+      213: -7730481838741190854
+    second: IEApanhando_20
+  - first:
+      213: 1491523824701191698
+    second: IEApanhando_21
+  - first:
+      213: -4394113690877519528
+    second: IEApanhando_22
+  - first:
+      213: 7327230281751426018
+    second: IEApanhando_23
+  - first:
+      213: 5341294291606969762
+    second: IEApanhando_24
+  - first:
+      213: 9175347153754677345
+    second: IEApanhando_25
+  - first:
+      213: 2303725138465916320
+    second: IEApanhando_26
+  - first:
+      213: 2427260125848485963
+    second: IEApanhando_27
+  - first:
+      213: -2232360116600310727
+    second: IEApanhando_28
+  - first:
+      213: -6522633259565743239
+    second: IEApanhando_29
+  - first:
+      213: 165247522896021975
+    second: IEApanhando_30
+  - first:
+      213: 6247061896485759178
+    second: IEApanhando_31
+  - first:
+      213: -1012770091429493934
+    second: IEApanhando_32
+  - first:
+      213: -8526281667814895512
+    second: IEApanhando_33
+  - first:
+      213: -2245409681643911032
+    second: IEApanhando_34
+  - first:
+      213: 1984000914760061456
+    second: IEApanhando_35
+  - first:
+      213: 5947593628199654819
+    second: IEApanhando_36
+  - first:
+      213: -2325283457730578176
+    second: IEApanhando_37
+  - first:
+      213: -6645950783092815008
+    second: IEApanhando_38
+  - first:
+      213: -2376751160399408702
+    second: IEApanhando_39
+  - first:
+      213: 1410419077916910725
+    second: IEApanhando_40
+  - first:
+      213: 3845270213133415599
+    second: IEApanhando_41
+  - first:
+      213: 7069279000384727778
+    second: IEApanhando_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IEApanhando_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5616
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a3c010ee2ae5270800000000000000
+      internalID: 8241203511238081116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_1
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 5616
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add25a7078aef9f60800000000000000
+      internalID: 8043405325176745434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_2
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 5616
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ec4911c930f0450800000000000000
+      internalID: 6057063992681352717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_3
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 5616
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feeee160e3d14ade0800000000000000
+      internalID: -1322900238312214801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_4
+      rect:
+        serializedVersion: 2
+        x: 6080
+        y: 5616
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da203dd8dea05b9d0800000000000000
+      internalID: -2759287181291617619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4212
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5094ca4fde4e888f0800000000000000
+      internalID: -537928444807460603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_6
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 4212
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d94eb6959903410800000000000000
+      internalID: 1454831288981953846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_7
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 4212
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c10d28f5008e01e0800000000000000
+      internalID: -2229704002374925887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_8
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 4212
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc8b7cca6f220000800000000000000
+      internalID: 615085697109199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_9
+      rect:
+        serializedVersion: 2
+        x: 6080
+        y: 4212
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ea837e109a37a10800000000000000
+      internalID: 1906052892947164810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2808
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b646a045a4c606d10800000000000000
+      internalID: 2116810891357480043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_11
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 2808
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5b031a6acb9bd90800000000000000
+      internalID: -7081421515208477196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_12
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 2808
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20361259437b86f0800000000000000
+      internalID: -681324159869505492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_13
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 2808
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5282ff2d65aca6850800000000000000
+      internalID: 6371127097124923429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_14
+      rect:
+        serializedVersion: 2
+        x: 6080
+        y: 2808
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec9bca1019334b20800000000000000
+      internalID: 3117398108402326765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1404
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4232fae2bb0485f0800000000000000
+      internalID: -755465974417575346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_16
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1404
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089a6d97d211901d0800000000000000
+      internalID: -3384154757976905344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_17
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 1404
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90d5545439903f90800000000000000
+      internalID: -6975907372764639078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_18
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 1404
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400de24b05df1a8c0800000000000000
+      internalID: -3989629271811371004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_19
+      rect:
+        serializedVersion: 2
+        x: 6080
+        y: 1404
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee2d4920445028f0800000000000000
+      internalID: -567360918501118237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37093bb9bfc7b490800000000000000
+      internalID: -7730481838741190854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_21
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 0
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 216b8512405f2b410800000000000000
+      internalID: 1491523824701191698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_22
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 0
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859909011e8f403c0800000000000000
+      internalID: -4394113690877519528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_23
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 0
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e37743be1d8fa560800000000000000
+      internalID: 7327230281751426018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEApanhando_24
+      rect:
+        serializedVersion: 2
+        x: 6080
+        y: 0
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad1e0cdbd6102a40800000000000000
+      internalID: 5341294291606969762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f9f83bacb552cf3469e628638b7342b7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":5.0},"gridSpriteSize":{"x":1520.0,"y":1404.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      IEApanhando_0: 8241203511238081116
+      IEApanhando_1: 8043405325176745434
+      IEApanhando_10: 2116810891357480043
+      IEApanhando_11: -7081421515208477196
+      IEApanhando_12: -681324159869505492
+      IEApanhando_13: 6371127097124923429
+      IEApanhando_14: 3117398108402326765
+      IEApanhando_15: -755465974417575346
+      IEApanhando_16: -3384154757976905344
+      IEApanhando_17: -6975907372764639078
+      IEApanhando_18: -3989629271811371004
+      IEApanhando_19: -567360918501118237
+      IEApanhando_2: 6057063992681352717
+      IEApanhando_20: -7730481838741190854
+      IEApanhando_21: 1491523824701191698
+      IEApanhando_22: -4394113690877519528
+      IEApanhando_23: 7327230281751426018
+      IEApanhando_24: 5341294291606969762
+      IEApanhando_3: -1322900238312214801
+      IEApanhando_4: -2759287181291617619
+      IEApanhando_5: -537928444807460603
+      IEApanhando_6: 1454831288981953846
+      IEApanhando_7: -2229704002374925887
+      IEApanhando_8: 615085697109199
+      IEApanhando_9: 1906052892947164810
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,536 @@
+fileFormatVersion: 2
+guid: cb287115a1e3376408a9966e761dae19
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8593976810164106838
+    second: IESoco_0
+  - first:
+      213: -3064813095659711365
+    second: IESoco_1
+  - first:
+      213: 5884739557199909555
+    second: IESoco_2
+  - first:
+      213: 4274539617336219085
+    second: IESoco_3
+  - first:
+      213: 8306753520391243076
+    second: IESoco_4
+  - first:
+      213: 6316691859731723686
+    second: IESoco_5
+  - first:
+      213: 8212004877110766322
+    second: IESoco_6
+  - first:
+      213: -1707992734450387324
+    second: IESoco_7
+  - first:
+      213: 7779750587731368343
+    second: IESoco_8
+  - first:
+      213: 4184801853917969747
+    second: IESoco_9
+  - first:
+      213: 3968880703716157094
+    second: IESoco_10
+  - first:
+      213: 3974488221557432918
+    second: IESoco_11
+  - first:
+      213: 7260305166050635203
+    second: IESoco_12
+  - first:
+      213: 4993109169235518874
+    second: IESoco_13
+  - first:
+      213: -61196418016649175
+    second: IESoco_14
+  - first:
+      213: -5410912157067595374
+    second: IESoco_15
+  - first:
+      213: -7383069172942811609
+    second: IESoco_16
+  - first:
+      213: 4837440716187157361
+    second: IESoco_17
+  - first:
+      213: 4910658358164869667
+    second: IESoco_18
+  - first:
+      213: -4313913203916999670
+    second: IESoco_19
+  - first:
+      213: 7345890389528667012
+    second: IESoco_20
+  - first:
+      213: -8084160014472945264
+    second: IESoco_21
+  - first:
+      213: 2730686597085467072
+    second: IESoco_22
+  - first:
+      213: 5391923887891915059
+    second: IESoco_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IESoco_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4212
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656b6c14060f34770800000000000000
+      internalID: 8593976810164106838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IESoco_1
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 4212
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74dc324ab89775d0800000000000000
+      internalID: -3064813095659711365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IESoco_2
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 4212
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b21796d27bcaa150800000000000000
+      internalID: 5884739557199909555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IESoco_3
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 4212
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5d8ad6227325b30800000000000000
+      internalID: 4274539617336219085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IESoco_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2808
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44545a3d054874370800000000000000
+      internalID: 8306753520391243076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IESoco_5
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 2808
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a539e677c569a750800000000000000
+      internalID: 6316691859731723686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IESoco_6
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 2808
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa66f93de6e6f170800000000000000
+      internalID: 8212004877110766322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IESoco_7
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 2808
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486f22848adfb48e0800000000000000
+      internalID: -1707992734450387324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IESoco_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1404
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7995ddec0f937fb60800000000000000
+      internalID: 7779750587731368343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IESoco_9
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1404
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d3d263d17631a30800000000000000
+      internalID: 4184801853917969747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IESoco_10
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 1404
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a667e4d8fb441730800000000000000
+      internalID: 3968880703716157094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IESoco_11
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 1404
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652a7e1daf7382730800000000000000
+      internalID: 3974488221557432918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IESoco_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cda16fe419c1c460800000000000000
+      internalID: 7260305166050635203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IESoco_13
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 0
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a956705b5561b4540800000000000000
+      internalID: 4993109169235518874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IESoco_14
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 0
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920679a9e26962ff0800000000000000
+      internalID: -61196418016649175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cd3d616d2d1fddb4298be302089b71f0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":1520.0,"y":1404.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      IESoco_0: 8593976810164106838
+      IESoco_1: -3064813095659711365
+      IESoco_10: 3968880703716157094
+      IESoco_11: 3974488221557432918
+      IESoco_12: 7260305166050635203
+      IESoco_13: 4993109169235518874
+      IESoco_14: -61196418016649175
+      IESoco_2: 5884739557199909555
+      IESoco_3: 4274539617336219085
+      IESoco_4: 8306753520391243076
+      IESoco_5: 6316691859731723686
+      IESoco_6: 8212004877110766322
+      IESoco_7: -1707992734450387324
+      IESoco_8: 7779750587731368343
+      IESoco_9: 4184801853917969747
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,10 +1,58 @@
 fileFormatVersion: 2
-guid: 12bc4c4d2b295054bae5f86b378abd2c
+guid: f1ce8446fc242484a8f238e7c7738c44
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2939353212552731091
-    second: InimigoEliteIdle_0
+      213: -8102685092234301019
+    second: IEAndando_0
+  - first:
+      213: 8527093962034080837
+    second: IEAndando_1
+  - first:
+      213: 475675345953157843
+    second: IEAndando_2
+  - first:
+      213: 2424106515516710558
+    second: IEAndando_3
+  - first:
+      213: -1090913550053180956
+    second: IEAndando_4
+  - first:
+      213: 6948347917257296526
+    second: IEAndando_5
+  - first:
+      213: 5148515615365865952
+    second: IEAndando_6
+  - first:
+      213: 2467686957271760603
+    second: IEAndando_7
+  - first:
+      213: 621991691703966789
+    second: IEAndando_8
+  - first:
+      213: -3986028796992477497
+    second: IEAndando_9
+  - first:
+      213: -2022269710497668919
+    second: IEAndando_10
+  - first:
+      213: 4314024297007837765
+    second: IEAndando_11
+  - first:
+      213: -8325308938777580398
+    second: IEAndando_12
+  - first:
+      213: -2365261260996709520
+    second: IEAndando_13
+  - first:
+      213: 8110892450255153573
+    second: IEAndando_14
+  - first:
+      213: 6427890253646244764
+    second: IEAndando_15
+  - first:
+      213: 8322843372338029530
+    second: IEAndando_16
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +148,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: InimigoEliteIdle_0
+      name: IEAndando_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d9db976c2eaac820800000000000000
-      internalID: 2939353212552731091
+      spriteID: 5a17586a6da7d8f80800000000000000
+      internalID: -8102685092234301019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InimigoEliteIdle_1
+      name: IEAndando_1
       rect:
         serializedVersion: 2
         x: 1520
@@ -135,16 +183,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8dc5dcdef568fbc4da4fc610be8a4198
-      internalID: 1166303157
+      spriteID: 54c6b6da7c2565670800000000000000
+      internalID: 8527093962034080837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InimigoEliteIdle_2
+      name: IEAndando_2
       rect:
         serializedVersion: 2
         x: 3040
@@ -157,16 +205,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 807a1397b1e7dba43b48af1fe94a979c
-      internalID: -1353565174
+      spriteID: 3d2f2f7f430f99600800000000000000
+      internalID: 475675345953157843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InimigoEliteIdle_3
+      name: IEAndando_3
       rect:
         serializedVersion: 2
         x: 4560
@@ -179,16 +227,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b393f2213e83e0544a4e212ed8ec7628
-      internalID: 229553701
+      spriteID: e9e551b480824a120800000000000000
+      internalID: 2424106515516710558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InimigoEliteIdle_4
+      name: IEAndando_4
       rect:
         serializedVersion: 2
         x: 0
@@ -201,16 +249,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e01c1d69c50dbf4419976a55b2cb355b
-      internalID: 918906748
+      spriteID: 4e97b68f7eb4cd0f0800000000000000
+      internalID: -1090913550053180956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InimigoEliteIdle_5
+      name: IEAndando_5
       rect:
         serializedVersion: 2
         x: 1520
@@ -223,16 +271,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d2fb27e43be9199479688d7cc0a77f23
-      internalID: -270273811
+      spriteID: e8a42f7ed9d7d6060800000000000000
+      internalID: 6948347917257296526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InimigoEliteIdle_6
+      name: IEAndando_6
       rect:
         serializedVersion: 2
         x: 3040
@@ -245,16 +293,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d7c5295f3889ae845bf8b97fa5037ce6
-      internalID: -905567455
+      spriteID: 0e12f669ca3337740800000000000000
+      internalID: 5148515615365865952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InimigoEliteIdle_7
+      name: IEAndando_7
       rect:
         serializedVersion: 2
         x: 4560
@@ -267,16 +315,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9433900f2f0dc774aaf3dd577af2b3ef
-      internalID: 1732996442
+      spriteID: bde3c09963cfe3220800000000000000
+      internalID: 2467686957271760603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InimigoEliteIdle_8
+      name: IEAndando_8
       rect:
         serializedVersion: 2
         x: 0
@@ -289,16 +337,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 882aac2b037ad1d4bbbcbd4cedaf1fcf
-      internalID: 1676500793
+      spriteID: 54c524de522c1a800800000000000000
+      internalID: 621991691703966789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InimigoEliteIdle_9
+      name: IEAndando_9
       rect:
         serializedVersion: 2
         x: 1520
@@ -311,10 +359,54 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e0b68b07a7e468d44aabd9b1d037090d
-      internalID: -1625782379
+      spriteID: 7c629c29de7cea8c0800000000000000
+      internalID: -3986028796992477497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEAndando_10
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 0
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c021c9a9647fe3e0800000000000000
+      internalID: -2022269710497668919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IEAndando_11
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 0
+        width: 1520
+        height: 1404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5427e8fcd3e7edb30800000000000000
+      internalID: 4314024297007837765
       vertices: []
       indices: 
       edges: []
@@ -323,7 +415,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0323fe689a1c2cd4f88c993975469c9d
+    spriteID: 916421bf9dc44514f8e0e07e86bf8bcc
     internalID: 0
     vertices: []
     indices: 
@@ -335,16 +427,18 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":1520.0,"y":1404.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      InimigoEliteIdle_0: 2939353212552731091
-      InimigoEliteIdle_1: 1166303157
-      InimigoEliteIdle_2: -1353565174
-      InimigoEliteIdle_3: 229553701
-      InimigoEliteIdle_4: 918906748
-      InimigoEliteIdle_5: -270273811
-      InimigoEliteIdle_6: -905567455
-      InimigoEliteIdle_7: 1732996442
-      InimigoEliteIdle_8: 1676500793
-      InimigoEliteIdle_9: -1625782379
+      IEAndando_0: -8102685092234301019
+      IEAndando_1: 8527093962034080837
+      IEAndando_10: -2022269710497668919
+      IEAndando_11: 4314024297007837765
+      IEAndando_2: 475675345953157843
+      IEAndando_3: 2424106515516710558
+      IEAndando_4: -1090913550053180956
+      IEAndando_5: 6948347917257296526
+      IEAndando_6: 5148515615365865952
+      IEAndando_7: 2467686957271760603
+      IEAndando_8: 621991691703966789
+      IEAndando_9: -3986028796992477497
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
