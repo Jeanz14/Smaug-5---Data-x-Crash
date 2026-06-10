@@ -18,7 +18,7 @@ public class ComportamentoHostil : MonoBehaviour
     [SerializeField] private bool podeAtacar = true;
     [SerializeField] private Collider2D hitbox;
     private Animator anim;
-    private Transform posPlayer;
+    [SerializeField] private Transform posPlayer;
     private SpriteRenderer sr;
     void Awake()
     {

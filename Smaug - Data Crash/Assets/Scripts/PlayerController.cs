@@ -25,9 +25,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float limiteYcima = 1f;
     [SerializeField] private float limiteYbaixo = -2f;
 
-    [Header("Hitbox")]
-    [SerializeField] private Transform hitboxTransform;
-
     [Header("Animator")]
     [SerializeField] private Animator anim;
 
@@ -45,10 +42,6 @@ public class PlayerController : MonoBehaviour
             sr = GetComponentInChildren<SpriteRenderer>();
         if (sr == null)
             Debug.LogError("SpriteRenderer não encontrado!");
-
-        if (hitboxTransform == null)
-            Debug.LogError("HitboxTransform não atribuído no Inspector!");
-
         groundY = transform.position.y;
     }
 
@@ -85,12 +78,6 @@ public class PlayerController : MonoBehaviour
         if (sr != null)
         {
             sr.flipX = direcaoAtual < 0;
-        }
-
-        
-        if (hitboxTransform != null)
-        {
-            hitboxTransform.localPosition = new Vector3(0.6f * direcaoAtual, 0f, 0f);
         }
 
         if (h != 0)

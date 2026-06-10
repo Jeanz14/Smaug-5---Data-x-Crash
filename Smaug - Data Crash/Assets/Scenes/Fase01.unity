@@ -1424,7 +1424,6 @@ MonoBehaviour:
   duracaoPulo: 0.5
   limiteYcima: 300
   limiteYbaixo: 100
-  hitboxTransform: {fileID: 1094624361}
   anim: {fileID: 0}
 --- !u!114 &712898765
 MonoBehaviour:
@@ -2565,8 +2564,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 895.1, y: 234.2, z: 0}
-  m_LocalScale: {x: 18, y: 18, z: 18}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 18, y: 18, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1407794048}
   m_Father: {fileID: 0}
@@ -2587,8 +2586,9 @@ MonoBehaviour:
   direcaoAtual: 1
   alvo: {x: 0, y: 0}
   dano: 40
-  podeAtacar: 1
-  hitbox: {fileID: 0}
+  podeAtacar: 0
+  hitbox: {fileID: 1407794049}
+  posPlayer: {fileID: 0}
 --- !u!114 &1311946360
 MonoBehaviour:
   m_ObjectHideFlags: 0
