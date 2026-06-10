@@ -56,7 +56,7 @@ public class PlayerController : MonoBehaviour
     private void Mover()
     {
         AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
-        if (!stateInfo.IsName("Idle") && !stateInfo.IsName("Andar") && !stateInfo.IsName("Pular"))
+        if (!stateInfo.IsTag("Movimento"))
         {
             return;
         }
@@ -98,7 +98,7 @@ public class PlayerController : MonoBehaviour
     private IEnumerator Pular()
     {
         AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
-        if (!stateInfo.IsName("Idle") && !stateInfo.IsName("Andar") && !stateInfo.IsName("Pular"))
+        if (!stateInfo.IsTag("Movimento"))
         {
             yield break;
         }

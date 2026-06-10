@@ -15,7 +15,7 @@ public class ComportamentoHostil : MonoBehaviour
     [SerializeField] private float direcaoAtual = 1f;
     [SerializeField] private Vector2 alvo;
     [SerializeField] private int dano = 10;
-    [SerializeField] private bool podeAtacar = true;
+    [SerializeField] private bool podeAtacar = false;
     [SerializeField] private Collider2D hitbox;
     private Animator anim;
     [SerializeField] private Transform posPlayer;
@@ -88,6 +88,7 @@ public class ComportamentoHostil : MonoBehaviour
             sr.flipX = true;
         }
         transform.position += (Vector3)(alvo * velocidade * Time.deltaTime);
+        //Se tiver som de andar, tocar aqui
     }
     void LateUpdate()
     {
