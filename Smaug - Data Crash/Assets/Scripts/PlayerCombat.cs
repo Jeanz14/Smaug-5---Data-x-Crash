@@ -104,7 +104,6 @@ public class PlayerCombat : MonoBehaviour
             default:
                 break;
         }
-        //som do golpe sendo usado, se tiver (não significa que acertou, só que foi usado)
         hitbox.AplicarDano(especialPorGolpe, dano, tempoHitStun);
     }
 
