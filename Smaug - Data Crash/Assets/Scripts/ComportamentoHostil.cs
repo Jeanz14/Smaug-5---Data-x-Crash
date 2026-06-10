@@ -69,7 +69,7 @@ public class ComportamentoHostil : MonoBehaviour
     void Andar()
     {
         AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
-        if ((!stateInfo.IsName("IF_IDLE") && !stateInfo.IsName("IF_Andando"))|| podeAtacar)
+        if ((!stateInfo.IsTag("Movimento"))|| podeAtacar)
         {
             return;
         }
