@@ -137,7 +137,7 @@ public class GameManager : MonoBehaviour
         }
 
         AtualizarHUD();
-
+        //Corrigir depois o hitstun
         if (playerAnim.GetBool("StunImune"))
         {
             playerAnim.SetBool("StunImune", false);
@@ -149,12 +149,15 @@ public class GameManager : MonoBehaviour
         }
 
         playerAnim.SetTrigger("HitStun");
+         //Tocar algum efeito/som de ataque acertado no prota
     }
 
     private void Morrer()
     {
+        //e mudar de acordo a logica do gameover jean
         SceneDatabase.cenaAntesDaMorte = SceneManager.GetActiveScene().name;
         SceneManager.LoadScene("GameOver");
+        //Tocar algum efeito/som de morte do prota se tiver
     }
 
     private void Renascer()

@@ -30,7 +30,7 @@ public class Coletavel : MonoBehaviour
         if (pegavel && Input.GetKeyDown(KeyCode.E))
         {
             GameManager.Instance.PlayerApanhou(-cura);
-            //Tocar algum efeito de musica vai que é sua Jean
+            //Tocar algum efeito/som de musica vai que é sua Jean
             Destroy(gameObject);
         }
     }
