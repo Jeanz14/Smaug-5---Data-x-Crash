@@ -9,10 +9,6 @@ public class HitboxController : MonoBehaviour
     {
         
         List<Collider2D> copia = new List<Collider2D>(inimigosNaArea);
-        if (inimigosNaArea.Count != 0)
-        {
-            //Tocar algum efeito/som de ataque acertado no inimigo. E Jean verifica se Count funciona pra Lista em C# não lembro.
-        }
 
         foreach (Collider2D col in copia)
         {
