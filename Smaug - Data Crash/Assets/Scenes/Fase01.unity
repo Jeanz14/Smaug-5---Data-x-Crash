@@ -346,7 +346,7 @@ Transform:
   m_GameObject: {fileID: 171134933}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.014946832, y: 5.5711575, z: -10}
+  m_LocalPosition: {x: -0.012356229, y: 4.6022577, z: -10}
   m_LocalScale: {x: 5.30449, y: 17.490007, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -721,7 +721,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 626afcf52caf2334aaf5e9db1486dfcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyNormal
-  spawnarInimigo: {fileID: 0}
+  tipo: 0
+  spawner: {fileID: 0}
   pontosAoDerrotar: 100
   recompensa: {fileID: 3211885977062495444, guid: d31ec47d0baeaa24d9feaa2db771265d, type: 3}
 --- !u!212 &271529406
@@ -1100,7 +1101,9 @@ MonoBehaviour:
   inimigosFraco:
   - {fileID: 1538549268}
   - {fileID: 1968532711}
+  inimigosFracoMortos: 0
   inimigosElite: []
+  inimigosEliteMortos: 0
   barreiras:
   - {fileID: 592714461}
   - {fileID: 1389696086}
@@ -1469,7 +1472,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 577307927}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2047,7 +2050,7 @@ Transform:
   m_GameObject: {fileID: 712898763}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1365, y: 205, z: 0}
+  m_LocalPosition: {x: 1201, y: 222, z: 0}
   m_LocalScale: {x: 18, y: 18, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4166,7 +4169,7 @@ Transform:
   m_GameObject: {fileID: 1969975999}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1365, y: 205, z: -10}
+  m_LocalPosition: {x: 1201, y: 222, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4901,5 +4904,5 @@ SceneRoots:
   - {fileID: 1217582230}
   - {fileID: 350767318699665929}
   - {fileID: 348347696}
-  - {fileID: 577307929}
   - {fileID: 1969976002}
+  - {fileID: 577307929}

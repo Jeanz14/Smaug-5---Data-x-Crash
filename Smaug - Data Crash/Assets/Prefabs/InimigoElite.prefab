@@ -205,7 +205,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 626afcf52caf2334aaf5e9db1486dfcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyNormal
-  spawnarInimigo: {fileID: 0}
+  tipo: 1
+  spawner: {fileID: 0}
   pontosAoDerrotar: 300
   recompensa: {fileID: 0}
 --- !u!114 &4871465474031176156

@@ -2,8 +2,14 @@ using UnityEngine;
 
 public class EnemyNormal : MonoBehaviour
 {
+    public enum tipoInimigo : int
+    {
+        Fraco,
+        Elite
+    }
+    [SerializeField] private tipoInimigo tipo;
     private Animator anim;
-    [SerializeField] private SpawnarInimigo spawnarInimigo = null; 
+    public TravarCamera spawner = null; 
     [SerializeField] private int pontosAoDerrotar = 100;
     private int vidaAtual = 5;
     public GameObject recompensa = null;
@@ -13,10 +19,6 @@ public class EnemyNormal : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         sr.sortingOrder = Mathf.RoundToInt(transform.position.y * SceneDatabase.divisorDeCamada);
         anim = GetComponent<Animator>();
-        if (spawnarInimigo == null && recompensa == null) 
-        {
-            spawnarInimigo = GameObject.FindAnyObjectByType<SpawnarInimigo>();
-        }
     }
     public void ReceberGolpe(int dano, float tempoHitStun)
     {
@@ -54,9 +56,16 @@ public class EnemyNormal : MonoBehaviour
         {
             Instantiate(recompensa, transform.position, Quaternion.identity);
         }
-        if(spawnarInimigo != null)
+        if(spawner != null)
         {
-            spawnarInimigo.Spawnar();
+            if (tipo == tipoInimigo.Fraco)
+            {
+                spawner.inimigosFracoMortos++;
+            }
+            else if (tipo == tipoInimigo.Elite)
+            {
+                spawner.inimigosEliteMortos++;
+            }
         }
         Destroy(gameObject);
     }
