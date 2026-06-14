@@ -582,7 +582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 626afcf52caf2334aaf5e9db1486dfcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyNormal
-  tipo: 0
+  tipo: 2
   spawner: {fileID: 0}
   pontosAoDerrotar: 100
   recompensa: {fileID: 3211885977062495444, guid: d31ec47d0baeaa24d9feaa2db771265d, type: 3}
@@ -6890,6 +6890,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3095745741408519175, guid: a9184a2394c945242830aa0ab94bf900, type: 3}
   m_PrefabInstance: {fileID: 390835021}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2064700408
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4287057221073396008, guid: 5d67ed371bfd5af48a5a4a991ebc858a, type: 3}
+      propertyPath: m_Name
+      value: InimigoElite
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287057221073396008, guid: 5d67ed371bfd5af48a5a4a991ebc858a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4860258194881596539, guid: 5d67ed371bfd5af48a5a4a991ebc858a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672609625939107362, guid: 5d67ed371bfd5af48a5a4a991ebc858a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1192.1055
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672609625939107362, guid: 5d67ed371bfd5af48a5a4a991ebc858a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 183.4924
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672609625939107362, guid: 5d67ed371bfd5af48a5a4a991ebc858a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672609625939107362, guid: 5d67ed371bfd5af48a5a4a991ebc858a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672609625939107362, guid: 5d67ed371bfd5af48a5a4a991ebc858a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672609625939107362, guid: 5d67ed371bfd5af48a5a4a991ebc858a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672609625939107362, guid: 5d67ed371bfd5af48a5a4a991ebc858a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672609625939107362, guid: 5d67ed371bfd5af48a5a4a991ebc858a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672609625939107362, guid: 5d67ed371bfd5af48a5a4a991ebc858a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6672609625939107362, guid: 5d67ed371bfd5af48a5a4a991ebc858a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7497926862462230319, guid: 5d67ed371bfd5af48a5a4a991ebc858a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d67ed371bfd5af48a5a4a991ebc858a, type: 3}
 --- !u!1 &2080731104
 GameObject:
   m_ObjectHideFlags: 0
@@ -7246,51 +7315,6 @@ Transform:
   - {fileID: 1239766086}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2123141895
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2123141896}
-  - component: {fileID: 2123141897}
-  m_Layer: 0
-  m_Name: Spawner de Inimigo Normal
-  m_TagString: Spawner
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2123141896
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2123141895}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1385, y: 232, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2123141897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2123141895}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc024b15e7902cf4794079262bcebc48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnarInimigo
-  inimigo: {fileID: 7304250784978451396, guid: a9184a2394c945242830aa0ab94bf900, type: 3}
 --- !u!1001 &8106182103594206043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7362,7 +7386,7 @@ PrefabInstance:
     - target: {fileID: 7521373271388758512, guid: a9184a2394c945242830aa0ab94bf900, type: 3}
       propertyPath: spawnarInimigo
       value: 
-      objectReference: {fileID: 2123141897}
+      objectReference: {fileID: 0}
     - target: {fileID: 8954119571071801648, guid: a9184a2394c945242830aa0ab94bf900, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
@@ -7384,7 +7408,6 @@ SceneRoots:
   - {fileID: 404950549}
   - {fileID: 271529407}
   - {fileID: 758316299}
-  - {fileID: 2123141896}
   - {fileID: 1217582230}
   - {fileID: 1969976002}
   - {fileID: 577307929}
@@ -7393,3 +7416,4 @@ SceneRoots:
   - {fileID: 1404358922}
   - {fileID: 1856835491}
   - {fileID: 2087856000}
+  - {fileID: 2064700408}
