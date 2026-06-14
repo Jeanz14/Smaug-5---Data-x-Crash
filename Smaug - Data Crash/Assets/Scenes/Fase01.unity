@@ -2303,6 +2303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
   velocidade: 100
+  rb: {fileID: 0}
   alturaPulo: 10
   duracaoPulo: 0.5
   limiteYcima: 300
@@ -2331,6 +2332,7 @@ MonoBehaviour:
   duracaoUlt: 0.5
   alturaPuloUlt: 100
   distanciaPuloUlt: 500
+  rb: {fileID: 0}
   puloDaUlt: 0
 --- !u!61 &712898766
 BoxCollider2D:
@@ -3862,7 +3864,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1233121819
 Transform:
   m_ObjectHideFlags: 0
@@ -6505,7 +6507,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1871495200
 Transform:
   m_ObjectHideFlags: 0

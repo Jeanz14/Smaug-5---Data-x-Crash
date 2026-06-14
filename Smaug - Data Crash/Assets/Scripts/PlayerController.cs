@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     }
     [Header("Movimento")]
     [SerializeField] private float velocidade = 5f;
+    [SerializeField] private Rigidbody2D rb;
 
     [Header("Pulo")]
     [SerializeField] private float alturaPulo = 2f;
@@ -38,6 +39,7 @@ public class PlayerController : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>();
         if (sr == null)
             sr = GetComponentInChildren<SpriteRenderer>();
         if (sr == null)
@@ -45,7 +47,7 @@ public class PlayerController : MonoBehaviour
         groundY = transform.position.y;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         Mover();
 
@@ -83,7 +85,7 @@ public class PlayerController : MonoBehaviour
         if (h != 0)
         {
             float novoX = transform.position.x + h * velocidade * Time.deltaTime;
-            transform.position = new Vector3(novoX, transform.position.y, transform.position.z);
+            rb.MovePosition(new Vector3(novoX, transform.position.y, transform.position.z));
         }
 
         
@@ -91,7 +93,7 @@ public class PlayerController : MonoBehaviour
         {
             float novoY = groundY + v * velocidade * 0.4f * Time.deltaTime;
             groundY = Mathf.Clamp(novoY, limiteYbaixo, limiteYcima);
-            transform.position = new Vector3(transform.position.x, groundY, transform.position.z);
+            rb.MovePosition(new Vector3(transform.position.x, groundY, transform.position.z));
         }
     }
 
