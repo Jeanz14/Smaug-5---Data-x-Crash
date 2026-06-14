@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     }
     [Header("Movimento")]
     [SerializeField] private float velocidade = 5f;
+    [SerializeField] private Rigidbody2D rb;
 
     [Header("Pulo")]
     [SerializeField] private float alturaPulo = 2f;
@@ -42,7 +43,11 @@ public class PlayerController : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+<<<<<<< HEAD
 
+=======
+        rb = GetComponent<Rigidbody2D>();
+>>>>>>> ba1e290c310ee613611a2250c85007ecd6b4b602
         if (sr == null)
             sr = GetComponentInChildren<SpriteRenderer>();
 
@@ -50,7 +55,7 @@ public class PlayerController : MonoBehaviour
         groundY = transform.position.y;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         Mover();
 
@@ -83,6 +88,7 @@ public class PlayerController : MonoBehaviour
         // Movimento horizontal com checagem de colisão
         if (h != 0)
         {
+<<<<<<< HEAD
             Vector3 novaPosX = new Vector3(
                 transform.position.x + h * velocidade * Time.deltaTime,
                 transform.position.y,
@@ -91,12 +97,17 @@ public class PlayerController : MonoBehaviour
 
             if (!ChecarColisao(novaPosX))
                 transform.position = novaPosX;
+=======
+            float novoX = transform.position.x + h * velocidade * Time.deltaTime;
+            rb.MovePosition(new Vector3(novoX, transform.position.y, transform.position.z));
+>>>>>>> ba1e290c310ee613611a2250c85007ecd6b4b602
         }
 
         // Movimento vertical (W/S) com checagem de colisão
         if (!pulando && v != 0)
         {
             float novoY = groundY + v * velocidade * 0.4f * Time.deltaTime;
+<<<<<<< HEAD
             novoY = Mathf.Clamp(novoY, limiteYbaixo, limiteYcima);
 
             Vector3 novaPosY = new Vector3(
@@ -110,6 +121,10 @@ public class PlayerController : MonoBehaviour
                 groundY = novoY;
                 transform.position = novaPosY;
             }
+=======
+            groundY = Mathf.Clamp(novoY, limiteYbaixo, limiteYcima);
+            rb.MovePosition(new Vector3(transform.position.x, groundY, transform.position.z));
+>>>>>>> ba1e290c310ee613611a2250c85007ecd6b4b602
         }
     }
 

@@ -30,6 +30,7 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] private float duracaoUlt = 0.5f;
     [SerializeField] private float alturaPuloUlt = 100f;
     [SerializeField] private float distanciaPuloUlt = 500f;
+    [SerializeField] private Rigidbody2D rb;
     public bool puloDaUlt = false;
     private float timerDaUlt;
 
@@ -39,11 +40,15 @@ public class PlayerCombat : MonoBehaviour
     {
         playerController = GetComponent<PlayerController>();
         anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
         Atacar();
+    }
+    void FixedUpdate()
+    {
         UpdateDaUlt();
     }
     private void Atacar()
@@ -143,7 +148,7 @@ public class PlayerCombat : MonoBehaviour
             if (progresso > 1f) progresso = 1f;
             float x = distanciaPuloUlt * progresso;
             float y = 4 * alturaPuloUlt * progresso * (1 - progresso); //formula para criar um movimento parabólico matematica não é inutil
-            transform.position = posAtual + new Vector3(x * playerController.GetDirecao(), y, 0f);
+            rb.MovePosition(posAtual + new Vector3(x * playerController.GetDirecao(), y, 0f));
         }
     }
     private void FimDaUlt()
