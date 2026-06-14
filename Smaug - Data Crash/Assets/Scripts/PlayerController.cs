@@ -5,18 +5,18 @@ public class PlayerController : MonoBehaviour
 {
     public enum Acao : int
     {
-        Idle = 0, 
-        Andar = 1, 
-        Pular = 2, 
-        Correr = 3, 
-        AtacarLeve = 4, 
+        Idle = 0,
+        Andar = 1,
+        Pular = 2,
+        Correr = 3,
+        AtacarLeve = 4,
         AtacarForte = 5,
-        AtaqueEspecial = 6, 
+        AtaqueEspecial = 6,
         TomandoDano = 7
     }
+
     [Header("Movimento")]
     [SerializeField] private float velocidade = 5f;
-    [SerializeField] private Rigidbody2D rb;
 
     [Header("Pulo")]
     [SerializeField] private float alturaPulo = 2f;
@@ -36,18 +36,13 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer sr;
     private bool pulando = false;
     private float groundY;
-    private float direcaoAtual = 1f; // 1 = direita, -1 = esquerda
-
+    private float direcaoAtual = 1f;
 
     void Awake()
     {
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
-<<<<<<< HEAD
 
-=======
-        rb = GetComponent<Rigidbody2D>();
->>>>>>> ba1e290c310ee613611a2250c85007ecd6b4b602
         if (sr == null)
             sr = GetComponentInChildren<SpriteRenderer>();
 
@@ -55,7 +50,7 @@ public class PlayerController : MonoBehaviour
         groundY = transform.position.y;
     }
 
-    void FixedUpdate()
+    void Update()
     {
         Mover();
 
@@ -88,7 +83,6 @@ public class PlayerController : MonoBehaviour
         // Movimento horizontal com checagem de colisão
         if (h != 0)
         {
-<<<<<<< HEAD
             Vector3 novaPosX = new Vector3(
                 transform.position.x + h * velocidade * Time.deltaTime,
                 transform.position.y,
@@ -97,17 +91,12 @@ public class PlayerController : MonoBehaviour
 
             if (!ChecarColisao(novaPosX))
                 transform.position = novaPosX;
-=======
-            float novoX = transform.position.x + h * velocidade * Time.deltaTime;
-            rb.MovePosition(new Vector3(novoX, transform.position.y, transform.position.z));
->>>>>>> ba1e290c310ee613611a2250c85007ecd6b4b602
         }
 
         // Movimento vertical (W/S) com checagem de colisão
         if (!pulando && v != 0)
         {
             float novoY = groundY + v * velocidade * 0.4f * Time.deltaTime;
-<<<<<<< HEAD
             novoY = Mathf.Clamp(novoY, limiteYbaixo, limiteYcima);
 
             Vector3 novaPosY = new Vector3(
@@ -121,10 +110,6 @@ public class PlayerController : MonoBehaviour
                 groundY = novoY;
                 transform.position = novaPosY;
             }
-=======
-            groundY = Mathf.Clamp(novoY, limiteYbaixo, limiteYcima);
-            rb.MovePosition(new Vector3(transform.position.x, groundY, transform.position.z));
->>>>>>> ba1e290c310ee613611a2250c85007ecd6b4b602
         }
     }
 
@@ -132,9 +117,8 @@ public class PlayerController : MonoBehaviour
     {
         AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
         if (!stateInfo.IsTag("Movimento"))
-        {
             yield break;
-        }
+
         pulando = true;
         float tempo = 0f;
 
@@ -159,10 +143,9 @@ public class PlayerController : MonoBehaviour
     {
         if (corpoCollider == null) return false;
 
-        // Verifica se a nova posição sobreporia algum obstáculo
         Collider2D hit = Physics2D.OverlapBox(
             novaPosicao + (Vector3)corpoCollider.offset,
-            corpoCollider.size * 0.9f, // leve margem para não travar na borda
+            corpoCollider.size * 0.9f,
             0f,
             layerObstaculos
         );
