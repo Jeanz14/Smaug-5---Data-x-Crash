@@ -52,6 +52,10 @@ public class GameManager : MonoBehaviour
 
     public bool UsarEspecial()
     {
+        if(playerAnim.GetCurrentAnimatorStateInfo(0).IsTag("Ataque") || playerAnim.GetCurrentAnimatorStateInfo(0).IsTag("HitStun"))
+        {
+            return false;
+        }
         if (especial < 1f) return false;
         especial -= 1f;
         AtualizarBarrasEspecial();
@@ -124,15 +128,7 @@ public class GameManager : MonoBehaviour
 
         if (life <= 0)
         {
-            if (vidas > 0)
-            {
-                vidas--;
-                Renascer();
-            }
-            else
-            {
-                Morrer();
-            }
+            Renascer();
             return;
         }
 
@@ -152,7 +148,7 @@ public class GameManager : MonoBehaviour
          //Tocar algum efeito/som de ataque acertado no prota
     }
 
-    private void Morrer()
+    public void Morrer()
     {
         //e mudar de acordo a logica do gameover jean
         SceneDatabase.cenaAntesDaMorte = SceneManager.GetActiveScene().name;
@@ -162,7 +158,15 @@ public class GameManager : MonoBehaviour
 
     private void Renascer()
     {
-        life = maxLife;
-        AtualizarHUD();
+        if (vidas > 0)
+        {
+            vidas--;
+            life = maxLife;
+            AtualizarHUD();
+        }
+        else
+        {
+            playerAnim.SetTrigger("Morte");
+        }
     }
 }

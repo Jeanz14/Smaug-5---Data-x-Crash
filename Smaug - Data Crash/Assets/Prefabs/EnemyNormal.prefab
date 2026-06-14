@@ -66,7 +66,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -3.45934, y: -4.5}
+  m_Offset: {x: -3, y: -4.5}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -76,7 +76,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.071158, y: 1}
+  m_Size: {x: 3, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &7304250784978451396
 GameObject:
@@ -283,7 +283,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 626afcf52caf2334aaf5e9db1486dfcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyNormal
-  spawnarInimigo: {fileID: 0}
+  tipo: 0
+  spawner: {fileID: 0}
   pontosAoDerrotar: 100
   recompensa: {fileID: 0}
 --- !u!114 &2642942271988113583
@@ -304,3 +305,4 @@ MonoBehaviour:
   dano: 10
   podeAtacar: 0
   hitbox: {fileID: 5593594241994286927}
+  posPlayer: {fileID: 0}

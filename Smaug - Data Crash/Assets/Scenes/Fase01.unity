@@ -346,7 +346,7 @@ Transform:
   m_GameObject: {fileID: 171134933}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.012356229, y: 4.6022577, z: -10}
+  m_LocalPosition: {x: -0.012356229, y: 4.60336, z: -10}
   m_LocalScale: {x: 5.30449, y: 17.490007, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -725,6 +725,7 @@ MonoBehaviour:
   spawner: {fileID: 0}
   pontosAoDerrotar: 100
   recompensa: {fileID: 3211885977062495444, guid: d31ec47d0baeaa24d9feaa2db771265d, type: 3}
+  playerPositionInicial: {fileID: 0}
 --- !u!212 &271529406
 SpriteRenderer:
   serializedVersion: 3
@@ -1460,9 +1461,11 @@ PolygonCollider2D:
       - {x: -0.5877852, y: -0.80901706}
       - {x: 0.58778536, y: -0.80901694}
       - {x: 1448.8054, y: 3.0794227}
+      - {x: 1471.4026, y: 3.1400957}
+      - {x: 5670.4688, y: 14.4145155}
       - {x: 5996.0215, y: 15.28862}
-      - {x: 5990.8027, y: 662.1058}
-      - {x: 2.4283524, y: 646.97314}
+      - {x: 5985.6973, y: 646.7895}
+      - {x: 7.7431717, y: 631.0283}
   m_UseDelaunayMesh: 1
 --- !u!4 &577307929
 Transform:
@@ -1906,8 +1909,11 @@ MonoBehaviour:
   dano: 1
   tempoHitStun: 0.1
   anim: {fileID: 0}
-  podeAtacarLeve: 1
-  podeAtacarPesado: 1
+  posAtual: {x: 0, y: 0, z: 0}
+  duracaoUlt: 0.5
+  alturaPuloUlt: 100
+  distanciaPuloUlt: 500
+  puloDaUlt: 0
 --- !u!61 &712898766
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2629,7 +2635,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 3, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2639,7 +2645,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.8, y: 1}
+  m_Size: {x: 9, y: 5}
   m_EdgeRadius: 0
 --- !u!4 &1094624361
 Transform:
@@ -4760,13 +4766,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: InimigoElite
       objectReference: {fileID: 0}
+    - target: {fileID: 4287057221073396008, guid: 5d67ed371bfd5af48a5a4a991ebc858a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6672609625939107362, guid: 5d67ed371bfd5af48a5a4a991ebc858a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 895.1
+      value: 1384
       objectReference: {fileID: 0}
     - target: {fileID: 6672609625939107362, guid: 5d67ed371bfd5af48a5a4a991ebc858a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 234.2
+      value: 216
       objectReference: {fileID: 0}
     - target: {fileID: 6672609625939107362, guid: 5d67ed371bfd5af48a5a4a991ebc858a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4799,6 +4809,14 @@ PrefabInstance:
     - target: {fileID: 6672609625939107362, guid: 5d67ed371bfd5af48a5a4a991ebc858a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7497926862462230319, guid: 5d67ed371bfd5af48a5a4a991ebc858a, type: 3}
+      propertyPath: m_Size.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7497926862462230319, guid: 5d67ed371bfd5af48a5a4a991ebc858a, type: 3}
+      propertyPath: m_Offset.x
+      value: -4.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

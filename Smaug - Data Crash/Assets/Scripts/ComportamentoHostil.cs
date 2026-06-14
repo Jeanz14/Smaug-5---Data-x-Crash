@@ -2,6 +2,12 @@ using UnityEngine;
 
 public class ComportamentoHostil : MonoBehaviour
 {
+    public enum tipoInimigo : int
+    {
+        Fraco,
+        Elite
+    }
+    [SerializeField] private tipoInimigo tipo;
     public enum InimigoState : int
     {
         Idle = 0, 
@@ -78,13 +84,27 @@ public class ComportamentoHostil : MonoBehaviour
         if (alvo.x > 0)
         {
             direcaoAtual = -1f;
-            hitbox.offset = new Vector2(-1.73f*direcaoAtual, -4.5f);//pessima pratica, corrigir depois
+            if (tipo == tipoInimigo.Fraco)
+            {
+                hitbox.offset = new Vector2(-3f*direcaoAtual, -4.5f);//pessima pratica, corrigir depois
+            }
+            else if (tipo == tipoInimigo.Elite)
+            {
+                hitbox.offset = new Vector2(-4.5f*direcaoAtual, -4.5f);//pessima pratica, corrigir depois
+            }
             sr.flipX = false;
         }
         else if (alvo.x < 0)
         {
             direcaoAtual = 1f;
-            hitbox.offset = new Vector2(-1.73f*direcaoAtual, -4.5f);//pessima pratica, corrigir depois
+            if (tipo == tipoInimigo.Fraco)
+            {
+                hitbox.offset = new Vector2(-3f*direcaoAtual, -4.5f);//pessima pratica, corrigir depois
+            }
+            else if (tipo == tipoInimigo.Elite)
+            {
+                hitbox.offset = new Vector2(-4.5f*direcaoAtual, -4.5f);//pessima pratica, corrigir depois
+            }
             sr.flipX = true;
         }
         transform.position += (Vector3)(alvo * velocidade * Time.deltaTime);

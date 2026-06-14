@@ -5,7 +5,8 @@ public class EnemyNormal : MonoBehaviour
     public enum tipoInimigo : int
     {
         Fraco,
-        Elite
+        Elite,
+        Coletavel
     }
     [SerializeField] private tipoInimigo tipo;
     private Animator anim;
@@ -14,6 +15,8 @@ public class EnemyNormal : MonoBehaviour
     private int vidaAtual = 5;
     public GameObject recompensa = null;
     private SpriteRenderer sr;
+    [SerializeField] private Transform playerPositionInicial;
+
     void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -35,17 +38,44 @@ public class EnemyNormal : MonoBehaviour
             return;
         }
         if (anim == null) return;
-        if (tempoHitStun < 0.2f)
+        else if (tipo == tipoInimigo.Coletavel)
+        {
+            anim.SetTrigger("HitStun");
+            anim.SetInteger("IFState", 3);
+            return;
+        }
+        if (tempoHitStun == 0.1f)
         {
             anim.SetTrigger("HitStun");
             anim.SetInteger("IFState", 3);
         }
-        else if (tempoHitStun >= 0.2f)
+        else if (tempoHitStun == 0.2f)
         {
             anim.SetTrigger("HitStun");
             anim.SetInteger("IFState", 4);
         }
-
+        else if (tempoHitStun == 2f)
+        {
+            if (playerPositionInicial == null)
+            {
+                playerPositionInicial = GameObject.FindGameObjectWithTag("Player").transform;
+            }
+            else
+            {
+                Transform playerPosAtual = GameObject.FindGameObjectWithTag("Player").transform;
+                Vector3 rota = playerPositionInicial.position - playerPosAtual.position;
+                transform.position = new Vector3(transform.position.x + rota.x, transform.position.y + rota.y, transform.position.z);
+                anim.SetTrigger("HitStun");
+                anim.SetInteger("IFState", 3);
+            }
+        }
+        else if (tempoHitStun == 1f || tempoHitStun == -1f)
+        {
+            playerPositionInicial = null;
+            transform.position = new Vector3(transform.position.x + 100f*tempoHitStun, transform.position.y, transform.position.z);
+            anim.SetTrigger("HitStun");
+            anim.SetInteger("IFState", 4);
+        }
     }
 
     private void Nocautear()

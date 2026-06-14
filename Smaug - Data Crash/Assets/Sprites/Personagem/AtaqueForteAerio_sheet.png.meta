@@ -1,52 +1,52 @@
 fileFormatVersion: 2
-guid: a4cd30ddbec299444a3adc015cfaca9a
+guid: f15aeda4031a97742a657217fae97c13
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1198024780414462318
-    second: mortemorrida_0
+      213: 2205868976248286871
+    second: AtaqueForteAerio_sheet_0
   - first:
-      213: -3245532087249625113
-    second: mortemorrida_1
+      213: 1769133565183352250
+    second: AtaqueForteAerio_sheet_1
   - first:
-      213: -8426123832758465622
-    second: mortemorrida_2
+      213: -9126793037644004112
+    second: AtaqueForteAerio_sheet_2
   - first:
-      213: -5400688382046904293
-    second: mortemorrida_3
+      213: -6628177396999625069
+    second: AtaqueForteAerio_sheet_3
   - first:
-      213: -6056754379359332500
-    second: mortemorrida_4
+      213: -6215463309891665996
+    second: AtaqueForteAerio_sheet_4
   - first:
-      213: -3849261009819043636
-    second: mortemorrida_5
+      213: 7725683875747876654
+    second: AtaqueForteAerio_sheet_5
   - first:
-      213: -4374174569851734733
-    second: mortemorrida_6
+      213: -5075583029058139679
+    second: AtaqueForteAerio_sheet_6
   - first:
-      213: 4864639032173578761
-    second: mortemorrida_7
+      213: -5245030914679328940
+    second: AtaqueForteAerio_sheet_7
   - first:
-      213: 8879144161640691942
-    second: mortemorrida_8
+      213: -5852505684264832176
+    second: AtaqueForteAerio_sheet_8
   - first:
-      213: -8243883167030057375
-    second: mortemorrida_9
+      213: 16909514032566236
+    second: AtaqueForteAerio_sheet_9
   - first:
-      213: 6090561917658994972
-    second: mortemorrida_10
+      213: 8504497569572559320
+    second: AtaqueForteAerio_sheet_10
   - first:
-      213: -6277551327735953709
-    second: mortemorrida_11
+      213: 6351121829464391079
+    second: AtaqueForteAerio_sheet_11
   - first:
-      213: 6294829451310125165
-    second: mortemorrida_12
+      213: -4381485799519585922
+    second: AtaqueForteAerio_sheet_12
   - first:
-      213: 2045992580569870417
-    second: mortemorrida_13
+      213: -8424862256237925564
+    second: AtaqueForteAerio_sheet_13
   - first:
-      213: 2058532699776643976
-    second: mortemorrida_14
+      213: -7310262906264363548
+    second: AtaqueForteAerio_sheet_14
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -142,13 +142,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mortemorrida_0
+      name: AtaqueForteAerio_sheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 2292
-        width: 780
-        height: 1146
+        y: 2532
+        width: 1290
+        height: 1266
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,20 +157,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6928bcb03d30a010800000000000000
-      internalID: 1198024780414462318
+      spriteID: 79e655e8522dc9e10800000000000000
+      internalID: 2205868976248286871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mortemorrida_1
+      name: AtaqueForteAerio_sheet_1
       rect:
         serializedVersion: 2
-        x: 780
-        y: 2292
-        width: 780
-        height: 1146
+        x: 1290
+        y: 2532
+        width: 1290
+        height: 1266
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ef9a5023cd85f2d0800000000000000
-      internalID: -3245532087249625113
+      spriteID: abd59f0ba993d8810800000000000000
+      internalID: 1769133565183352250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mortemorrida_2
+      name: AtaqueForteAerio_sheet_2
       rect:
         serializedVersion: 2
-        x: 1560
-        y: 2292
-        width: 780
-        height: 1146
+        x: 2580
+        y: 2532
+        width: 1290
+        height: 1266
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,42 +201,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aab8af28405601b80800000000000000
-      internalID: -8426123832758465622
+      spriteID: 0f488bc861e175180800000000000000
+      internalID: -9126793037644004112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mortemorrida_3
-      rect:
-        serializedVersion: 2
-        x: 2340
-        y: 2292
-        width: 780
-        height: 1146
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b10e385d786ec05b0800000000000000
-      internalID: -5400688382046904293
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mortemorrida_4
+      name: AtaqueForteAerio_sheet_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 1146
-        width: 780
-        height: 1146
+        y: 1266
+        width: 1290
+        height: 1266
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +223,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c67de766bf512fba0800000000000000
-      internalID: -6056754379359332500
+      spriteID: 396609766cbf304a0800000000000000
+      internalID: -6628177396999625069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mortemorrida_5
+      name: AtaqueForteAerio_sheet_4
       rect:
         serializedVersion: 2
-        x: 780
-        y: 1146
-        width: 780
-        height: 1146
+        x: 1290
+        y: 1266
+        width: 1290
+        height: 1266
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cc879fd718da49ac0800000000000000
-      internalID: -3849261009819043636
+      spriteID: 4bffe63fc0d3eb9a0800000000000000
+      internalID: -6215463309891665996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mortemorrida_6
+      name: AtaqueForteAerio_sheet_5
       rect:
         serializedVersion: 2
-        x: 1560
-        y: 1146
-        width: 780
-        height: 1146
+        x: 2580
+        y: 1266
+        width: 1290
+        height: 1266
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,96 +267,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 335b072776fcb43c0800000000000000
-      internalID: -4374174569851734733
+      spriteID: e2f4ae47d84273b60800000000000000
+      internalID: 7725683875747876654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mortemorrida_7
-      rect:
-        serializedVersion: 2
-        x: 2340
-        y: 1146
-        width: 780
-        height: 1146
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 90ac4310d6ba28340800000000000000
-      internalID: 4864639032173578761
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mortemorrida_8
+      name: AtaqueForteAerio_sheet_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 780
-        height: 1146
+        width: 1290
+        height: 1266
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e3a9acdc33a9d4e45944d1a61a6d18a3
-      internalID: 8879144161640691942
+      spriteID: 1e90dfc6028ef89b0800000000000000
+      internalID: -5075583029058139679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mortemorrida_9
+      name: AtaqueForteAerio_sheet_7
       rect:
         serializedVersion: 2
-        x: 780
+        x: 1290
         y: 0
-        width: 780
-        height: 1146
+        width: 1290
+        height: 1266
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: eb7d27d76aab5bc41a3940550b53203d
-      internalID: -8243883167030057375
+      spriteID: 45fa8962c28e537b0800000000000000
+      internalID: -5245030914679328940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mortemorrida_10
+      name: AtaqueForteAerio_sheet_8
       rect:
         serializedVersion: 2
-        x: 1560
+        x: 2580
         y: 0
-        width: 780
-        height: 1146
+        width: 1290
+        height: 1266
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 03befe83bc838a246900179b6e182214
-      internalID: 6090561917658994972
+      spriteID: 053b07b8619b7cea0800000000000000
+      internalID: -5852505684264832176
       vertices: []
       indices: 
       edges: []
@@ -387,7 +343,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 88b50986a061cb044be434e63dc41cd0
+    spriteID: 541af673ff423c84dab0495b973ab7a2
     internalID: 0
     vertices: []
     indices: 
@@ -397,19 +353,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":780.0,"y":1146.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":3.0},"gridSpriteSize":{"x":1290.0,"y":1266.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      mortemorrida_0: 1198024780414462318
-      mortemorrida_1: -3245532087249625113
-      mortemorrida_10: 6090561917658994972
-      mortemorrida_2: -8426123832758465622
-      mortemorrida_3: -5400688382046904293
-      mortemorrida_4: -6056754379359332500
-      mortemorrida_5: -3849261009819043636
-      mortemorrida_6: -4374174569851734733
-      mortemorrida_7: 4864639032173578761
-      mortemorrida_8: 8879144161640691942
-      mortemorrida_9: -8243883167030057375
+      AtaqueForteAerio_sheet_0: 2205868976248286871
+      AtaqueForteAerio_sheet_1: 1769133565183352250
+      AtaqueForteAerio_sheet_2: -9126793037644004112
+      AtaqueForteAerio_sheet_3: -6628177396999625069
+      AtaqueForteAerio_sheet_4: -6215463309891665996
+      AtaqueForteAerio_sheet_5: 7725683875747876654
+      AtaqueForteAerio_sheet_6: -5075583029058139679
+      AtaqueForteAerio_sheet_7: -5245030914679328940
+      AtaqueForteAerio_sheet_8: -5852505684264832176
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

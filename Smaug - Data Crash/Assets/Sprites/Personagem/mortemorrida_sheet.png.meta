@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 606adcc89b27ea04ca29475414071a9e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5313070999055698087
+    second: mortemorrida_sheet_0
+  - first:
+      213: 3214958656356154081
+    second: mortemorrida_sheet_1
+  - first:
+      213: -1900055927380825425
+    second: mortemorrida_sheet_2
+  - first:
+      213: 4486184547870765909
+    second: mortemorrida_sheet_3
+  - first:
+      213: 1115832012908966292
+    second: mortemorrida_sheet_4
+  - first:
+      213: 5274684088358110067
+    second: mortemorrida_sheet_5
+  - first:
+      213: -2214188833103857821
+    second: mortemorrida_sheet_6
+  - first:
+      213: -8034265891965800552
+    second: mortemorrida_sheet_7
+  - first:
+      213: 9007552794212629351
+    second: mortemorrida_sheet_8
+  - first:
+      213: -8014764295893496949
+    second: mortemorrida_sheet_9
+  - first:
+      213: -4465693735979261067
+    second: mortemorrida_sheet_10
+  - first:
+      213: -8548275831411249368
+    second: mortemorrida_sheet_11
+  - first:
+      213: -8065971259790386087
+    second: mortemorrida_sheet_12
+  - first:
+      213: -8388621465635058539
+    second: mortemorrida_sheet_13
+  - first:
+      213: -8345931609903490913
+    second: mortemorrida_sheet_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mortemorrida_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 2339
+        width: 588
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957fad2831e2446b0800000000000000
+      internalID: -5313070999055698087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mortemorrida_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 2453
+        width: 391
+        height: 980
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eafca74dd3dd9c20800000000000000
+      internalID: 3214958656356154081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mortemorrida_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 2420
+        width: 391
+        height: 980
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa27137335a1a5e0800000000000000
+      internalID: -1900055927380825425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mortemorrida_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 2420
+        width: 413
+        height: 980
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553fea4d311224e30800000000000000
+      internalID: 4486184547870765909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mortemorrida_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1274
+        width: 452
+        height: 980
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491b276cd4b3c7f00800000000000000
+      internalID: 1115832012908966292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mortemorrida_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 2017
+        width: 137
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3738dfc5b31733940800000000000000
+      internalID: 5274684088358110067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mortemorrida_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1274
+        width: 391
+        height: 980
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3673531dcfe9541e0800000000000000
+      internalID: -2214188833103857821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mortemorrida_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 2064
+        width: 113
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f67561dbd808090800000000000000
+      internalID: -8034265891965800552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mortemorrida_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 1274
+        width: 391
+        height: 980
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76bfe92da81410d70800000000000000
+      internalID: 9007552794212629351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mortemorrida_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2506
+        y: 2157
+        width: 85
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8bc8c04656d5c090800000000000000
+      internalID: -8014764295893496949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mortemorrida_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2526
+        y: 1274
+        width: 391
+        height: 980
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573e447153ba602c0800000000000000
+      internalID: -4465693735979261067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mortemorrida_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 128
+        width: 391
+        height: 980
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82fecaa0c6c6e5980800000000000000
+      internalID: -8548275831411249368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mortemorrida_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1000
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c1fa3efd9ef0090800000000000000
+      internalID: -8065971259790386087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mortemorrida_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 100
+        width: 596
+        height: 846
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c0b99c831a59b80800000000000000
+      internalID: -8388621465635058539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mortemorrida_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 84
+        width: 487
+        height: 667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f989fff5b6b4d2c80800000000000000
+      internalID: -8345931609903490913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mortemorrida_sheet_0: -5313070999055698087
+      mortemorrida_sheet_1: 3214958656356154081
+      mortemorrida_sheet_10: -4465693735979261067
+      mortemorrida_sheet_11: -8548275831411249368
+      mortemorrida_sheet_12: -8065971259790386087
+      mortemorrida_sheet_13: -8388621465635058539
+      mortemorrida_sheet_14: -8345931609903490913
+      mortemorrida_sheet_2: -1900055927380825425
+      mortemorrida_sheet_3: 4486184547870765909
+      mortemorrida_sheet_4: 1115832012908966292
+      mortemorrida_sheet_5: 5274684088358110067
+      mortemorrida_sheet_6: -2214188833103857821
+      mortemorrida_sheet_7: -8034265891965800552
+      mortemorrida_sheet_8: 9007552794212629351
+      mortemorrida_sheet_9: -8014764295893496949
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
