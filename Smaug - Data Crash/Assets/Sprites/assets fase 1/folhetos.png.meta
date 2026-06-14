@@ -119,12 +119,12 @@ TextureImporter:
       name: folhetos_0
       rect:
         serializedVersion: 2
-        x: 41
-        y: 177
-        width: 60
-        height: 197
+        x: 0
+        y: 0
+        width: 101
+        height: 374
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -137,33 +137,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: folhetos_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 71
-        height: 168
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f5c3e1a321de4fe50800000000000000
-      internalID: 6842354396422880351
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 22ebc145d95f8e6438a93953d2fab454
     internalID: 0
     vertices: []
     indices: 

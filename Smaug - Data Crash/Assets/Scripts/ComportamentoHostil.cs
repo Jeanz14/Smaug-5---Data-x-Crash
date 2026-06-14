@@ -110,8 +110,5 @@ public class ComportamentoHostil : MonoBehaviour
         transform.position += (Vector3)(alvo * velocidade * Time.deltaTime);
         //Se tiver som de andar, tocar aqui
     }
-    void LateUpdate()
-    {
-        sr.sortingOrder = Mathf.RoundToInt(transform.position.y * SceneDatabase.divisorDeCamada);
-    }
+    
 }

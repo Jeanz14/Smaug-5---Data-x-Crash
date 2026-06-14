@@ -28,6 +28,10 @@ public class PlayerController : MonoBehaviour
     [Header("Animator")]
     [SerializeField] private Animator anim;
 
+    [Header("Colisao")]
+    [SerializeField] private BoxCollider2D corpoCollider;
+    [SerializeField] private LayerMask layerObstaculos;
+
     private SpriteRenderer sr;
     private bool pulando = false;
     private float groundY;
@@ -38,10 +42,11 @@ public class PlayerController : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+
         if (sr == null)
             sr = GetComponentInChildren<SpriteRenderer>();
-        if (sr == null)
-            Debug.LogError("SpriteRenderer não encontrado!");
+
+        corpoCollider = GetComponent<BoxCollider2D>();
         groundY = transform.position.y;
     }
 
@@ -56,10 +61,8 @@ public class PlayerController : MonoBehaviour
     private void Mover()
     {
         AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
-        if (!stateInfo.IsTag("Movimento"))
-        {
-            return;
-        }
+        if (!stateInfo.IsTag("Movimento")) return;
+
         float h = 0f;
         float v = 0f;
 
@@ -68,30 +71,45 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.W)) v = 1f;
         if (Input.GetKey(KeyCode.S)) v = -1f;
 
-        
         if (h > 0) direcaoAtual = 1f;
         if (h < 0) direcaoAtual = -1f;
 
-        if(h!=0 || v!=0) {anim.SetInteger("PlayerState", (int)Acao.Andar);}
-        else {anim.SetInteger("PlayerState", (int)Acao.Idle);}
-        
-        if (sr != null)
-        {
-            sr.flipX = direcaoAtual < 0;
-        }
+        if (h != 0 || v != 0) anim.SetInteger("PlayerState", (int)Acao.Andar);
+        else anim.SetInteger("PlayerState", (int)Acao.Idle);
 
+        if (sr != null)
+            sr.flipX = direcaoAtual < 0;
+
+        // Movimento horizontal com checagem de colisão
         if (h != 0)
         {
-            float novoX = transform.position.x + h * velocidade * Time.deltaTime;
-            transform.position = new Vector3(novoX, transform.position.y, transform.position.z);
+            Vector3 novaPosX = new Vector3(
+                transform.position.x + h * velocidade * Time.deltaTime,
+                transform.position.y,
+                transform.position.z
+            );
+
+            if (!ChecarColisao(novaPosX))
+                transform.position = novaPosX;
         }
 
-        
+        // Movimento vertical (W/S) com checagem de colisão
         if (!pulando && v != 0)
         {
             float novoY = groundY + v * velocidade * 0.4f * Time.deltaTime;
-            groundY = Mathf.Clamp(novoY, limiteYbaixo, limiteYcima);
-            transform.position = new Vector3(transform.position.x, groundY, transform.position.z);
+            novoY = Mathf.Clamp(novoY, limiteYbaixo, limiteYcima);
+
+            Vector3 novaPosY = new Vector3(
+                transform.position.x,
+                novoY,
+                transform.position.z
+            );
+
+            if (!ChecarColisao(novaPosY))
+            {
+                groundY = novoY;
+                transform.position = novaPosY;
+            }
         }
     }
 
@@ -121,10 +139,21 @@ public class PlayerController : MonoBehaviour
         transform.position = new Vector3(transform.position.x, groundY, transform.position.z);
         pulando = false;
     }
-    void LateUpdate()
+
+    private bool ChecarColisao(Vector3 novaPosicao)
     {
-        sr.sortingOrder = Mathf.RoundToInt(transform.position.y * SceneDatabase.divisorDeCamada);
+        if (corpoCollider == null) return false;
+
+        // Verifica se a nova posição sobreporia algum obstáculo
+        Collider2D hit = Physics2D.OverlapBox(
+            novaPosicao + (Vector3)corpoCollider.offset,
+            corpoCollider.size * 0.9f, // leve margem para não travar na borda
+            0f,
+            layerObstaculos
+        );
+
+        return hit != null;
     }
-    
+
     public float GetDirecao() => direcaoAtual;
 }
