@@ -12,12 +12,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Image barra2;
     [SerializeField] private Image barraVida;
     [SerializeField] private TMP_Text txtPlacar;
-    [SerializeField] private TMP_Text txtLife;
-
-    [Header("Corações")]
-    [SerializeField] private GameObject coracao1;
-    [SerializeField] private GameObject coracao2;
-    [SerializeField] private GameObject coracao3;
+    [SerializeField] private TMP_Text txtVidas;
 
     [Header("Dados")]
     private int placar = 0;
@@ -36,7 +31,16 @@ public class GameManager : MonoBehaviour
     void Awake()
     {
         Instance = this;
-        playerAnim = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
+
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            playerAnim = player.GetComponent<Animator>();
+        }
+        else
+        {
+            Debug.LogError("GameManager: nenhum objeto com a tag 'Player' foi encontrado na cena.");
+        }
     }
 
     void Start()
@@ -52,7 +56,7 @@ public class GameManager : MonoBehaviour
 
     public bool UsarEspecial()
     {
-        if(playerAnim.GetCurrentAnimatorStateInfo(0).IsTag("Ataque") || playerAnim.GetCurrentAnimatorStateInfo(0).IsTag("HitStun"))
+        if (playerAnim.GetCurrentAnimatorStateInfo(0).IsTag("Ataque") || playerAnim.GetCurrentAnimatorStateInfo(0).IsTag("HitStun"))
         {
             return false;
         }
@@ -74,11 +78,10 @@ public class GameManager : MonoBehaviour
             barraVida.fillAmount = (float)life / maxLife;
     }
 
-    private void AtualizarCoracoes()
+    private void AtualizarTxtVidas()
     {
-        if (coracao1 != null) coracao1.SetActive(vidas >= 1);
-        if (coracao2 != null) coracao2.SetActive(vidas >= 2);
-        if (coracao3 != null) coracao3.SetActive(vidas >= 3);
+        if (txtVidas != null)
+            txtVidas.text = vidas.ToString();
     }
 
     public void AdicionarPontos(int pontos)
@@ -108,10 +111,9 @@ public class GameManager : MonoBehaviour
     private void AtualizarHUD()
     {
         txtPlacar.text = placar.ToString("D6");
-        txtLife.text = "Saúde: " + life;
         AtualizarBarrasEspecial();
         AtualizarBarraVida();
-        AtualizarCoracoes();
+        AtualizarTxtVidas();
     }
 
     public void PlayerApanhou(int dano)
@@ -145,14 +147,13 @@ public class GameManager : MonoBehaviour
         }
 
         playerAnim.SetTrigger("HitStun");
-         //Tocar algum efeito/som de ataque acertado no prota
+        //Tocar algum efeito/som de ataque acertado no prota
     }
 
     public void Morrer()
     {
         //e mudar de acordo a logica do gameover jean
-        SceneDatabase.cenaAntesDaMorte = SceneManager.GetActiveScene().name;
-        SceneManager.LoadScene("GameOver");
+        DeathMenuController.Instance.AtivarMenuMorte();
         //Tocar algum efeito/som de morte do prota se tiver
     }
 
