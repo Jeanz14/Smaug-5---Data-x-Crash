@@ -31,7 +31,7 @@ public class MenuController : MonoBehaviour
     
     public void BotaoJogar()
     {
-        StartCoroutine(FadeController.Instance.FadeParaCena("Fase01"));
+        StartCoroutine(FadeController.Instance.FadeParaCena("Fase01 menusss"));
     }
 
     
