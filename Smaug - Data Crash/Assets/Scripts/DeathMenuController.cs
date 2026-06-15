@@ -32,6 +32,7 @@ public class DeathMenuController : MonoBehaviour
 
     public void AtivarMenuMorte()
     {
+        Debug.Log("AtivarMenuMorte chamado! morteAtivada=" + morteAtivada);
         if (morteAtivada) return;
         morteAtivada = true;
         StartCoroutine(SequenciaMorte());

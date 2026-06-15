@@ -167,6 +167,8 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+            AnimatorStateInfo stateInfo = playerAnim.GetCurrentAnimatorStateInfo(0);
+            if (stateInfo.IsTag("Morte")) return;
             playerAnim.SetTrigger("Morte");
         }
     }
