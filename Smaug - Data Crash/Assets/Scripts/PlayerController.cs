@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Movimento")]
     [SerializeField] private float velocidade = 5f;
+    [SerializeField] private Rigidbody2D rb;
 
     [Header("Pulo")]
     [SerializeField] private float alturaPulo = 2f;
@@ -42,6 +43,7 @@ public class PlayerController : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>();
 
         if (sr == null)
             sr = GetComponentInChildren<SpriteRenderer>();
@@ -50,7 +52,7 @@ public class PlayerController : MonoBehaviour
         groundY = transform.position.y;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         Mover();
 

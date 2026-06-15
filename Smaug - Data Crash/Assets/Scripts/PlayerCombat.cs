@@ -43,12 +43,9 @@ public class PlayerCombat : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
-    {
-        Atacar();
-    }
     void FixedUpdate()
     {
+        Atacar();
         UpdateDaUlt();
     }
     private void Atacar()
