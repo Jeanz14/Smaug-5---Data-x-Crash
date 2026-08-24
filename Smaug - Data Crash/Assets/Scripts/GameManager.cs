@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -19,12 +20,13 @@ public class GameManager : MonoBehaviour
     private int combo = 0;
 
     [Header("Player")]
+    private bool espancavel = true;
     private int maxLife = 100;
     private int life = 100;
     private int vidas = 2;
     private const int MAX_VIDAS = 3;
     private Animator playerAnim;
-
+    private SpriteRenderer playerSR;
     private float especial = 0f;
     private const float MAX_ESPECIAL = 2f;
 
@@ -36,6 +38,7 @@ public class GameManager : MonoBehaviour
         if (player != null)
         {
             playerAnim = player.GetComponent<Animator>();
+            playerSR = player.GetComponent<SpriteRenderer>();
         }
         else
         {
@@ -118,13 +121,13 @@ public class GameManager : MonoBehaviour
 
     public void PlayerApanhou(int dano)
     {
+        if (!espancavel)return;
         if (dano < 0)
         {
             life = Mathf.Min(life - dano, maxLife);
             AtualizarHUD();
             return;
         }
-
         life -= dano;
         ResetarCombo();
 
@@ -149,12 +152,26 @@ public class GameManager : MonoBehaviour
         playerAnim.SetTrigger("HitStun");
         //Tocar algum efeito/som de ataque acertado no prota
     }
-
+    private IEnumerator PlayerInvulneravel()
+    {
+        float duracao = 1f;
+        float tempo = 0f;
+        espancavel = false;
+        while (tempo < duracao)
+        {
+            float a = Mathf.Abs(Mathf.Sin(tempo * Mathf.PI * 6f));
+            playerSR.color = new Color(1f, 1f, 1f, a);
+            tempo += Time.deltaTime;
+            yield return null;
+        }
+        espancavel = true;
+        playerSR.color = new Color(1f, 1f, 1f, 1f);
+    }
     public void Morrer()
     {
         //e mudar de acordo a logica do gameover jean
-        DeathMenuController.Instance.AtivarMenuMorte();
         //Tocar algum efeito/som de morte do prota se tiver
+        DeathMenuController.Instance.AtivarMenuMorte();
     }
 
     private void Renascer()
@@ -164,6 +181,7 @@ public class GameManager : MonoBehaviour
             vidas--;
             life = maxLife;
             AtualizarHUD();
+            StartCoroutine(PlayerInvulneravel());
         }
         else
         {

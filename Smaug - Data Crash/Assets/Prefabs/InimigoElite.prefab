@@ -223,7 +223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ComportamentoHostil
   tipo: 1
-  velocidade: 30
+  velocidade: 60
   direcaoAtual: 1
   alvo: {x: 0, y: 0}
   dano: 40
