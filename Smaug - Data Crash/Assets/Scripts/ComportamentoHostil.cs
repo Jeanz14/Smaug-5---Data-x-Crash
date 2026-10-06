@@ -65,7 +65,7 @@ public class ComportamentoHostil : MonoBehaviour
         if (podeAtacar)
         {
             Debug.Log("Inimigo atacou o player");
-            GameManager.Instance.PlayerApanhou(dano);
+            GameManager.Instance.PlayerApanhou(dano, (int)tipo, -direcaoAtual);
         }
     }
     void Update()
@@ -90,7 +90,7 @@ public class ComportamentoHostil : MonoBehaviour
             }
             else if (tipo == tipoInimigo.Elite)
             {
-                hitbox.offset = new Vector2(-4.5f*direcaoAtual, -4.5f);//pessima pratica, corrigir depois
+                hitbox.offset = new Vector2(-4.5f*direcaoAtual, -4f);//pessima pratica, corrigir depois
             }
             sr.flipX = false;
         }
@@ -103,7 +103,7 @@ public class ComportamentoHostil : MonoBehaviour
             }
             else if (tipo == tipoInimigo.Elite)
             {
-                hitbox.offset = new Vector2(-4.5f*direcaoAtual, -4.5f);//pessima pratica, corrigir depois
+                hitbox.offset = new Vector2(-4.5f*direcaoAtual, -4f);//pessima pratica, corrigir depois
             }
             sr.flipX = true;
         }

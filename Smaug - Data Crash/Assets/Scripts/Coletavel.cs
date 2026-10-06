@@ -29,7 +29,7 @@ public class Coletavel : MonoBehaviour
     {
         if (pegavel && Input.GetKeyDown(KeyCode.E))
         {
-            GameManager.Instance.PlayerApanhou(-cura);
+            GameManager.Instance.PlayerApanhou(-cura, -1, 0f);
             //Tocar algum efeito/som de musica vai que é sua Jean
             Destroy(gameObject);
         }

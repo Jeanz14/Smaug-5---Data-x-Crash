@@ -27,7 +27,8 @@ public class GameManager : MonoBehaviour
     private const int MAX_VIDAS = 3;
     private Animator playerAnim;
     private SpriteRenderer playerSR;
-    private float especial = 0f;
+    private Rigidbody2D playerRB;
+    private float especial = 1f;
     private const float MAX_ESPECIAL = 2f;
 
     void Awake()
@@ -39,6 +40,7 @@ public class GameManager : MonoBehaviour
         {
             playerAnim = player.GetComponent<Animator>();
             playerSR = player.GetComponent<SpriteRenderer>();
+            playerRB = player.GetComponent<Rigidbody2D>();
         }
         else
         {
@@ -119,15 +121,15 @@ public class GameManager : MonoBehaviour
         AtualizarTxtVidas();
     }
 
-    public void PlayerApanhou(int dano)
+    public void PlayerApanhou(int dano, int tipoStun, float direction)
     {
-        if (!espancavel)return;
         if (dano < 0)
         {
             life = Mathf.Min(life - dano, maxLife);
             AtualizarHUD();
             return;
         }
+        if (!espancavel)return;
         life -= dano;
         ResetarCombo();
 
@@ -138,18 +140,27 @@ public class GameManager : MonoBehaviour
         }
 
         AtualizarHUD();
+        Debug.Log(tipoStun);
+        if (tipoStun == 0)
+        {
+            playerAnim.SetTrigger("HitStun");
+        }
+        else if (tipoStun == 1)
+        {
+            //playerAnim.SetTrigger("HitStunPesado");
+            playerRB.AddForce(new Vector2(direction, 0f) * 500f, ForceMode2D.Impulse);
+        }
         //Corrigir depois o hitstun
-        if (playerAnim.GetBool("StunImune"))
-        {
-            playerAnim.SetBool("StunImune", false);
-            return;
-        }
-        else
-        {
-            playerAnim.SetBool("StunImune", true);
-        }
+        // if (playerAnim.GetBool("StunImune"))
+        // {
+        //     playerAnim.SetBool("StunImune", false);
+        //     return;
+        // }
+        // else
+        // {
+        //     playerAnim.SetBool("StunImune", true);
+        // }
 
-        playerAnim.SetTrigger("HitStun");
         //Tocar algum efeito/som de ataque acertado no prota
     }
     private IEnumerator PlayerInvulneravel()
