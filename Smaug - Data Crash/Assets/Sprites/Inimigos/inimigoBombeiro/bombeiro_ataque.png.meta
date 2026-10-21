@@ -1,0 +1,528 @@
+fileFormatVersion: 2
+guid: 13dd7a8357d8d914ba5ffdf0e645bb2e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6855773499142250638
+    second: bombeiro_ataque_0
+  - first:
+      213: -1388299412482171562
+    second: bombeiro_ataque_1
+  - first:
+      213: 1652124041964976399
+    second: bombeiro_ataque_2
+  - first:
+      213: -6843078309701347889
+    second: bombeiro_ataque_3
+  - first:
+      213: 1777660295228711950
+    second: bombeiro_ataque_4
+  - first:
+      213: 423847024103478387
+    second: bombeiro_ataque_5
+  - first:
+      213: 4165477682071216212
+    second: bombeiro_ataque_6
+  - first:
+      213: -8188474731299491620
+    second: bombeiro_ataque_7
+  - first:
+      213: -7418463439999392484
+    second: bombeiro_ataque_8
+  - first:
+      213: 645686946647369263
+    second: bombeiro_ataque_9
+  - first:
+      213: -489350116394030612
+    second: bombeiro_ataque_10
+  - first:
+      213: 8898059049494801018
+    second: bombeiro_ataque_11
+  - first:
+      213: -7298527695950575227
+    second: bombeiro_ataque_12
+  - first:
+      213: 1244910193646715059
+    second: bombeiro_ataque_13
+  - first:
+      213: 5793888478229985108
+    second: bombeiro_ataque_14
+  - first:
+      213: -1591923621325165687
+    second: bombeiro_ataque_15
+  - first:
+      213: -1894168512037291885
+    second: bombeiro_ataque_16
+  - first:
+      213: 5570572711579679003
+    second: bombeiro_ataque_17
+  - first:
+      213: 97010092558897562
+    second: bombeiro_ataque_18
+  - first:
+      213: -6116520117905776026
+    second: bombeiro_ataque_19
+  - first:
+      213: 6089604377990791192
+    second: bombeiro_ataque_20
+  - first:
+      213: 1342893354921098176
+    second: bombeiro_ataque_21
+  - first:
+      213: -1673334034821953536
+    second: bombeiro_ataque_22
+  - first:
+      213: 2291179319570348331
+    second: bombeiro_ataque_23
+  - first:
+      213: -3282810059931316070
+    second: bombeiro_ataque_24
+  - first:
+      213: 3975142846045188618
+    second: bombeiro_ataque_25
+  - first:
+      213: 217842320979573545
+    second: bombeiro_ataque_26
+  - first:
+      213: 2044977444544788864
+    second: bombeiro_ataque_27
+  - first:
+      213: -3510392897421825976
+    second: bombeiro_ataque_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bombeiro_ataque_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3204
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27fd61373566bd0a0800000000000000
+      internalID: -6855773499142250638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_ataque_1
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 3204
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ddd153a05cbbce0800000000000000
+      internalID: -1388299412482171562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_ataque_2
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 3204
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09743610168de610800000000000000
+      internalID: 1652124041964976399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_ataque_3
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 3204
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5121498808801a0800000000000000
+      internalID: -6843078309701347889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_ataque_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2136
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e046c6cbe948ba810800000000000000
+      internalID: 1777660295228711950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_ataque_5
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 2136
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3745bce6f9ec1e500800000000000000
+      internalID: 423847024103478387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_ataque_6
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 2136
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4502ca7d1efbec930800000000000000
+      internalID: 4165477682071216212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_ataque_7
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 2136
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0b1a4cd91bc5e80800000000000000
+      internalID: -8188474731299491620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_ataque_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1068
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c152d975ec25c0990800000000000000
+      internalID: -7418463439999392484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_ataque_9
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1068
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26e5036bd0f5f800800000000000000
+      internalID: 645686946647369263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_ataque_10
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 1068
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9a98d69aa7539f0800000000000000
+      internalID: -489350116394030612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_ataque_11
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 1068
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a6693cf814c7b70800000000000000
+      internalID: 8898059049494801018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_ataque_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5890483dabb66ba90800000000000000
+      internalID: -7298527695950575227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_ataque_13
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 0
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0439da93fc64110800000000000000
+      internalID: 1244910193646715059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0344f8de0538246438f9ceee08300120
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":1038.0,"y":1068.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      bombeiro_ataque_0: -6855773499142250638
+      bombeiro_ataque_1: -1388299412482171562
+      bombeiro_ataque_10: -489350116394030612
+      bombeiro_ataque_11: 8898059049494801018
+      bombeiro_ataque_12: -7298527695950575227
+      bombeiro_ataque_13: 1244910193646715059
+      bombeiro_ataque_2: 1652124041964976399
+      bombeiro_ataque_3: -6843078309701347889
+      bombeiro_ataque_4: 1777660295228711950
+      bombeiro_ataque_5: 423847024103478387
+      bombeiro_ataque_6: 4165477682071216212
+      bombeiro_ataque_7: -8188474731299491620
+      bombeiro_ataque_8: -7418463439999392484
+      bombeiro_ataque_9: 645686946647369263
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

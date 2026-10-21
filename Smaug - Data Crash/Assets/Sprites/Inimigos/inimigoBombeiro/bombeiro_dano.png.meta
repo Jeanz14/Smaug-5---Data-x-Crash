@@ -1,0 +1,690 @@
+fileFormatVersion: 2
+guid: c9d545189cb30e94fa2b816ca2e3ca57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5733245947580588641
+    second: bombeiro_dano_0
+  - first:
+      213: -6144359499709361806
+    second: bombeiro_dano_1
+  - first:
+      213: -4350372834075582354
+    second: bombeiro_dano_2
+  - first:
+      213: -7978552035087296182
+    second: bombeiro_dano_3
+  - first:
+      213: -7136075278711488739
+    second: bombeiro_dano_4
+  - first:
+      213: 867139378502761301
+    second: bombeiro_dano_5
+  - first:
+      213: -978997234213751101
+    second: bombeiro_dano_6
+  - first:
+      213: 1061283053017339526
+    second: bombeiro_dano_7
+  - first:
+      213: -3422957181205253388
+    second: bombeiro_dano_8
+  - first:
+      213: 1456443932296015034
+    second: bombeiro_dano_9
+  - first:
+      213: 5337870479113199280
+    second: bombeiro_dano_10
+  - first:
+      213: 5729991258260354436
+    second: bombeiro_dano_11
+  - first:
+      213: 3817852782815774421
+    second: bombeiro_dano_12
+  - first:
+      213: -5448466191605383556
+    second: bombeiro_dano_13
+  - first:
+      213: 4952121772525943639
+    second: bombeiro_dano_14
+  - first:
+      213: 7399715760519438057
+    second: bombeiro_dano_15
+  - first:
+      213: -1682142757299348097
+    second: bombeiro_dano_16
+  - first:
+      213: 9157407660702387571
+    second: bombeiro_dano_17
+  - first:
+      213: 4366730918172983231
+    second: bombeiro_dano_18
+  - first:
+      213: -7507589553770857206
+    second: bombeiro_dano_19
+  - first:
+      213: 8245930650853797459
+    second: bombeiro_dano_20
+  - first:
+      213: -8252980386502780887
+    second: bombeiro_dano_21
+  - first:
+      213: -940911706712372966
+    second: bombeiro_dano_22
+  - first:
+      213: 2523798580041309052
+    second: bombeiro_dano_23
+  - first:
+      213: -5922951416153564480
+    second: bombeiro_dano_24
+  - first:
+      213: 6476648139951413118
+    second: bombeiro_dano_25
+  - first:
+      213: 3778871408679286663
+    second: bombeiro_dano_26
+  - first:
+      213: 4016875832649439856
+    second: bombeiro_dano_27
+  - first:
+      213: -8460210506591182347
+    second: bombeiro_dano_28
+  - first:
+      213: -1681764335227735818
+    second: bombeiro_dano_29
+  - first:
+      213: -5160959328779897777
+    second: bombeiro_dano_30
+  - first:
+      213: 3881571832473328219
+    second: bombeiro_dano_31
+  - first:
+      213: -7312533324612942729
+    second: bombeiro_dano_32
+  - first:
+      213: 6931220162337195224
+    second: bombeiro_dano_33
+  - first:
+      213: 5589931847292844564
+    second: bombeiro_dano_34
+  - first:
+      213: 8511391676042651981
+    second: bombeiro_dano_35
+  - first:
+      213: -5398149965519174320
+    second: bombeiro_dano_36
+  - first:
+      213: -5449701220360584071
+    second: bombeiro_dano_37
+  - first:
+      213: 467348136322964221
+    second: bombeiro_dano_38
+  - first:
+      213: -1554292380845999034
+    second: bombeiro_dano_39
+  - first:
+      213: -8674325398870365169
+    second: bombeiro_dano_40
+  - first:
+      213: 2051327239347333574
+    second: bombeiro_dano_41
+  - first:
+      213: 6540346689086462761
+    second: bombeiro_dano_42
+  - first:
+      213: 7875092409086180058
+    second: bombeiro_dano_43
+  - first:
+      213: 3482688890691573314
+    second: bombeiro_dano_44
+  - first:
+      213: 6947923719866690906
+    second: bombeiro_dano_45
+  - first:
+      213: -4874595832689699597
+    second: bombeiro_dano_46
+  - first:
+      213: 4196843846326557126
+    second: bombeiro_dano_47
+  - first:
+      213: 6924774069501751786
+    second: bombeiro_dano_48
+  - first:
+      213: -7698632486589059412
+    second: bombeiro_dano_49
+  - first:
+      213: 2461686058884121454
+    second: bombeiro_dano_50
+  - first:
+      213: 1534715605141692792
+    second: bombeiro_dano_51
+  - first:
+      213: -8614786058758327387
+    second: bombeiro_dano_52
+  - first:
+      213: 7814725982358740618
+    second: bombeiro_dano_53
+  - first:
+      213: -423025612667338527
+    second: bombeiro_dano_54
+  - first:
+      213: -4158559793281546819
+    second: bombeiro_dano_55
+  - first:
+      213: 5663603806053920135
+    second: bombeiro_dano_56
+  - first:
+      213: 4074806642917499
+    second: bombeiro_dano_57
+  - first:
+      213: 1648131437111384121
+    second: bombeiro_dano_58
+  - first:
+      213: -3539584605795083128
+    second: bombeiro_dano_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bombeiro_dano_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3204
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9dd28ccf2b6f60b0800000000000000
+      internalID: -5733245947580588641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_dano_1
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 3204
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271d687d699dabaa0800000000000000
+      internalID: -6144359499709361806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_dano_2
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 3204
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e606a68e4fe50a3c0800000000000000
+      internalID: -4350372834075582354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_dano_3
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 3204
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49d6ae323d764190800000000000000
+      internalID: -7978552035087296182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_dano_4
+      rect:
+        serializedVersion: 2
+        x: 4152
+        y: 3204
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f74f1b75197fc90800000000000000
+      internalID: -7136075278711488739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_dano_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2136
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55bf862aba2b80c00800000000000000
+      internalID: 867139378502761301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_dano_6
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 2136
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c67992d337e962f0800000000000000
+      internalID: -978997234213751101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_dano_7
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 2136
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6869d35505f6abe00800000000000000
+      internalID: 1061283053017339526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_dano_8
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 2136
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f273ec44963f70d0800000000000000
+      internalID: -3422957181205253388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_dano_9
+      rect:
+        serializedVersion: 2
+        x: 4152
+        y: 2136
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abce6c33a04563410800000000000000
+      internalID: 1456443932296015034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_dano_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1068
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be16946bece31a40800000000000000
+      internalID: 5337870479113199280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_dano_11
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1068
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485b3bac0b4058f40800000000000000
+      internalID: 5729991258260354436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_dano_12
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 1068
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6887cc0ecbbf430800000000000000
+      internalID: 3817852782815774421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_dano_13
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 1068
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7eb2aeadd82364b0800000000000000
+      internalID: -5448466191605383556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_dano_14
+      rect:
+        serializedVersion: 2
+        x: 4152
+        y: 1068
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75bf2efb38879b440800000000000000
+      internalID: 4952121772525943639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_dano_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eede90674211b660800000000000000
+      internalID: 7399715760519438057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombeiro_dano_16
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 0
+        width: 1038
+        height: 1068
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d1da91314d7a8e0800000000000000
+      internalID: -1682142757299348097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 20ceb538f0b62d54ba3331e1a8d814a0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":4.0},"gridSpriteSize":{"x":1038.0,"y":1068.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      bombeiro_dano_0: -5733245947580588641
+      bombeiro_dano_1: -6144359499709361806
+      bombeiro_dano_10: 5337870479113199280
+      bombeiro_dano_11: 5729991258260354436
+      bombeiro_dano_12: 3817852782815774421
+      bombeiro_dano_13: -5448466191605383556
+      bombeiro_dano_14: 4952121772525943639
+      bombeiro_dano_15: 7399715760519438057
+      bombeiro_dano_16: -1682142757299348097
+      bombeiro_dano_2: -4350372834075582354
+      bombeiro_dano_3: -7978552035087296182
+      bombeiro_dano_4: -7136075278711488739
+      bombeiro_dano_5: 867139378502761301
+      bombeiro_dano_6: -978997234213751101
+      bombeiro_dano_7: 1061283053017339526
+      bombeiro_dano_8: -3422957181205253388
+      bombeiro_dano_9: 1456443932296015034
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
