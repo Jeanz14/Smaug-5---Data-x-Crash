@@ -19,6 +19,8 @@ public class ComportamentoHostil : MonoBehaviour
         ApanhandoDois = 4,
         Morreu = 5
     }
+    public float timer = 0f;
+    public float cooldown = 5f;
     [SerializeField] private float velocidade = 5f;
     [SerializeField] private float direcaoAtual = 1f;
     [SerializeField] private Vector2 alvo;
@@ -30,12 +32,14 @@ public class ComportamentoHostil : MonoBehaviour
     private SpriteRenderer sr;
     void Awake()
     {
+        if (tipo == tipoInimigo.Bombeiro) return;
         anim = GetComponent<Animator>();
         posPlayer = GameObject.FindGameObjectWithTag("Player").transform;
         sr = GetComponent<SpriteRenderer>();
     }
     void OnTriggerEnter2D(Collider2D other)
     {
+        if (tipo == tipoInimigo.Bombeiro) return;
         if(!other.CompareTag("Player")) return;
         if (hitbox.IsTouching(other))
         {
@@ -47,6 +51,7 @@ public class ComportamentoHostil : MonoBehaviour
     }
     void OnTriggerExit2D(Collider2D other)
     {
+        if (tipo == tipoInimigo.Bombeiro) return;
         if(!other.CompareTag("Player")) return;
         if (!hitbox.IsTouching(other))
         {
@@ -126,13 +131,11 @@ public class ComportamentoHostil : MonoBehaviour
             if (alvo.x > 0)
             {
                 direcaoAtual = -1f;
-                hitbox.offset = new Vector2(-4.5f * direcaoAtual, -4f);//pessima pratica, corrigir depois
                 sr.flipX = false;
             }
             else if (alvo.x < 0)
             {
                 direcaoAtual = 1f;
-                hitbox.offset = new Vector2(-4.5f * direcaoAtual, -4f);//pessima pratica, corrigir depois
                 sr.flipX = true;
             }
             transform.position += (Vector3)(alvo * velocidade * Time.deltaTime);

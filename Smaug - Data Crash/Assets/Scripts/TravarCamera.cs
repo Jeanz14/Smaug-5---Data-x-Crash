@@ -7,6 +7,8 @@ public class TravarCamera : MonoBehaviour
     public int inimigosFracoMortos = 0;
     [SerializeField] private GameObject[] inimigosElite;
     public int inimigosEliteMortos = 0;
+    [SerializeField] private GameObject[] inimigosBombeiro;
+    public int inimigosBombeiroMortos = 0;
     [SerializeField] private Collider2D[] barreiras;
     [SerializeField] private Collider2D limiteDaCameraTemp;
     public Collider2D LimiteDaCameraPadrao;
@@ -33,11 +35,16 @@ public class TravarCamera : MonoBehaviour
             inimigoElite.SetActive(true);
             inimigoElite.GetComponent<EnemyNormal>().spawner = this;
         }
+        foreach (GameObject inimigoBombeiro in inimigosBombeiro)
+        {
+            inimigoBombeiro.SetActive(true);
+            inimigoBombeiro.GetComponent<EnemyNormal>().spawner = this;
+        }
         //tocar alguma musica/som de Combate iniciado, se tiver
     }
     void Update()
     {
-        if (inimigosFraco.Length <= inimigosFracoMortos && inimigosElite.Length <= inimigosEliteMortos)
+        if (inimigosFraco.Length <= inimigosFracoMortos && inimigosElite.Length <= inimigosEliteMortos && inimigosBombeiro.Length <= inimigosBombeiroMortos)
         {FimDoCombate();}
     }
     public void FimDoCombate()
