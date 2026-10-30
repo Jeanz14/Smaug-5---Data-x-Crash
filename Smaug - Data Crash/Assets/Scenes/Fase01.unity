@@ -1871,6 +1871,8 @@ MonoBehaviour:
   inimigosFracoMortos: 0
   inimigosElite: []
   inimigosEliteMortos: 0
+  inimigosBombeiro: []
+  inimigosBombeiroMortos: 0
   barreiras:
   - {fileID: 592714461}
   - {fileID: 1389696086}
@@ -9993,6 +9995,8 @@ MonoBehaviour:
   inimigosFracoMortos: 0
   inimigosElite: []
   inimigosEliteMortos: 0
+  inimigosBombeiro: []
+  inimigosBombeiroMortos: 0
   barreiras:
   - {fileID: 461871061}
   - {fileID: 548035440}

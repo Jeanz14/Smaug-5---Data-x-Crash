@@ -19,8 +19,8 @@ public class ComportamentoHostil : MonoBehaviour
         ApanhandoDois = 4,
         Morreu = 5
     }
-    public float timer = 0f;
-    public float cooldown = 5f;
+    [SerializeField] private float timer = 0f;
+    [SerializeField] private float cooldown = 5f;
     [SerializeField] private float velocidade = 5f;
     [SerializeField] private float direcaoAtual = 1f;
     [SerializeField] private Vector2 alvo;

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4257267989259963832}
   - component: {fileID: 1649025367859344206}
   - component: {fileID: 5837018958739849412}
+  - component: {fileID: 8055443280094698880}
   m_Layer: 0
   m_Name: tiro_agua
   m_TagString: Untagged
@@ -162,3 +163,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.8798379, y: 0.6596832}
   m_EdgeRadius: 0
+--- !u!114 &8055443280094698880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5163673807973079301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe16d82941aeff4c8d4c49146bac14a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Projetil
+  timer: 0
+  duracao: 5
+  direcao: {x: 0, y: 0}
+  velocidade: 5
+  dano: 50
+  alvo: {x: 0, y: 0}

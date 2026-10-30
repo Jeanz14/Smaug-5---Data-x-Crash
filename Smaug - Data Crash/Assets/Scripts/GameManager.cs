@@ -121,7 +121,7 @@ public class GameManager : MonoBehaviour
         AtualizarTxtVidas();
     }
 
-    public void PlayerApanhou(int dano, int tipoStun, float direction)
+    public void PlayerApanhou(int dano, int tipoStun = 0, float direction = 0)
     {
         if (dano < 0)
         {
