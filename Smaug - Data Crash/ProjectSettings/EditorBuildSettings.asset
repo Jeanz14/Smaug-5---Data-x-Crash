@@ -20,5 +20,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fase01 menusss.unity
     guid: 0f40dc849fcb6084b8ba85d9b5fc9901
+  - enabled: 1
+    path: Assets/Scenes/Fase01 menusss 1 JEAN.unity
+    guid: fab5058f574e61a4a80de8c39624604b
+  - enabled: 1
+    path: "Assets/Scenes/02 -cima esta\xE7\xE3o.unity"
+    guid: 2e99d7f69d33dff4ca6b8bdde40dd9f0
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
