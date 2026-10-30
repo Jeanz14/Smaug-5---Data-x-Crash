@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using UnityEngine.Audio;
 
 public class PauseMenuController : MonoBehaviour
 {
@@ -12,8 +11,7 @@ public class PauseMenuController : MonoBehaviour
     [SerializeField] private GameObject painelOpcoes;
     [SerializeField] private GameObject painelControles;
 
-    [Header("Audio Mixer")]
-    [SerializeField] private AudioMixer audioMixer;
+    [Header("Sliders de volume")]
     [SerializeField] private Slider sliderMusica;
     [SerializeField] private Slider sliderSFX;
 
@@ -29,18 +27,18 @@ public class PauseMenuController : MonoBehaviour
 
     void Start()
     {
-        // Configura sliders
         sliderMusica.onValueChanged.RemoveAllListeners();
         sliderSFX.onValueChanged.RemoveAllListeners();
-
-        sliderMusica.onValueChanged.AddListener(AlterarVolumeMusica);
-        sliderSFX.onValueChanged.AddListener(AlterarVolumeSFX);
 
         sliderMusica.navigation = new Navigation() { mode = Navigation.Mode.None };
         sliderSFX.navigation = new Navigation() { mode = Navigation.Mode.None };
 
-        sliderMusica.value = 1f;
-        sliderSFX.value = 1f;
+        // Primeiro posiciona o slider com o volume salvo, depois liga o listener
+        sliderMusica.value = AudioManager.Instance.VolumeMusica;
+        sliderSFX.value = AudioManager.Instance.VolumeSFX;
+
+        sliderMusica.onValueChanged.AddListener(AlterarVolumeMusica);
+        sliderSFX.onValueChanged.AddListener(AlterarVolumeSFX);
     }
 
     void Update()
@@ -100,16 +98,7 @@ public class PauseMenuController : MonoBehaviour
         SceneManager.LoadScene("MenuPrincipal");
     }
 
-    // ── Volume ────────────────────────────────────────
-    public void AlterarVolumeMusica(float valor)
-    {
-        float db = valor > 0.001f ? Mathf.Log10(valor) * 20f : -80f;
-        audioMixer.SetFloat("VolumeMusica", db);
-    }
-
-    public void AlterarVolumeSFX(float valor)
-    {
-        float db = valor > 0.001f ? Mathf.Log10(valor) * 20f : -80f;
-        audioMixer.SetFloat("VolumeSFX", db);
-    }
+    // ── Volume (repassa para o AudioManager) ──────────
+    public void AlterarVolumeMusica(float valor) => AudioManager.Instance.AlterarVolumeMusica(valor);
+    public void AlterarVolumeSFX(float valor) => AudioManager.Instance.AlterarVolumeSFX(valor);
 }

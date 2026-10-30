@@ -7,16 +7,11 @@ public class HitboxController : MonoBehaviour
 
     public void AplicarDano(float especialPorGolpe, int dano, float tempoHitStun)
     {
-        
         List<Collider2D> copia = new List<Collider2D>(inimigosNaArea);
-        if (inimigosNaArea.Count != 0)
-        {
-            //Tocar algum efeito/som de ataque acertado no inimigo. E Jean verifica se Count funciona pra Lista em C# não lembro.
-        }
+        bool acertouAlgo = false;
 
         foreach (Collider2D col in copia)
         {
-            
             if (col == null)
             {
                 inimigosNaArea.Remove(col);
@@ -28,6 +23,7 @@ public class HitboxController : MonoBehaviour
             {
                 imortal.ReceberGolpe();
                 GameManager.Instance.AdicionarEspecial(especialPorGolpe);
+                acertouAlgo = true;
                 continue;
             }
 
@@ -37,20 +33,24 @@ public class HitboxController : MonoBehaviour
                 normal.ReceberGolpe(dano, tempoHitStun);
                 GameManager.Instance.AdicionarEspecial(especialPorGolpe);
                 GameManager.Instance.AdicionarCombo();
+                acertouAlgo = true;
             }
         }
 
-        
+        // Toca o som uma única vez por golpe, mesmo que acerte vários inimigos
+        if (acertouAlgo && AudioManager.Instance != null)
+            AudioManager.Instance.TocarSomDanoInimigo();
+
         inimigosNaArea.RemoveAll(col => col == null);
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Inimigo")||other.CompareTag("quebravel") && !inimigosNaArea.Contains(other))
+        // Parênteses corrigidos: antes o check de duplicata só valia para "quebravel"
+        if ((other.CompareTag("Inimigo") || other.CompareTag("quebravel")) && !inimigosNaArea.Contains(other))
         {
             inimigosNaArea.Add(other);
         }
-            
     }
 
     void OnTriggerExit2D(Collider2D other)
