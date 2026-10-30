@@ -12,7 +12,6 @@ public class DeathMenuController : MonoBehaviour
     [SerializeField] private Image imgFade;
 
     [Header("Audio")]
-    [SerializeField] private AudioSource musicaFase;
     [SerializeField] private float pitchLento = 0.5f;
     [SerializeField] private float duracaoEfeito = 0.6f;
 
@@ -24,7 +23,9 @@ public class DeathMenuController : MonoBehaviour
     void Awake()
     {
         Instance = this;
-        painelMorte.SetActive(false);
+
+        if (painelMorte != null)
+            painelMorte.SetActive(false);
 
         if (imgFade != null)
             imgFade.color = new Color(0f, 0f, 0f, 0f);
@@ -40,20 +41,23 @@ public class DeathMenuController : MonoBehaviour
 
     private IEnumerator SequenciaMorte()
     {
+        if (painelMorte == null || imgFade == null)
+        {
+            Debug.LogError("painelMorte ou imgFade nao atribuido no Inspector!");
+            yield break;
+        }
+
+        painelMorte.SetActive(true);
+        imgFade.transform.SetAsFirstSibling();
+
         StartCoroutine(DesacelerarMusica());
         yield return StartCoroutine(FadeEscurecer());
+
         Time.timeScale = 0f;
-        painelMorte.SetActive(true);
     }
 
     private IEnumerator FadeEscurecer()
     {
-        if (imgFade == null)
-        {
-            Debug.LogError("ImgFade não atribuído no DeathMenuController!");
-            yield break;
-        }
-
         float tempo = 0f;
 
         while (tempo < duracaoEfeito)
@@ -69,15 +73,17 @@ public class DeathMenuController : MonoBehaviour
 
     private IEnumerator DesacelerarMusica()
     {
-        if (musicaFase == null) yield break;
+        if (AudioManager.Instance == null || AudioManager.Instance.MusicaSource == null)
+            yield break;
 
-        float pitchOriginal = musicaFase.pitch;
+        AudioSource musica = AudioManager.Instance.MusicaSource;
+        float pitchOriginal = musica.pitch;
         float tempo = 0f;
 
         while (tempo < duracaoEfeito)
         {
-            tempo += Time.deltaTime;
-            musicaFase.pitch = Mathf.Lerp(pitchOriginal, pitchLento, tempo / duracaoEfeito);
+            tempo += Time.unscaledDeltaTime;
+            musica.pitch = Mathf.Lerp(pitchOriginal, pitchLento, tempo / duracaoEfeito);
             yield return null;
         }
     }
@@ -87,13 +93,15 @@ public class DeathMenuController : MonoBehaviour
         morteAtivada = false;
         Time.timeScale = 1f;
 
-        if (musicaFase != null)
-            musicaFase.pitch = 1f;
+        if (AudioManager.Instance != null && AudioManager.Instance.MusicaSource != null)
+            AudioManager.Instance.MusicaSource.pitch = 1f;
 
         if (imgFade != null)
             imgFade.color = new Color(0f, 0f, 0f, 0f);
 
-        painelMorte.SetActive(false);
+        if (painelMorte != null)
+            painelMorte.SetActive(false);
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
@@ -102,8 +110,8 @@ public class DeathMenuController : MonoBehaviour
         morteAtivada = false;
         Time.timeScale = 1f;
 
-        if (musicaFase != null)
-            musicaFase.pitch = 1f;
+        if (AudioManager.Instance != null && AudioManager.Instance.MusicaSource != null)
+            AudioManager.Instance.MusicaSource.pitch = 1f;
 
         SceneManager.LoadScene("MenuPrincipal");
     }

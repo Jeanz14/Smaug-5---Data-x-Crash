@@ -16,25 +16,22 @@ public class MenuController : MonoBehaviour
         painelOpcoes.SetActive(false);
         painelCreditos.SetActive(false);
 
-        
         sliderMusica.onValueChanged.RemoveAllListeners();
         sliderSons.onValueChanged.RemoveAllListeners();
 
-        sliderMusica.onValueChanged.AddListener(AudioManager.Instance.AlterarVolumeMusica);
-        sliderSons.onValueChanged.AddListener(AudioManager.Instance.AlterarVolumeSons);
+        // Primeiro posiciona o slider com o volume salvo, depois liga o listener
+        sliderMusica.value = AudioManager.Instance.VolumeMusica;
+        sliderSons.value = AudioManager.Instance.VolumeSFX;
 
-        
-        sliderMusica.value = 1f;
-        sliderSons.value = 1f;
+        sliderMusica.onValueChanged.AddListener(AudioManager.Instance.AlterarVolumeMusica);
+        sliderSons.onValueChanged.AddListener(AudioManager.Instance.AlterarVolumeSFX);
     }
 
-    
     public void BotaoJogar()
     {
         StartCoroutine(FadeController.Instance.FadeParaCena("Fase01 menusss"));
     }
 
-    
     public void AbrirOpcoes()
     {
         painelOpcoes.SetActive(true);
@@ -45,7 +42,6 @@ public class MenuController : MonoBehaviour
         painelOpcoes.SetActive(false);
     }
 
-    
     public void AbrirCreditos()
     {
         painelCreditos.SetActive(true);
@@ -56,13 +52,12 @@ public class MenuController : MonoBehaviour
         painelCreditos.SetActive(false);
     }
 
-    
     public void BotaoSair()
     {
 #if UNITY_EDITOR
-            UnityEditor.EditorApplication.isPlaying = false;
+        UnityEditor.EditorApplication.isPlaying = false;
 #else
         Application.Quit();
 #endif
-    }   
+    }
 }

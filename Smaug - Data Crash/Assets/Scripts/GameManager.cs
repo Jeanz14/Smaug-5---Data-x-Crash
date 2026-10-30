@@ -129,9 +129,12 @@ public class GameManager : MonoBehaviour
             AtualizarHUD();
             return;
         }
-        if (!espancavel)return;
+        if (!espancavel) return;
         life -= dano;
         ResetarCombo();
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.TocarSomDanoPlayer();   // ← NOVO
 
         if (life <= 0)
         {
@@ -160,9 +163,8 @@ public class GameManager : MonoBehaviour
         // {
         //     playerAnim.SetBool("StunImune", true);
         // }
-
-        //Tocar algum efeito/som de ataque acertado no prota
     }
+
     private IEnumerator PlayerInvulneravel()
     {
         float duracao = 1f;
@@ -178,6 +180,7 @@ public class GameManager : MonoBehaviour
         espancavel = true;
         playerSR.color = new Color(1f, 1f, 1f, 1f);
     }
+
     public void Morrer()
     {
         //e mudar de acordo a logica do gameover jean
