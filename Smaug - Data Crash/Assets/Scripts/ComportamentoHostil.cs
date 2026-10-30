@@ -5,7 +5,9 @@ public class ComportamentoHostil : MonoBehaviour
     public enum tipoInimigo : int
     {
         Fraco,
-        Elite
+        Elite,
+        Bombeiro,
+        Boss
     }
     [SerializeField] private tipoInimigo tipo;
     public enum InimigoState : int
@@ -17,6 +19,8 @@ public class ComportamentoHostil : MonoBehaviour
         ApanhandoDois = 4,
         Morreu = 5
     }
+    [SerializeField] private float timer = 0f;
+    [SerializeField] private float cooldown = 5f;
     [SerializeField] private float velocidade = 5f;
     [SerializeField] private float direcaoAtual = 1f;
     [SerializeField] private Vector2 alvo;
@@ -28,12 +32,14 @@ public class ComportamentoHostil : MonoBehaviour
     private SpriteRenderer sr;
     void Awake()
     {
+        if (tipo == tipoInimigo.Bombeiro) return;
         anim = GetComponent<Animator>();
         posPlayer = GameObject.FindGameObjectWithTag("Player").transform;
         sr = GetComponent<SpriteRenderer>();
     }
     void OnTriggerEnter2D(Collider2D other)
     {
+        if (tipo == tipoInimigo.Bombeiro) return;
         if(!other.CompareTag("Player")) return;
         if (hitbox.IsTouching(other))
         {
@@ -45,6 +51,7 @@ public class ComportamentoHostil : MonoBehaviour
     }
     void OnTriggerExit2D(Collider2D other)
     {
+        if (tipo == tipoInimigo.Bombeiro) return;
         if(!other.CompareTag("Player")) return;
         if (!hitbox.IsTouching(other))
         {
@@ -74,41 +81,65 @@ public class ComportamentoHostil : MonoBehaviour
     }
     void Andar()
     {
-        AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
-        if ((!stateInfo.IsTag("Movimento"))|| podeAtacar)
+        if (tipo == tipoInimigo.Fraco || tipo == tipoInimigo.Elite)
         {
-            return;
+            AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
+            if ((!stateInfo.IsTag("Movimento"))|| podeAtacar)
+            {
+                return;
+            }
+            anim.SetInteger("IFState", (int)InimigoState.Andando);
+            alvo = (posPlayer.position - transform.position).normalized;
+            if (alvo.x > 0)
+            {
+                direcaoAtual = -1f;
+                if (tipo == tipoInimigo.Fraco)
+                {
+                    hitbox.offset = new Vector2(-3f*direcaoAtual, -4.5f);//pessima pratica, corrigir depois
+                }
+                else if (tipo == tipoInimigo.Elite)
+                {
+                    hitbox.offset = new Vector2(-4.5f*direcaoAtual, -4f);//pessima pratica, corrigir depois
+                }
+                sr.flipX = false;
+            }
+            else if (alvo.x < 0)
+            {
+                direcaoAtual = 1f;
+                if (tipo == tipoInimigo.Fraco)
+                {
+                    hitbox.offset = new Vector2(-3f*direcaoAtual, -4.5f);//pessima pratica, corrigir depois
+                }
+                else if (tipo == tipoInimigo.Elite)
+                {
+                    hitbox.offset = new Vector2(-4.5f*direcaoAtual, -4f);//pessima pratica, corrigir depois
+                }
+                sr.flipX = true;
+            }
+            transform.position += (Vector3)(alvo * velocidade * Time.deltaTime);
+            //Se tiver som de andar, tocar aqui
         }
-        anim.SetInteger("IFState", (int)InimigoState.Andando);
-        alvo = (posPlayer.position - transform.position).normalized;
-        if (alvo.x > 0)
+        else if (tipo == tipoInimigo.Bombeiro)
         {
-            direcaoAtual = -1f;
-            if (tipo == tipoInimigo.Fraco)
+            AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
+            if ((!stateInfo.IsTag("Movimento")) || podeAtacar)
             {
-                hitbox.offset = new Vector2(-3f*direcaoAtual, -4.5f);//pessima pratica, corrigir depois
+                return;
             }
-            else if (tipo == tipoInimigo.Elite)
+            anim.SetInteger("IFState", (int)InimigoState.Andando);
+            alvo = (posPlayer.position - transform.position).normalized;
+            if (alvo.x > 0)
             {
-                hitbox.offset = new Vector2(-4.5f*direcaoAtual, -4f);//pessima pratica, corrigir depois
+                direcaoAtual = -1f;
+                sr.flipX = false;
             }
-            sr.flipX = false;
+            else if (alvo.x < 0)
+            {
+                direcaoAtual = 1f;
+                sr.flipX = true;
+            }
+            transform.position += (Vector3)(alvo * velocidade * Time.deltaTime);
         }
-        else if (alvo.x < 0)
-        {
-            direcaoAtual = 1f;
-            if (tipo == tipoInimigo.Fraco)
-            {
-                hitbox.offset = new Vector2(-3f*direcaoAtual, -4.5f);//pessima pratica, corrigir depois
-            }
-            else if (tipo == tipoInimigo.Elite)
-            {
-                hitbox.offset = new Vector2(-4.5f*direcaoAtual, -4f);//pessima pratica, corrigir depois
-            }
-            sr.flipX = true;
-        }
-        transform.position += (Vector3)(alvo * velocidade * Time.deltaTime);
-        //Se tiver som de andar, tocar aqui
     }
     
 }

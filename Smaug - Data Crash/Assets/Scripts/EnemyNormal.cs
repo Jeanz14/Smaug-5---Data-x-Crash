@@ -6,7 +6,9 @@ public class EnemyNormal : MonoBehaviour
     {
         Fraco,
         Elite,
-        Coletavel
+        Coletavel,
+        Bombeiro,
+        Boss
     }
     [SerializeField] private tipoInimigo tipo;
     private Animator anim;
