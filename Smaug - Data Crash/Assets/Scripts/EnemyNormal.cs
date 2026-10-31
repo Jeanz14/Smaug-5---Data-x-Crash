@@ -98,6 +98,10 @@ public class EnemyNormal : MonoBehaviour
             {
                 spawner.inimigosEliteMortos++;
             }
+            else if (tipo == tipoInimigo.Bombeiro)
+            {
+                spawner.inimigosBombeiroMortos++;
+            }
         }
         Destroy(gameObject);
     }

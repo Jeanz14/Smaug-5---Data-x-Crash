@@ -12,6 +12,7 @@ public class Projetil : MonoBehaviour
 
     void Awake()
     {
+        alvo = GameObject.FindGameObjectWithTag("Player").transform.position;
         direcao = (alvo - new Vector2(transform.position.x, transform.position.y)).normalized;
     }
 

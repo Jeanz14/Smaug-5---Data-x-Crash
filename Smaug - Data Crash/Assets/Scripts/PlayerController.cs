@@ -91,8 +91,7 @@ public class PlayerController : MonoBehaviour
                 transform.position.z
             );
 
-            if (!ChecarColisao(novaPosX))
-                transform.position = novaPosX;
+            rb.MovePosition(novaPosX);
         }
 
         // Movimento vertical (W/S) com checagem de colisão
@@ -102,16 +101,14 @@ public class PlayerController : MonoBehaviour
             novoY = Mathf.Clamp(novoY, limiteYbaixo, limiteYcima);
 
             Vector3 novaPosY = new Vector3(
-                transform.position.x,
+                rb.position.x,
                 novoY,
-                transform.position.z
+                1
             );
 
-            if (!ChecarColisao(novaPosY))
-            {
-                groundY = novoY;
-                transform.position = novaPosY;
-            }
+
+            groundY = novoY;
+            rb.MovePosition(novaPosY);
         }
     }
 
@@ -141,19 +138,6 @@ public class PlayerController : MonoBehaviour
         pulando = false;
     }
 
-    private bool ChecarColisao(Vector3 novaPosicao)
-    {
-        if (corpoCollider == null) return false;
-
-        Collider2D hit = Physics2D.OverlapBox(
-            novaPosicao + (Vector3)corpoCollider.offset,
-            corpoCollider.size * 0.9f,
-            0f,
-            layerObstaculos
-        );
-
-        return hit != null;
-    }
 
     public float GetDirecao() => direcaoAtual;
 }
