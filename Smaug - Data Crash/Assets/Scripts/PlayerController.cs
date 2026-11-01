@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Animator anim;
 
     [Header("Colisao")]
-    [SerializeField] private BoxCollider2D corpoCollider;
+    [SerializeField] private Collider2D corpoCollider;
     [SerializeField] private LayerMask layerObstaculos;
 
     private SpriteRenderer sr;
@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour
         if (sr == null)
             sr = GetComponentInChildren<SpriteRenderer>();
 
-        corpoCollider = GetComponent<BoxCollider2D>();
+        corpoCollider = GetComponent<Collider2D>();
         groundY = transform.position.y;
     }
 
@@ -79,37 +79,29 @@ public class PlayerController : MonoBehaviour
         if (h != 0 || v != 0) anim.SetInteger("PlayerState", (int)Acao.Andar);
         else anim.SetInteger("PlayerState", (int)Acao.Idle);
 
-        if (sr != null)
-            sr.flipX = direcaoAtual < 0;
+        if (sr != null) sr.flipX = direcaoAtual < 0;
 
-        // Movimento horizontal com checagem de colisão
+        Vector3 novaPos = rb.position;
+
+        // Movimento horizontal
         if (h != 0)
         {
-            Vector3 novaPosX = new Vector3(
-                transform.position.x + h * velocidade * Time.deltaTime,
-                transform.position.y,
-                transform.position.z
-            );
-
-            rb.MovePosition(novaPosX);
+            novaPos.x += h * velocidade * Time.fixedDeltaTime;
         }
 
-        // Movimento vertical (W/S) com checagem de colisão
+        // Movimento vertical
         if (!pulando && v != 0)
         {
-            float novoY = groundY + v * velocidade * 0.4f * Time.deltaTime;
+            float novoY = groundY + v * velocidade * 0.4f * Time.fixedDeltaTime;
             novoY = Mathf.Clamp(novoY, limiteYbaixo, limiteYcima);
 
-            Vector3 novaPosY = new Vector3(
-                rb.position.x,
-                novoY,
-                1
-            );
-
+            novaPos.y = novoY;
+            novaPos.z = transform.position.z;
 
             groundY = novoY;
-            rb.MovePosition(novaPosY);
         }
+
+        rb.MovePosition(novaPos);
     }
 
     private IEnumerator Pular()
