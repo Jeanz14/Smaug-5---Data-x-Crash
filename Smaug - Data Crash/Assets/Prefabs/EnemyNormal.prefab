@@ -66,7 +66,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -3, y: -4.5}
+  m_Offset: {x: -3, y: 1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -237,10 +237,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.26943302, y: -4.483839}
+  m_Offset: {x: -0.26943302, y: 1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 7.8018093, y: 11.46}
     newSize: {x: 7.8018093, y: 11.46}
     adaptiveTilingThreshold: 0.5
@@ -302,7 +302,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   tipo: 0
   timer: 0
-  timerEspera: 5
+  timerEsperaAndar: 2
+  timerEsperaAtaque: 5
   cooldown: 0
   projetil: {fileID: 0}
   velocidade: 50

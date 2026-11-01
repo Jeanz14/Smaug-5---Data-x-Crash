@@ -158,11 +158,11 @@ public class ComportamentoHostil : MonoBehaviour
                 direcaoAtual = -1f;
                 if (tipo == tipoInimigo.Fraco)
                 {
-                    hitbox.offset = new Vector2(-3f*direcaoAtual, -4.5f);//pessima pratica, corrigir depois
+                    hitbox.offset = new Vector2(-3f*direcaoAtual, 1f);//pessima pratica, corrigir depois
                 }
                 else if (tipo == tipoInimigo.Elite)
                 {
-                    hitbox.offset = new Vector2(-4.5f*direcaoAtual, -4f);//pessima pratica, corrigir depois
+                    hitbox.offset = new Vector2(-4.5f*direcaoAtual, 2.7f);//pessima pratica, corrigir depois
                 }
                 sr.flipX = false;
             }
