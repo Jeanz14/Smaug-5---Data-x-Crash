@@ -44,11 +44,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: chao
+  - name: Fundo
     uniqueID: 1898550915
     locked: 0
-  - name: player
+  - name: Chao
     uniqueID: 3224457715
+    locked: 0
+  - name: Personagens
+    uniqueID: 2031562601
+    locked: 0
+  - name: Frente
+    uniqueID: 800527641
     locked: 0
   m_RenderingLayers:
   - Default

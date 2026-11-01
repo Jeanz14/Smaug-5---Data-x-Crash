@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 3777400149371606032}
   - component: {fileID: 7521373271388758512}
   - component: {fileID: 2642942271988113583}
+  - component: {fileID: 4075217233932494825}
   m_Layer: 3
   m_Name: EnemyNormal
   m_TagString: Inimigo
@@ -313,3 +314,19 @@ MonoBehaviour:
   podeAtacar: 0
   hitbox: {fileID: 5593594241994286927}
   posPlayer: {fileID: 0}
+--- !u!114 &4075217233932494825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7304250784978451396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f82cd2f92e0128143b5f64494b5f6776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ProfundidadeSprite
+  offsetDoPeY: 20
+  sortingLayer: Personagens
+  estatico: 0
+  precisao: 20

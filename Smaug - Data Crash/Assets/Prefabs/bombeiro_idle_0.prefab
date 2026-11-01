@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8573975712470679297}
   - component: {fileID: 2269011594230035471}
   - component: {fileID: 6932205753638273879}
+  - component: {fileID: 4829441030537844903}
   m_Layer: 3
   m_Name: bombeiro_idle_0
   m_TagString: Inimigo
@@ -234,3 +235,19 @@ MonoBehaviour:
   podeAtacar: 0
   hitbox: {fileID: 0}
   posPlayer: {fileID: 0}
+--- !u!114 &4829441030537844903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6954950789212193441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f82cd2f92e0128143b5f64494b5f6776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ProfundidadeSprite
+  offsetDoPeY: 20
+  sortingLayer: Personagens
+  estatico: 0
+  precisao: 20

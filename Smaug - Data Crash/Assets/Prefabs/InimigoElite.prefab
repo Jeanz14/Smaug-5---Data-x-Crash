@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2294340614547991212}
   - component: {fileID: 2587150028644421670}
   - component: {fileID: 4871465474031176156}
+  - component: {fileID: -5581786415999826503}
   m_Layer: 0
   m_Name: InimigoElite
   m_TagString: Untagged
@@ -235,6 +236,22 @@ MonoBehaviour:
   podeAtacar: 0
   hitbox: {fileID: 7497926862462230319}
   posPlayer: {fileID: 0}
+--- !u!114 &-5581786415999826503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4287057221073396008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f82cd2f92e0128143b5f64494b5f6776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ProfundidadeSprite
+  offsetDoPeY: 60
+  sortingLayer: Personagens
+  estatico: 0
+  precisao: 20
 --- !u!1 &4860258194881596539
 GameObject:
   m_ObjectHideFlags: 0
