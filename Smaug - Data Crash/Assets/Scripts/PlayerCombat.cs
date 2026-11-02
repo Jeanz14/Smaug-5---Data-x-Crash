@@ -51,13 +51,13 @@ public class PlayerCombat : MonoBehaviour
     private void Atacar()
     {
         //Ataque leve
-        if (Input.GetKeyDown(KeyCode.J))
+        if (Input.GetKeyDown(KeyCode.U))
         {
             anim.SetInteger("PlayerState", (int)Acao.AtacarLeve);
             anim.SetBool("ContinuarCombo", true);
         }
         //Ataque Pesado
-        if (Input.GetKeyDown(KeyCode.U))
+        if (Input.GetKeyDown(KeyCode.J))
         {
             anim.SetInteger("PlayerState", (int)Acao.AtacarForte);
             anim.SetBool("ContinuarComboPesado", true);

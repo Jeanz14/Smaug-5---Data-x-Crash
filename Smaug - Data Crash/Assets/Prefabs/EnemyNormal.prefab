@@ -66,7 +66,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -3, y: 1}
+  m_Offset: {x: -2.0746822, y: 1.216872}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -76,7 +76,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3, y: 1}
+  m_Size: {x: 5.1687202, y: 1.4337438}
   m_EdgeRadius: 0
 --- !u!1 &7304250784978451396
 GameObject:
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 3777400149371606032}
   - component: {fileID: 7521373271388758512}
   - component: {fileID: 2642942271988113583}
-  - component: {fileID: 4075217233932494825}
+  - component: {fileID: 4749279205496657849}
   m_Layer: 3
   m_Name: EnemyNormal
   m_TagString: Inimigo
@@ -314,7 +314,7 @@ MonoBehaviour:
   podeAtacar: 0
   hitbox: {fileID: 5593594241994286927}
   posPlayer: {fileID: 0}
---- !u!114 &4075217233932494825
+--- !u!114 &4749279205496657849
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -323,10 +323,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 7304250784978451396}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f82cd2f92e0128143b5f64494b5f6776, type: 3}
+  m_Script: {fileID: 11500000, guid: 3bebf033b7b74ce43944632e7368ac3d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ProfundidadeSprite
-  offsetDoPeY: 20
-  sortingLayer: Personagens
-  estatico: 0
-  precisao: 20
+  m_EditorClassIdentifier: Assembly-CSharp::OrganizarCamada

@@ -24,6 +24,7 @@ public class Projetil : MonoBehaviour
             return;
         }
         timer += Time.deltaTime;
+        transform.position =(direcao * velocidade * Time.deltaTime);
 
     }
     void OnTriggerEnter2D(Collider2D other)

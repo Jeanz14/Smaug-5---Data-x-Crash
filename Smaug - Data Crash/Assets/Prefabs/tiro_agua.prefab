@@ -178,6 +178,6 @@ MonoBehaviour:
   timer: 0
   duracao: 5
   direcao: {x: 0, y: 0}
-  velocidade: 5
+  velocidade: 100
   dano: 50
   alvo: {x: 0, y: 0}

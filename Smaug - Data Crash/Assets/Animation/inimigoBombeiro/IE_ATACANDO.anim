@@ -111,14 +111,14 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.53333336
-    functionName: SpawnarProjeril
+    functionName: SetCooldown
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.53333336
-    functionName: SetCooldown
+  - time: 0.55
+    functionName: SpawnarProjeril
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

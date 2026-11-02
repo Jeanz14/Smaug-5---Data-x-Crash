@@ -12,7 +12,7 @@ public class ComportamentoHostil : MonoBehaviour
     [SerializeField] private tipoInimigo tipo;
     public enum InimigoState : int
     {
-        Idle = 0, 
+        Idle = 0,
         Andando = 1,
         Atacando = 2,
         ApanhandoUm = 3,
@@ -30,13 +30,12 @@ public class ComportamentoHostil : MonoBehaviour
     [SerializeField] private int dano = 10;
     [SerializeField] private bool podeAtacar = false;
     [SerializeField] private Collider2D hitbox;
-    private Animator anim;
-    [SerializeField] private Transform posPlayer;
-    private SpriteRenderer sr;
-    private Rigidbody2D rb;
+    [SerializeField] private Animator anim;
+     private Transform posPlayer;
+     private SpriteRenderer sr;
+     private Rigidbody2D rb;
     void Awake()
     {
-        if (tipo == tipoInimigo.Bombeiro) return;
         anim = GetComponent<Animator>();
         posPlayer = GameObject.FindGameObjectWithTag("Player").transform;
         sr = GetComponent<SpriteRenderer>();
@@ -46,7 +45,7 @@ public class ComportamentoHostil : MonoBehaviour
     {
         if (tipo == tipoInimigo.Bombeiro) return;
         if (cooldown) return;
-        if(!other.CompareTag("Player")) return;
+        if (!other.CompareTag("Player")) return;
         if (hitbox.IsTouching(other))
         {
             Debug.Log("Player agrou o inimigo");
@@ -58,7 +57,7 @@ public class ComportamentoHostil : MonoBehaviour
     void OnTriggerExit2D(Collider2D other)
     {
         if (tipo == tipoInimigo.Bombeiro) return;
-        if(!other.CompareTag("Player")) return;
+        if (!other.CompareTag("Player")) return;
         if (!hitbox.IsTouching(other))
         {
             Debug.Log("Player desagrou o inimigo");
@@ -69,10 +68,10 @@ public class ComportamentoHostil : MonoBehaviour
     public void ChecarRange()
     {
         if (cooldown) return;
-        if(!hitbox.IsTouching(GameObject.FindGameObjectWithTag("Player").GetComponent<Collider2D>())) return;
-        if(tipo == tipoInimigo.Bombeiro) 
+        if (!hitbox.IsTouching(GameObject.FindGameObjectWithTag("Player").GetComponent<Collider2D>())&& tipo != tipoInimigo.Bombeiro) return;
+        if (tipo == tipoInimigo.Bombeiro)
         {
-            if(transform.position.x-500f >= posPlayer.position.x || transform.position.x+500f <= posPlayer.position.x)
+            if (transform.position.x - 500f >= posPlayer.position.x || transform.position.x + 500f <= posPlayer.position.x)
             {
                 podeAtacar = false;
                 return;
@@ -94,7 +93,7 @@ public class ComportamentoHostil : MonoBehaviour
                 ResetCooldown();
                 return true;
             }
-            if (timer < timerEsperaAndar) 
+            if (timer < timerEsperaAndar)
             {
                 anim.SetInteger("IFState", (int)InimigoState.Idle);
                 return false;
@@ -140,29 +139,31 @@ public class ComportamentoHostil : MonoBehaviour
     }
     void FixedUpdate()
     {
-        if(Timer()) Andar();
+        if (Timer()) Andar();
     }
     void Andar()
     {
         if (tipo == tipoInimigo.Fraco || tipo == tipoInimigo.Elite)
         {
             AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
-            if ((!stateInfo.IsTag("Movimento"))|| podeAtacar)
+            if ((!stateInfo.IsTag("Movimento")) || podeAtacar)
             {
                 return;
             }
             anim.SetInteger("IFState", (int)InimigoState.Andando);
-            alvo = (posPlayer.position - transform.position).normalized;
+            Vector3 gamb = new Vector3(0f, 0f, 0f);
+            if (tipo == tipoInimigo.Elite) gamb = new Vector3(0f, 20f, 0f);
+            alvo = (posPlayer.position - gamb - transform.position).normalized;
             if (alvo.x > 0)
             {
                 direcaoAtual = -1f;
                 if (tipo == tipoInimigo.Fraco)
                 {
-                    hitbox.offset = new Vector2(-3f*direcaoAtual, 1f);//pessima pratica, corrigir depois
+                    hitbox.offset = new Vector2(-2.074682f * direcaoAtual, 1.216872f);//pessima pratica, corrigir depois
                 }
                 else if (tipo == tipoInimigo.Elite)
                 {
-                    hitbox.offset = new Vector2(-4.5f*direcaoAtual, 2.7f);//pessima pratica, corrigir depois
+                    hitbox.offset = new Vector2(-3.230828f * direcaoAtual, 2.820873f);//pessima pratica, corrigir depois
                 }
                 sr.flipX = false;
             }
@@ -171,27 +172,27 @@ public class ComportamentoHostil : MonoBehaviour
                 direcaoAtual = 1f;
                 if (tipo == tipoInimigo.Fraco)
                 {
-                    hitbox.offset = new Vector2(-3f*direcaoAtual, -4.5f);//pessima pratica, corrigir depois
+                    hitbox.offset = new Vector2(-3f * direcaoAtual, -4.5f);//pessima pratica, corrigir depois
                 }
                 else if (tipo == tipoInimigo.Elite)
                 {
-                    hitbox.offset = new Vector2(-4.5f*direcaoAtual, -4f);//pessima pratica, corrigir depois
+                    hitbox.offset = new Vector2(-4.5f * direcaoAtual, -4f);//pessima pratica, corrigir depois
                 }
                 sr.flipX = true;
             }
-            rb.MovePosition(rb.position+(Vector2)(alvo * velocidade * Time.deltaTime));
+            rb.MovePosition(rb.position + (Vector2)(alvo * velocidade * Time.deltaTime));
             //Se tiver som de andar, tocar aqui
         }
         else if (tipo == tipoInimigo.Bombeiro)
         {
             AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
-            if ((!stateInfo.IsTag("Movimento")) || podeAtacar)
+            if ((!stateInfo.IsTag("Movimento")))
             {
                 return;
             }
             anim.SetInteger("IFState", (int)InimigoState.Andando);
             float distancia = Mathf.Abs(rb.position.x - posPlayer.position.x);
-            if(distancia >= 0)
+            if (distancia >= 0)
             {
                 direcaoAtual = 1f;
                 sr.flipX = true;
@@ -217,5 +218,5 @@ public class ComportamentoHostil : MonoBehaviour
             rb.MovePosition(rb.position + movimento * velocidade * Time.fixedDeltaTime);
         }
     }
-    
+
 }

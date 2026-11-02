@@ -15,10 +15,10 @@ GameObject:
   - component: {fileID: 2294340614547991212}
   - component: {fileID: 2587150028644421670}
   - component: {fileID: 4871465474031176156}
-  - component: {fileID: -5581786415999826503}
+  - component: {fileID: 8357107212386706985}
   m_Layer: 0
   m_Name: InimigoElite
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -236,7 +236,7 @@ MonoBehaviour:
   podeAtacar: 0
   hitbox: {fileID: 7497926862462230319}
   posPlayer: {fileID: 0}
---- !u!114 &-5581786415999826503
+--- !u!114 &8357107212386706985
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -245,13 +245,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4287057221073396008}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f82cd2f92e0128143b5f64494b5f6776, type: 3}
+  m_Script: {fileID: 11500000, guid: 3bebf033b7b74ce43944632e7368ac3d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ProfundidadeSprite
-  offsetDoPeY: 60
-  sortingLayer: Personagens
-  estatico: 0
-  precisao: 20
+  m_EditorClassIdentifier: Assembly-CSharp::OrganizarCamada
 --- !u!1 &4860258194881596539
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,7 +314,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -4.5, y: 2.7}
+  m_Offset: {x: -3.2308283, y: 2.8208733}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -328,5 +324,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 5, y: 1}
+  m_Size: {x: 7.489995, y: 1.2417469}
   m_EdgeRadius: 0
