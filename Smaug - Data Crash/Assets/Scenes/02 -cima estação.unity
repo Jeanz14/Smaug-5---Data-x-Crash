@@ -6488,11 +6488,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7827621625158230559, guid: 6b85a0f52b17aac4a8fce4ac3315d3ce, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -217.09178
+      value: -61.52685
       objectReference: {fileID: 0}
     - target: {fileID: 7827621625158230559, guid: 6b85a0f52b17aac4a8fce4ac3315d3ce, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.75006485
+      value: -0.20096302
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6990,7 +6990,7 @@ PrefabInstance:
       objectReference: {fileID: 673948955}
     - target: {fileID: 656410958504951647, guid: bcfda51cb47fdfe4b9fdbdc053b07ee8, type: 3}
       propertyPath: inimigosElite.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 656410958504951647, guid: bcfda51cb47fdfe4b9fdbdc053b07ee8, type: 3}
       propertyPath: 'inimigosElite.Array.data[0]'
@@ -7006,11 +7006,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3695600162922811892, guid: bcfda51cb47fdfe4b9fdbdc053b07ee8, type: 3}
       propertyPath: m_LocalScale.y
-      value: 303.01877
+      value: 436.37732
       objectReference: {fileID: 0}
     - target: {fileID: 3695600162922811892, guid: bcfda51cb47fdfe4b9fdbdc053b07ee8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 114.4347
+      value: 47.7624
       objectReference: {fileID: 0}
     - target: {fileID: 4510197827877297825, guid: bcfda51cb47fdfe4b9fdbdc053b07ee8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7070,11 +7070,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7248444474633890768, guid: bcfda51cb47fdfe4b9fdbdc053b07ee8, type: 3}
       propertyPath: m_LocalScale.y
-      value: 301.08612
+      value: 459.57785
       objectReference: {fileID: 0}
     - target: {fileID: 7248444474633890768, guid: bcfda51cb47fdfe4b9fdbdc053b07ee8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 123.222
+      value: 43.9714
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
