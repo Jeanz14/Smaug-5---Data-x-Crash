@@ -151,10 +151,7 @@ public class ComportamentoHostil : MonoBehaviour
                 return;
             }
             anim.SetInteger("IFState", (int)InimigoState.Andando);
-            Vector3 gamb = new Vector3(0f, 0f, 0f);
-            if (tipo == tipoInimigo.Elite) gamb = new Vector3(0f, 20f, 0f);
-            alvo = (posPlayer.position - gamb - transform.position).normalized;
-            if (alvo.x > 0)
+            if (posPlayer.position.x > transform.position.x)
             {
                 direcaoAtual = -1f;
                 if (tipo == tipoInimigo.Fraco)
@@ -167,19 +164,20 @@ public class ComportamentoHostil : MonoBehaviour
                 }
                 sr.flipX = false;
             }
-            else if (alvo.x < 0)
+            else if (posPlayer.position.x < transform.position.x)
             {
                 direcaoAtual = 1f;
                 if (tipo == tipoInimigo.Fraco)
                 {
-                    hitbox.offset = new Vector2(-3f * direcaoAtual, -4.5f);//pessima pratica, corrigir depois
+                    hitbox.offset = new Vector2(-2.074682f * direcaoAtual, 1.216872f);//pessima pratica, corrigir depois
                 }
                 else if (tipo == tipoInimigo.Elite)
                 {
-                    hitbox.offset = new Vector2(-4.5f * direcaoAtual, -4f);//pessima pratica, corrigir depois
+                    hitbox.offset = new Vector2(-3.230828f * direcaoAtual, 2.820873f);//pessima pratica, corrigir depois
                 }
                 sr.flipX = true;
             }
+            alvo = ((Vector2)posPlayer.position - (Vector2)transform.position+hitbox.offset).normalized;
             rb.MovePosition(rb.position + (Vector2)(alvo * velocidade * Time.deltaTime));
             //Se tiver som de andar, tocar aqui
         }

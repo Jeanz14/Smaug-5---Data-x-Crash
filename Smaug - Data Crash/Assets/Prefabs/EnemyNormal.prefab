@@ -304,7 +304,7 @@ MonoBehaviour:
   tipo: 0
   timer: 0
   timerEsperaAndar: 2
-  timerEsperaAtaque: 5
+  timerEsperaAtaque: 2.5
   cooldown: 0
   projetil: {fileID: 0}
   velocidade: 50
@@ -313,7 +313,7 @@ MonoBehaviour:
   dano: 10
   podeAtacar: 0
   hitbox: {fileID: 5593594241994286927}
-  posPlayer: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!114 &4749279205496657849
 MonoBehaviour:
   m_ObjectHideFlags: 0
